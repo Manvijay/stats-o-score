@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/current_matches_item"
+        android:title="@string/Current_Matches"
+        android:enabled="true"
+        android:icon="@drawable/current_matches_icon"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/rankings_item"
+        android:title="@string/Rankings"
+        android:enabled="true"
+        android:icon="@drawable/rankings_icon"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/battlefield_item"
+        android:title="@string/Battlefield"
+        android:enabled="true"
+        android:icon="@drawable/battlefield_icon"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>

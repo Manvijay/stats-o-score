@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Sports_App</string>
+    <string name="Current_Matches">Current Matches</string>
+    <string name="Battlefield">Battlefield</string>
+    <string name="Rankings">Rankings</string>
+    <string name="test_matches">Test Matches</string>
+    <string name="odi_matches">ODI Matches</string>
+    <string name="t20_matches">T20 Matches</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="this_is_current_matches_fragment">This is Current Matches Fragment</string>
+</resources>
