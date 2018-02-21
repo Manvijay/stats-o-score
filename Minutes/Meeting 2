@@ -1,0 +1,25 @@
+Date : 19 Feb 2018
+Time : 1pm - 3pm
+
+Meeting Attendence :-
+Saksham Bansal - Present
+Amritpal Singh - Present
+Vishal Saharan - Present
+Deepak         - Present
+Manvijay       - Present
+
+Brief Summary of Meeting Discussion :-
+We gave Application demo to Professor Jesse Hartloff. Sorted out some of our protocol issues with the professor.
+We fixed some of the issues with the android studio application on the team members computer and decided to make a new github repo to be used officially with the our app.
+Finally we discussed on deadline and gave each person some issues to solve.
+
+Work Done Since Last Meeting :-
+Saksham tried to solve the github issues everyone were facing on the laptops when sharing their github code. Deepak and Vishal worked the database required for our app.
+Manvijay worked on the layout of the app and created the initial android setup. Amritpal helped with the layout too.
+
+Work Assigned :-
+Vishal Saharan - Ranking Fragment Layout
+Saksham Bansal - New Github Repo setup & current matches fragment
+Amritpal Singh - Battlefield fragment setup
+Manvijay       - App logo and basic laout
+Deepak         - Ranking fragment database
