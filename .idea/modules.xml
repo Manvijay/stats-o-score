@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://D:\Extras\Box Sync\Documents\GitHub\Stat-o-Score\Sports_App.iml" filepath="D:\Extras\Box Sync\Documents\GitHub\Stat-o-Score\Sports_App.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/stat-o-score.iml" filepath="$PROJECT_DIR$/stat-o-score.iml" />
     </modules>
