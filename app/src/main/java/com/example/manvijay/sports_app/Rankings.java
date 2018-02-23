@@ -4,9 +4,14 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import java.util.ArrayList;
 
 
 /**
@@ -18,7 +23,12 @@ import android.view.ViewGroup;
  * create an instance of this fragment.
  */
 public class Rankings extends Fragment {
+    ArrayList<String> mylist;
+    RecyclerView myrecycle;
+    RecyclerView.LayoutManager mylayout;
+    RecyclerView.Adapter myadapter;
 
+    //private static final String TAG = "Rankings";
     public static Rankings newInstance() {
 
         Rankings fragment= new Rankings();
@@ -34,8 +44,26 @@ public class Rankings extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        View rootview = inflater.inflate(R.layout.fragment_rankings,container,false);
+        myrecycle = rootview.findViewById(R.id.ranking_recycle);
+        mylist = new ArrayList<>();
+        mylist.add("TEST" +
+                "\ndsadsa'" +
+                "\ndasdsa" +
+                "\nasdsad" +
+                "\nasdas0");
+        mylist.add("ODI");
+        mylist.add("T20");
+        //myrecycle.setHasFixedSize(true);
+
+        mylayout = new LinearLayoutManager(getActivity(),LinearLayoutManager.HORIZONTAL,false);
+        myadapter = new SecondAdapter(mylist);
+        myrecycle.setLayoutManager(mylayout);
+        myrecycle.setAdapter(myadapter);
+
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_rankings, container, false);
+        return rootview;
     }
 
 

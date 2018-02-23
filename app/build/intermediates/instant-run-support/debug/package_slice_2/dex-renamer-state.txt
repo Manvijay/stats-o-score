@@ -1,4 +1,4 @@
-#Fri Feb 23 00:01:48 EST 2018
-base.0=D\:\\Github\\stat-o-score\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+#Fri Feb 23 03:59:11 EST 2018
+base.0=C\:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
 path.0=classes.dex
 renamed.0=classes.dex
