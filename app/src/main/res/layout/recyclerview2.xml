@@ -15,6 +15,10 @@
             android:textSize="17sp"
             android:textStyle="bold"
             android:textAlignment="center"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMinTextSize="10sp"
+            android:autoSizeMaxTextSize="50sp"
+            android:autoSizeStepGranularity="3sp"
             />
     </android.support.v7.widget.CardView>
 </LinearLayout>

@@ -22,12 +22,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/test_series"
-                android:textAlignment="center"/>
+                android:textAlignment="center"
+                android:id="@+id/testtext"
+                />
 
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/recycle1"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_below="@id/testtext"/>
 
         </RelativeLayout>
 
@@ -41,12 +44,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/odi_matches"
-                android:textAlignment="center"/>
+                android:textAlignment="center"
+                android:id="@+id/oditext"
+                />
 
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/recycle2"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_below="@+id/oditext"/>
 
         </RelativeLayout>
 
@@ -60,12 +66,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/t20_matches"
-                android:textAlignment="center"/>
+                android:textAlignment="center"
+                android:id="@+id/t20text"
+                />
 
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/recycle3"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_below="@+id/t20text"/>
 
         </RelativeLayout>
 
