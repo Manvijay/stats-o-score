@@ -123,16 +123,16 @@
             ]
         },
         {
-            "outputFile": "D:\\Github\\stat-o-score\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-ja_values-ja.arsc.flat",
+            "outputFile": "D:\\Github\\stat-o-score\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-fi_values-fi.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\bansa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\8bbd733f11bdd87046d62ad23d4dddbb\\res\\values-ja\\values-ja.xml",
+                    "source": "C:\\Users\\bansa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\8bbd733f11bdd87046d62ad23d4dddbb\\res\\values-fi\\values-fi.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,152,259,380,473,578,660,758,866,943,1019,1097,1199,1298,1393,1496,1591,1687,1798,1895,1973",
-                        "endColumns": "96,106,120,92,104,81,97,107,76,75,77,101,98,94,102,94,95,110,96,77,100",
-                        "endOffsets": "147,254,375,468,573,655,753,861,938,1014,1092,1194,1293,1388,1491,1586,1682,1793,1890,1968,2069"
+                        "startOffsets": "55,163,271,394,494,595,681,786,904,991,1073,1153,1260,1363,1460,1566,1665,1769,1888,1987,2067",
+                        "endColumns": "107,107,122,99,100,85,104,117,86,81,79,106,102,96,105,98,103,118,98,79,100",
+                        "endOffsets": "158,266,389,489,590,676,781,899,986,1068,1148,1255,1358,1455,1561,1660,1764,1883,1982,2062,2163"
                     }
                 }
             ]
@@ -153,16 +153,16 @@
             ]
         },
         {
-            "outputFile": "D:\\Github\\stat-o-score\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-fi_values-fi.arsc.flat",
+            "outputFile": "D:\\Github\\stat-o-score\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-ja_values-ja.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\bansa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\8bbd733f11bdd87046d62ad23d4dddbb\\res\\values-fi\\values-fi.xml",
+                    "source": "C:\\Users\\bansa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\8bbd733f11bdd87046d62ad23d4dddbb\\res\\values-ja\\values-ja.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,163,271,394,494,595,681,786,904,991,1073,1153,1260,1363,1460,1566,1665,1769,1888,1987,2067",
-                        "endColumns": "107,107,122,99,100,85,104,117,86,81,79,106,102,96,105,98,103,118,98,79,100",
-                        "endOffsets": "158,266,389,489,590,676,781,899,986,1068,1148,1255,1358,1455,1561,1660,1764,1883,1982,2062,2163"
+                        "startOffsets": "55,152,259,380,473,578,660,758,866,943,1019,1097,1199,1298,1393,1496,1591,1687,1798,1895,1973",
+                        "endColumns": "96,106,120,92,104,81,97,107,76,75,77,101,98,94,102,94,95,110,96,77,100",
+                        "endOffsets": "147,254,375,468,573,655,753,861,938,1014,1092,1194,1293,1388,1491,1586,1682,1793,1890,1968,2069"
                     }
                 }
             ]
@@ -486,21 +486,6 @@
             ]
         },
         {
-            "outputFile": "D:\\Github\\stat-o-score\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-ne_values-ne.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\bansa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\8bbd733f11bdd87046d62ad23d4dddbb\\res\\values-ne\\values-ne.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,160,268,391,495,603,694,801,928,1022,1112,1200,1310,1426,1529,1644,1746,1861,1992,2104,2190",
-                        "endColumns": "104,107,122,103,107,90,106,126,93,89,87,109,115,102,114,101,114,130,111,85,100",
-                        "endOffsets": "155,263,386,490,598,689,796,923,1017,1107,1195,1305,1421,1524,1639,1741,1856,1987,2099,2185,2286"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "D:\\Github\\stat-o-score\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-pa_values-pa.arsc.flat",
             "map": [
                 {
@@ -511,6 +496,21 @@
                         "startOffsets": "55,161,269,392,497,602,688,788,901,978,1054,1133,1234,1335,1432,1541,1640,1750,1872,1972,2051",
                         "endColumns": "105,107,122,104,104,85,99,112,76,75,78,100,100,96,108,98,109,121,99,78,100",
                         "endOffsets": "156,264,387,492,597,683,783,896,973,1049,1128,1229,1330,1427,1536,1635,1745,1867,1967,2046,2147"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Github\\stat-o-score\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-ne_values-ne.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bansa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\8bbd733f11bdd87046d62ad23d4dddbb\\res\\values-ne\\values-ne.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,160,268,391,495,603,694,801,928,1022,1112,1200,1310,1426,1529,1644,1746,1861,1992,2104,2190",
+                        "endColumns": "104,107,122,103,107,90,106,126,93,89,87,109,115,102,114,101,114,130,111,85,100",
+                        "endOffsets": "155,263,386,490,598,689,796,923,1017,1107,1195,1305,1421,1524,1639,1741,1856,1987,2099,2185,2286"
                     }
                 }
             ]
@@ -697,21 +697,6 @@
             ]
         },
         {
-            "outputFile": "D:\\Github\\stat-o-score\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-si_values-si.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\bansa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\8bbd733f11bdd87046d62ad23d4dddbb\\res\\values-si\\values-si.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,165,273,396,503,610,698,803,919,1008,1095,1179,1288,1393,1491,1601,1700,1806,1927,2026,2108",
-                        "endColumns": "109,107,122,106,106,87,104,115,88,86,83,108,104,97,109,98,105,120,98,81,100",
-                        "endOffsets": "160,268,391,498,605,693,798,914,1003,1090,1174,1283,1388,1486,1596,1695,1801,1922,2021,2103,2204"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "D:\\Github\\stat-o-score\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-az_values-az.arsc.flat",
             "map": [
                 {
@@ -722,6 +707,21 @@
                         "startOffsets": "55,163,271,394,493,605,693,800,914,995,1074,1159,1266,1373,1473,1582,1686,1796,1893,1976",
                         "endColumns": "107,107,122,98,111,87,106,113,80,78,84,106,106,99,108,103,109,96,82,100",
                         "endOffsets": "158,266,389,488,600,688,795,909,990,1069,1154,1261,1368,1468,1577,1681,1791,1888,1971,2072"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Github\\stat-o-score\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-si_values-si.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bansa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\8bbd733f11bdd87046d62ad23d4dddbb\\res\\values-si\\values-si.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,165,273,396,503,610,698,803,919,1008,1095,1179,1288,1393,1491,1601,1700,1806,1927,2026,2108",
+                        "endColumns": "109,107,122,106,106,87,104,115,88,86,83,108,104,97,109,98,105,120,98,81,100",
+                        "endOffsets": "160,268,391,498,605,693,798,914,1003,1090,1174,1283,1388,1486,1596,1695,1801,1922,2021,2103,2204"
                     }
                 }
             ]
@@ -742,21 +742,6 @@
             ]
         },
         {
-            "outputFile": "D:\\Github\\stat-o-score\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-ru_values-ru.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\bansa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\8bbd733f11bdd87046d62ad23d4dddbb\\res\\values-ru\\values-ru.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,170,278,401,503,615,701,806,926,1005,1083,1163,1269,1377,1475,1584,1690,1798,1934,2034,2115",
-                        "endColumns": "114,107,122,101,111,85,104,119,78,77,79,105,107,97,108,105,107,135,99,80,100",
-                        "endOffsets": "165,273,396,498,610,696,801,921,1000,1078,1158,1264,1372,1470,1579,1685,1793,1929,2029,2110,2211"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "D:\\Github\\stat-o-score\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
@@ -767,6 +752,21 @@
                         "startOffsets": "55,125,209,293,389,491,593",
                         "endColumns": "69,83,83,95,101,101,93",
                         "endOffsets": "120,204,288,384,486,588,682"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Github\\stat-o-score\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-ru_values-ru.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bansa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\8bbd733f11bdd87046d62ad23d4dddbb\\res\\values-ru\\values-ru.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,170,278,401,503,615,701,806,926,1005,1083,1163,1269,1377,1475,1584,1690,1798,1934,2034,2115",
+                        "endColumns": "114,107,122,101,111,85,104,119,78,77,79,105,107,97,108,105,107,135,99,80,100",
+                        "endOffsets": "165,273,396,498,610,696,801,921,1000,1078,1158,1264,1372,1470,1579,1685,1793,1929,2029,2110,2211"
                     }
                 }
             ]
