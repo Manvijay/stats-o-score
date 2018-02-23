@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = D:\Applications\SDK\cmake\3.6.4111459\bin\cmake.exe -H"D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app" -B"D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\.externalNativeBuild\cmake\debug\x86_64"
+  command = D:\Applications\SDK\cmake\3.6.4111459\bin\cmake.exe -HD:\Github\stat-o-score\app -BD:\Github\stat-o-score\app\.externalNativeBuild\cmake\debug\x86_64
   description = Re-running CMake...
   generator = 1
 

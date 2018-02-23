@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:2:1-26:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\bansa\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\da4d9c02231d3e472e1543ee988bb6ba\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\bansa\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\8bbd733f11bdd87046d62ad23d4dddbb\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\bansa\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\e953ea68d942307d2a1a4e26ed9d648e\AndroidManifest.xml:2:1-11:12
@@ -19,25 +19,25 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\bansa\.grad
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\bansa\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\f42583d504ee0cbd19e6a8252d052eea\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\bansa\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\812748a878f01bdd765e620591c3a607\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\bansa\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f13ab6c819739db084976ce149b3730d\AndroidManifest.xml:17:1-30:12
-INJECTED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
-		ADDED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:3:5-46
-		INJECTED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
+		ADDED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:3:5-46
+		INJECTED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
-		ADDED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:2:1-26:12
-		INJECTED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml
+		ADDED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
-		ADDED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:2:1-26:12
-		INJECTED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml
+		ADDED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:5:5-24:19
+ADDED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:5:5-24:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\bansa\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\da4d9c02231d3e472e1543ee988bb6ba\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\bansa\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\da4d9c02231d3e472e1543ee988bb6ba\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\bansa\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\8bbd733f11bdd87046d62ad23d4dddbb\AndroidManifest.xml:25:5-29:19
@@ -69,43 +69,43 @@ MERGED from [com.android.support:support-compat:26.1.0] C:\Users\bansa\.gradle\c
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\bansa\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f13ab6c819739db084976ce149b3730d\AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\bansa\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f13ab6c819739db084976ce149b3730d\AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.example.manvijay.sports_app.MainActivity
-ADDED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:12:9-20:20
+ADDED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:12:9-20:20
 	android:theme
-		ADDED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:14:13-42
+		ADDED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:14:13-42
 	android:name
-		ADDED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:13:13-41
+		ADDED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:13:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:18:27-74
 activity#com.example.manvijay.sports_app.home_page
-ADDED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:21:9-23:20
+ADDED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:21:9-23:20
 	android:theme
-		ADDED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:22:13-44
+		ADDED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:22:13-44
 	android:name
-		ADDED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:21:19-44
+		ADDED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml:21:19-44
 uses-sdk
-INJECTED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
-INJECTED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
+INJECTED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml
+INJECTED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:design:26.1.0] C:\Users\bansa\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\da4d9c02231d3e472e1543ee988bb6ba\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:design:26.1.0] C:\Users\bansa\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\da4d9c02231d3e472e1543ee988bb6ba\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\bansa\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\8bbd733f11bdd87046d62ad23d4dddbb\AndroidManifest.xml:21:5-23:78
@@ -136,18 +136,18 @@ MERGED from [com.android.support:support-compat:26.1.0] C:\Users\bansa\.gradle\c
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\bansa\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\812748a878f01bdd765e620591c3a607\AndroidManifest.xml:21:5-23:58
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\bansa\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f13ab6c819739db084976ce149b3730d\AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\bansa\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f13ab6c819739db084976ce149b3730d\AndroidManifest.xml:20:5-22:41
-INJECTED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
-INJECTED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
+INJECTED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml
+INJECTED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:26.1.0] C:\Users\bansa\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\da4d9c02231d3e472e1543ee988bb6ba\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
-		ADDED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml
+		ADDED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
-		ADDED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml
+		ADDED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Github\stat-o-score\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:26.1.0] C:\Users\bansa\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\da4d9c02231d3e472e1543ee988bb6ba\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\bansa\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\8bbd733f11bdd87046d62ad23d4dddbb\AndroidManifest.xml:26:9-28:38

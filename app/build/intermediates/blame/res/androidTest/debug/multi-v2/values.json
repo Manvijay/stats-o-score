@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Extras\\Box Sync\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+            "outputFile": "D:\\Github\\stat-o-score\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\bansa\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\812748a878f01bdd765e620591c3a607\\res\\values\\values.xml",

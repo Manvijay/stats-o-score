@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Extras\\Box Sync\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "D:\\Github\\stat-o-score\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\bansa\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\812748a878f01bdd765e620591c3a607\\res\\values\\values.xml",
@@ -20,6 +20,23 @@
                         "endLines": "155,156,620,621,622,623,624,678,679,680,681,682,683,684,685,686,687,688,689,690,691,692,701,702,710,711,719,720,723,740,787,2092,2096,2098,2104,2106,2290,2291",
                         "endColumns": "68,62,69,67,71,69,60,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,33,34,34,69,70,116,12,109,12,128,71,66",
                         "endOffsets": "8610,8673,55280,55348,55420,55490,55551,59164,59225,59287,59351,59413,59474,59542,59642,59702,59768,59841,59910,59967,60019,60081,60606,60682,61062,61097,61463,61498,61625,62589,66447,152651,152852,153028,153412,153607,167245,167312"
+                    }
+                },
+                {
+                    "source": "D:\\Github\\stat-o-score\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,2,4,1,10,6,7,5,12,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "127,66,180,17,449,282,335,227,615,520",
+                        "endColumns": "51,59,45,47,69,51,51,53,51,93",
+                        "endOffsets": "174,121,221,60,514,329,382,276,662,609"
+                    },
+                    "to": {
+                        "startLines": "741,742,743,775,779,780,788,789,790,791",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "62594,62646,62706,64990,65391,65461,66452,66504,66558,66610",
+                        "endColumns": "51,59,45,47,69,51,51,53,51,93",
+                        "endOffsets": "62641,62701,62747,65033,65456,65508,66499,66553,66605,66699"
                     }
                 },
                 {
@@ -131,23 +148,6 @@
                     }
                 },
                 {
-                    "source": "D:\\Extras\\Box Sync\\Documents\\GitHub\\stat-o-score\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "157,57,105",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "198,99,151"
-                    },
-                    "to": {
-                        "startLines": "122,123,124",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "6483,6529,6576",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "6524,6571,6622"
-                    }
-                },
-                {
                     "source": "C:\\Users\\bansa\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\da4d9c02231d3e472e1543ee988bb6ba\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,241,244,245,255,258,259,262,265,268,272,277,280,285,288,293,297,301,303,307,314,318,321,330,336,339,348,352",
@@ -167,24 +167,24 @@
                     }
                 },
                 {
-                    "source": "D:\\Extras\\Box Sync\\Documents\\GitHub\\stat-o-score\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "D:\\Github\\stat-o-score\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
-                        "startLines": "3,2,4,1,10,6,7,5,12,11",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "127,66,180,17,449,282,335,227,615,520",
-                        "endColumns": "51,59,45,47,69,51,51,53,51,93",
-                        "endOffsets": "174,121,221,60,514,329,382,276,662,609"
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "157,57,105",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "198,99,151"
                     },
                     "to": {
-                        "startLines": "741,742,743,775,779,780,788,789,790,791",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "62594,62646,62706,64990,65391,65461,66452,66504,66558,66610",
-                        "endColumns": "51,59,45,47,69,51,51,53,51,93",
-                        "endOffsets": "62641,62701,62747,65033,65456,65508,66499,66553,66605,66699"
+                        "startLines": "122,123,124",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "6483,6529,6576",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "6524,6571,6622"
                     }
                 },
                 {
-                    "source": "D:\\Extras\\Box Sync\\Documents\\GitHub\\stat-o-score\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "D:\\Github\\stat-o-score\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,11,10",
                         "startColumns": "4,4,4",

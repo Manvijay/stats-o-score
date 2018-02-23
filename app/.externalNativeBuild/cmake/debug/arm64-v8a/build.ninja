@@ -37,7 +37,7 @@ build CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o: CXX_COMPILER__nat
   DEP_FILE = CMakeFiles\native-lib.dir\src\main\cpp\native-lib.cpp.o.d
   FLAGS = -isystem D:/Applications/SDK/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem D:/Applications/SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem D:/Applications/SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem D:/Applications/SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = "D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\src\main\cpp\native-lib.cpp"
+  IN_ABS = D:\Github\stat-o-score\app\src\main\cpp\native-lib.cpp
   OBJECT_DIR = CMakeFiles\native-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\native-lib.dir\src\main\cpp
 
@@ -64,7 +64,7 @@ build ../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\.externalNativeBuild\cmake\debug\arm64-v8a" && D:\Applications\SDK\cmake\3.6.4111459\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D D:\Github\stat-o-score\app\.externalNativeBuild\cmake\debug\arm64-v8a && D:\Applications\SDK\cmake\3.6.4111459\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 build edit_cache: phony CMakeFiles/edit_cache.util
@@ -73,7 +73,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\.externalNativeBuild\cmake\debug\arm64-v8a" && D:\Applications\SDK\cmake\3.6.4111459\bin\cmake.exe -H"D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app" -B"D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\.externalNativeBuild\cmake\debug\arm64-v8a""
+  COMMAND = cmd.exe /C "cd /D D:\Github\stat-o-score\app\.externalNativeBuild\cmake\debug\arm64-v8a && D:\Applications\SDK\cmake\3.6.4111459\bin\cmake.exe -HD:\Github\stat-o-score\app -BD:\Github\stat-o-score\app\.externalNativeBuild\cmake\debug\arm64-v8a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1

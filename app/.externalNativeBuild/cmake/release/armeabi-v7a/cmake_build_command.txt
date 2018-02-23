@@ -1,10 +1,10 @@
 Executable : D:\Applications\SDK\cmake\3.6.4111459\bin\cmake.exe
 arguments : 
--HD:\Extras\Box Sync\Documents\GitHub\stat-o-score\app
--BD:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\.externalNativeBuild\cmake\release\armeabi-v7a
+-HD:\Github\stat-o-score\app
+-BD:\Github\stat-o-score\app\.externalNativeBuild\cmake\release\armeabi-v7a
 -DANDROID_ABI=armeabi-v7a
 -DANDROID_PLATFORM=android-21
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\Extras\Box Sync\Documents\GitHub\stat-o-score\app\build\intermediates\cmake\release\obj\armeabi-v7a
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\Github\stat-o-score\app\build\intermediates\cmake\release\obj\armeabi-v7a
 -DCMAKE_BUILD_TYPE=Release
 -DANDROID_NDK=D:\Applications\SDK\ndk-bundle
 -DCMAKE_CXX_FLAGS=
