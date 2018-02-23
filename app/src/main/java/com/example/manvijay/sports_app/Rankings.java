@@ -49,12 +49,47 @@ public class Rankings extends Fragment {
         myrecycle = rootview.findViewById(R.id.ranking_recycle);
         mylist = new ArrayList<>();
         mylist.add("TEST" +
-                "\ndsadsa'" +
-                "\ndasdsa" +
-                "\nasdsad" +
-                "\nasdas0");
-        mylist.add("ODI");
-        mylist.add("T20");
+                "\n\nRank     Team         Ratings      Points" +
+                "\n\n1        IND           121           5313" +
+                "\n\n2        SA            115           4484" +
+                "\n\n 3        AUS          104           4174" +
+                "\n\n4        NZ            100           3489" +
+                "\n\n5        ENG           99           4829" +
+                "\n\n6        SLA            95           4374" +
+                "\n\n7        PAK            88           2988" +
+                "\n\n8       WI               72           2606" +
+                "\n\n9        BAN            71           1833"
+
+
+        );
+        mylist.add("ODI" +
+                "\n\nRank     Team         Ratings      Points" +
+                "\n\n1        IND           122           7594" +
+                "\n\n2        SA            117           6911" +
+                "\n\n 3        AUS          116           6871" +
+                "\n\n4        NZ            115           6550" +
+                "\n\n5        ENG           112           6376" +
+                "\n\n6        SLA            95           4374" +
+                "\n\n7        PAK            88           2988" +
+                "\n\n8       WI               72           2606" +
+                "\n\n9        BAN            71           1833"
+
+
+
+        );
+        mylist.add("T20" +
+                "\n\nRank     Team         Ratings      Points" +
+                "\n\n1        IND           111           8313" +
+                "\n\n2        NZ            110           4484" +
+                "\n\n 3        AUS          104           3174" +
+                "\n\n4        SA            101           3089" +
+                "\n\n5        ENG           99           2829" +
+                "\n\n6        SLA            95           2374" +
+                "\n\n7        BAN            88           2188" +
+                "\n\n8       WI               72           2006" +
+                "\n\n9        PAK            71           1833"
+
+        );
         //myrecycle.setHasFixedSize(true);
 
         mylayout = new LinearLayoutManager(getActivity(),LinearLayoutManager.HORIZONTAL,false);
