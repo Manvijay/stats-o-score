@@ -1,0 +1,4 @@
+#Thu Feb 22 03:46:44 EST 2018
+base.0=D\:\\Extras\\Box Sync\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\22
+path.0=classes.dex
+renamed.0=classes.dex
