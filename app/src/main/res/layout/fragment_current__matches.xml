@@ -12,57 +12,62 @@
         android:orientation="vertical"
         android:weightSum="3">
 
-        <HorizontalScrollView
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="#ffffff">
-
-            //temporary textview just to tell what will replace it
+            android:background="#ffffff" android:orientation="horizontal">
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center_horizontal"
-                android:gravity="center_vertical"
-                android:text="@string/test_matches" />
+                android:layout_height="wrap_content"
+                android:text="@string/test_series"
+                android:textAlignment="center"/>
 
-        </HorizontalScrollView>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycle1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
 
-        <HorizontalScrollView
+        </RelativeLayout>
+
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="#eeeeee">
-
-            //temporary textview just to tell what will replace it
+            android:background="#ffffff" android:orientation="horizontal">
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center_horizontal"
-                android:gravity="center_vertical"
-                android:text="@string/odi_matches" />
+                android:layout_height="wrap_content"
+                android:text="@string/odi_matches"
+                android:textAlignment="center"/>
 
-        </HorizontalScrollView>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycle2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
 
-        <HorizontalScrollView
+        </RelativeLayout>
+
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="#dfdfdf">
-
-            //temporary textview just to tell what will replace it
+            android:background="#ffffff" android:orientation="horizontal">
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center_horizontal"
-                android:gravity="center_vertical"
-                android:text="@string/t20_matches" />
+                android:layout_height="wrap_content"
+                android:text="@string/t20_matches"
+                android:textAlignment="center"/>
 
-        </HorizontalScrollView>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycle3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
 
+        </RelativeLayout>
 
     </LinearLayout>
 
