@@ -48,7 +48,7 @@ public class Rankings extends Fragment {
         View rootview = inflater.inflate(R.layout.fragment_rankings,container,false);
         myrecycle = rootview.findViewById(R.id.ranking_recycle);
         mylist = new ArrayList<>();
-        mylist.add("TEST" +
+        mylist.add("TEST       >" +
                 "\n\nRank     Team         Ratings      Points" +
                 "\n\n1        IND           121           5313" +
                 "\n\n2        SA            115           4484" +
@@ -62,7 +62,7 @@ public class Rankings extends Fragment {
 
 
         );
-        mylist.add("ODI" +
+        mylist.add("<    ODI    >" +
                 "\n\nRank     Team         Ratings      Points" +
                 "\n\n1        IND           122           7594" +
                 "\n\n2        SA            117           6911" +
@@ -77,7 +77,7 @@ public class Rankings extends Fragment {
 
 
         );
-        mylist.add("T20" +
+        mylist.add("<     T20" +
                 "\n\nRank     Team         Ratings      Points" +
                 "\n\n1        IND           111           8313" +
                 "\n\n2        NZ            110           4484" +
@@ -117,3 +117,6 @@ public class Rankings extends Fragment {
         void onFragmentInteraction(Uri uri);
     }
 }
+
+
+   // No longer need of Database. We directly  access data from APIs.

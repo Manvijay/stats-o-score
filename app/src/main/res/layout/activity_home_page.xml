@@ -14,7 +14,10 @@
         android:layout_above="@id/bottom_navigation_bar"
         android:animateLayoutChanges="true"
         android:background="#ffffff"
+
         >
+
+
 
     </FrameLayout>
 

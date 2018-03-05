@@ -6,7 +6,7 @@
     density="xxhdpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1519386126108"
+    timestamp="1519455369822"
     token="-1149027804496339680"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -18,17 +18,11 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="675" />
+        duration="0" />
     <task
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\outputs\apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
     <artifact
         location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
@@ -51,6 +45,9 @@
         location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
     <artifact
+        location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
         location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
     <artifact
@@ -59,17 +56,14 @@
     <artifact
         location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
+    <artifact
+        location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\outputs\apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1519386126108"
+        timestamp="1519455369822"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\outputs\apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
         <artifact
             location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
@@ -92,6 +86,9 @@
             location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
+            location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
@@ -100,6 +97,9 @@
         <artifact
             location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
+        <artifact
+            location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\outputs\apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
