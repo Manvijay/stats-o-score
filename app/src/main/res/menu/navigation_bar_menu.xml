@@ -4,7 +4,7 @@
 
     <item
         android:id="@+id/current_matches_item"
-        android:title="@string/Current_Matches"
+        android:title="@string/matches"
         android:enabled="true"
         android:icon="@drawable/current_matches_icon"
         app:showAsAction="ifRoom"
