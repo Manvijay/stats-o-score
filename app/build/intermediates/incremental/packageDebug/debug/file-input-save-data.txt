@@ -1,31 +1,31 @@
 #Internal package file, do not edit.
-#Thu Mar 22 08:08:28 EDT 2018
+#Fri Mar 23 11:12:55 EDT 2018
 4.path=classes.dex
 8.set=DEX
 6.path=lib/x86/libnative-lib.so
 0.baseType=DIRECTORY
 5.baseType=DIRECTORY
-1.base=C\:\\Users\\Manvijay\\AndroidStudioProjects\\statsoscore\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+1.base=C\:\\Users\\Manvijay\\AndroidStudioProjects\\statsoscore\\app\\build\\intermediates\\assets\\debug
 8.path=classes.dex
-3.base=C\:\\Users\\Manvijay\\AndroidStudioProjects\\statsoscore\\app\\build\\intermediates\\assets\\debug
+3.base=C\:\\Users\\Manvijay\\AndroidStudioProjects\\statsoscore\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
 4.set=DEX
-5.base=C\:\\Users\\Manvijay\\AndroidStudioProjects\\statsoscore\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
+5.base=C\:\\Users\\Manvijay\\AndroidStudioProjects\\statsoscore\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\17
 7.base=C\:\\Users\\Manvijay\\AndroidStudioProjects\\statsoscore\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
 1.baseType=DIRECTORY
 0.set=NATIVE_RESOURCE
 6.baseType=DIRECTORY
 7.set=DEX
-3.set=ASSET
+3.set=DEX
 2.baseType=DIRECTORY
-1.path=classes.dex
+1.path=Comfortaa-Regular.ttf
 7.baseType=DIRECTORY
-3.path=Comfortaa-Regular.ttf
+3.path=classes.dex
 5.path=classes.dex
 0.base=C\:\\Users\\Manvijay\\AndroidStudioProjects\\statsoscore\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
 7.path=classes.dex
 6.set=NATIVE_RESOURCE
 2.base=C\:\\Users\\Manvijay\\AndroidStudioProjects\\statsoscore\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
-4.base=C\:\\Users\\Manvijay\\AndroidStudioProjects\\statsoscore\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
+4.base=C\:\\Users\\Manvijay\\AndroidStudioProjects\\statsoscore\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
 3.baseType=DIRECTORY
 6.base=C\:\\Users\\Manvijay\\AndroidStudioProjects\\statsoscore\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
 8.base=C\:\\Users\\Manvijay\\AndroidStudioProjects\\statsoscore\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\16
@@ -35,5 +35,5 @@ count=9
 4.baseType=DIRECTORY
 5.set=DEX
 0.path=lib/arm64-v8a/libnative-lib.so
-1.set=DEX
+1.set=ASSET
 2.path=classes.dex

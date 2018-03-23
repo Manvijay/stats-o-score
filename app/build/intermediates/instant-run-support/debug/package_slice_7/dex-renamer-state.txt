@@ -1,4 +1,4 @@
-#Fri Mar 23 06:29:16 EDT 2018
-base.0=C\:\\Users\\Manvijay\\AndroidStudioProjects\\statsoscore\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+#Fri Mar 23 10:53:58 EDT 2018
+base.0=C\:\\Users\\Manvijay\\AndroidStudioProjects\\statsoscore\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
 path.0=classes.dex
 renamed.0=classes.dex

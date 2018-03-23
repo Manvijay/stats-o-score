@@ -6,7 +6,7 @@
     density="xxhdpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1521801047747"
+    timestamp="1521817968960"
     token="2230228419992626872"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -23,6 +23,9 @@
         name="verifier"
         duration="0" />
 
+    <artifact
+        location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\outputs\apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
     <artifact
         location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
         type="SPLIT" />
@@ -56,14 +59,14 @@
     <artifact
         location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
-    <artifact
-        location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\outputs\apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1521801047747"
+        timestamp="1521817968960"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\outputs\apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
@@ -97,9 +100,6 @@
         <artifact
             location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
-        <artifact
-            location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\outputs\apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

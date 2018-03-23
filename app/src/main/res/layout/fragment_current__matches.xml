@@ -12,71 +12,86 @@
         android:orientation="vertical"
         android:weightSum="3">
 
-        <RelativeLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="#ffffff" android:orientation="horizontal">
+            android:weightSum="6"
+            android:background="#ffffff"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/test_series"
-                android:textAlignment="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/test_matches"
+                android:gravity="center"
                 android:id="@+id/testtext"
+                android:textColor="@color/colorPrimaryDark"
                 />
 
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/recycle1"
+                android:layout_weight="5"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="0dp"
                 android:layout_below="@id/testtext"/>
 
-        </RelativeLayout>
+        </LinearLayout>
 
-        <RelativeLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="#ffffff" android:orientation="horizontal">
+            android:weightSum="6"
+            android:background="#ffffff"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
                 android:text="@string/odi_matches"
-                android:textAlignment="center"
+                android:gravity="center"
                 android:id="@+id/oditext"
+                android:textColor="@color/colorPrimaryDark"
                 />
 
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/recycle2"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
                 android:layout_below="@+id/oditext"/>
 
-        </RelativeLayout>
+        </LinearLayout>
 
-        <RelativeLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="#ffffff" android:orientation="horizontal">
+            android:weightSum="6"
+            android:background="#ffffff"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:text="@string/t20_matches"
-                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_weight="1"
                 android:id="@+id/t20text"
+                android:textColor="@color/colorPrimaryDark"
                 />
 
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/recycle3"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
                 android:layout_below="@+id/t20text"/>
 
-        </RelativeLayout>
+        </LinearLayout>
 
     </LinearLayout>
 
