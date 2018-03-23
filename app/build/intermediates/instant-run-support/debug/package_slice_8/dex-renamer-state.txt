@@ -1,4 +1,4 @@
-#Fri Feb 23 14:08:25 EST 2018
-base.0=D\:\\Github\\stat-o-score\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\28
+#Thu Mar 22 07:19:09 EDT 2018
+base.0=C\:\\Users\\Manvijay\\AndroidStudioProjects\\statsoscore\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
 path.0=classes.dex
 renamed.0=classes.dex
