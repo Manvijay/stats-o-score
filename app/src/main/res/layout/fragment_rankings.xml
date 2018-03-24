@@ -1,24 +1,34 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.example.manvijay.sports_app.Rankings">
+    android:layout_height="match_parent">
 
-    <android.support.design.widget.TabLayout
-        android:id="@+id/tabs"
+    <TextView
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="50dip"
-        app:tabBackground="@color/colorPrimaryDark"
-        app:tabIndicatorColor="@color/colorGreen">
+        android:layout_height="wrap_content"
+        android:background="#cdcdcd"
+        android:text="ICC TEAM RANKING"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:gravity="center"></TextView>
 
-    </android.support.design.widget.TabLayout>
 
-    <FrameLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="fill_parent"
-        android:id="@+id/frame"
-        android:layout_below="@+id/tabs">
-    </FrameLayout>
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:background="#ffffff"
+        tools:context="com.example.manvijay.sports_app.Rankings">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/ranking_recycle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
 
 </RelativeLayout>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="24"
+    abi="x86"
+    api-level="27"
     build-mode="FULL"
     density="xxhdpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1521817968960"
-    token="2230228419992626872"
+    timestamp="1519455369822"
+    token="-1149027804496339680"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
@@ -24,82 +24,82 @@
         duration="0" />
 
     <artifact
-        location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\outputs\apk\debug\app-debug.apk"
+        location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\outputs\apk\debug\app-debug.apk"
         type="SPLIT_MAIN" />
-    <artifact
-        location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1521817968960"
+        timestamp="1519455369822"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\outputs\apk\debug\app-debug.apk"
+            location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\outputs\apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
-        <artifact
-            location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
     </build>
 
 </instant-run>

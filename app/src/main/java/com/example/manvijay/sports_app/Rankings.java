@@ -1,16 +1,9 @@
 package com.example.manvijay.sports_app;
 
 import android.content.Context;
-import android.content.res.AssetManager;
-import android.content.res.ColorStateList;
-import android.graphics.Color;
-import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -49,50 +42,63 @@ public class Rankings extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+
+        View rootview = inflater.inflate(R.layout.fragment_rankings,container,false);
+        myrecycle = rootview.findViewById(R.id.ranking_recycle);
+        mylist = new ArrayList<>();
+        mylist.add("TEST       >" +
+                "\n\nRank     Team         Ratings      Points" +
+                "\n\n1        IND           121           5313" +
+                "\n\n2        SA            115           4484" +
+                "\n\n 3        AUS          104           4174" +
+                "\n\n4        NZ            100           3489" +
+                "\n\n5        ENG           99           4829" +
+                "\n\n6        SLA            95           4374" +
+                "\n\n7        PAK            88           2988" +
+                "\n\n8       WI               72           2606" +
+                "\n\n9        BAN            71           1833"
+
+
+        );
+        mylist.add("<    ODI    >" +
+                "\n\nRank     Team         Ratings      Points" +
+                "\n\n1        IND           122           7594" +
+                "\n\n2        SA            117           6911" +
+                "\n\n 3        AUS          116           6871" +
+                "\n\n4        NZ            115           6550" +
+                "\n\n5        ENG           112           6376" +
+                "\n\n6        SLA            95           4374" +
+                "\n\n7        PAK            88           2988" +
+                "\n\n8       WI               72           2606" +
+                "\n\n9        BAN            71           1833"
+
+
+
+        );
+        mylist.add("<     T20" +
+                "\n\nRank     Team         Ratings      Points" +
+                "\n\n1        IND           111           8313" +
+                "\n\n2        NZ            110           4484" +
+                "\n\n 3        AUS          104           3174" +
+                "\n\n4        SA            101           3089" +
+                "\n\n5        ENG           99           2829" +
+                "\n\n6        SLA            95           2374" +
+                "\n\n7        BAN            88           2188" +
+                "\n\n8       WI               72           2006" +
+                "\n\n9        PAK            71           1833"
+
+        );
+        //myrecycle.setHasFixedSize(true);
+
+        mylayout = new LinearLayoutManager(getActivity(),LinearLayoutManager.HORIZONTAL,false);
+        myadapter = new SecondAdapter(mylist);
+        myrecycle.setLayoutManager(mylayout);
+        myrecycle.setAdapter(myadapter);
+
         // Inflate the layout for this fragment
-
-        final View view=inflater.inflate(R.layout.fragment_rankings, container, false);
-        Typeface tf= Typeface.createFromAsset(getActivity().getAssets(),"Comfortaa-Regular.ttf");
-        final TabLayout tl=(TabLayout) view.findViewById(R.id.tabs);
-        tl.addTab(tl.newTab().setText("Test"));
-        tl.addTab(tl.newTab().setText("ODI"));
-        tl.addTab(tl.newTab().setText("T20"));
-        tl.setTabTextColors(ColorStateList.valueOf(Color.WHITE));
-
-        tl.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
-            @Override
-            public void onTabSelected(TabLayout.Tab tab) {
-
-                FragmentTransaction transaction= getFragmentManager().beginTransaction();
-                switch (tab.getPosition()){
-
-                    case 0: transaction.replace(R.id.frame, TestRankings.newInstance());
-                            transaction.commit();
-                            break;
-                    case 1: transaction.replace(R.id.frame, ODIRankings.newInstance());
-                            transaction.commit();
-                            break;
-                    case 2: transaction.replace(R.id.frame, T20Rankings.newInstance());
-                            transaction.commit();
-
-                }
-            }
-
-            @Override
-            public void onTabUnselected(TabLayout.Tab tab) {
-
-            }
-
-            @Override
-            public void onTabReselected(TabLayout.Tab tab) {
-
-            }
-        });
-        FragmentTransaction transaction= getFragmentManager().beginTransaction();
-        transaction.replace(R.id.frame, TestRankings.newInstance());
-        transaction.commit();
-        return view;
+        return rootview;
     }
 
 
@@ -111,3 +117,6 @@ public class Rankings extends Fragment {
         void onFragmentInteraction(Uri uri);
     }
 }
+
+
+   // No longer need of Database. We directly  access data from APIs.

@@ -1,14 +1,4 @@
-
-
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Stat-O-Score/Stat-O-Score_public?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-Youtube Link Prototype
-https://youtu.be/sXmq9UtOkI8
-
-How to Run:
-•	Open in the github repo find the APk-s folder
-•	Inside the folder download the file named Stat-o-score v0.1.0 into your android device(The file will only work on an android device)
-•	Enjoy the first prototype
 
 MVP:
 Our goal is to make an Android App by the name "Stat-o-Score" that will provide a new vision to the sports app category. Usually sports app tick few important boxes, like provide stats for players or provide scores of matches. However, we plan on adding some twist to that and add a sort of minigame in the app, which will be a kind of battle arena where the user can compare two players and see which one comes to the top. We also want to have a leaderboard where we show the most searched/compared players .Our app will currently only focus on one sport i.e. "cricket" (because we are very passionate about the game!!).  

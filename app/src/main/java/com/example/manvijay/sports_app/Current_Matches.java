@@ -67,16 +67,17 @@ public class Current_Matches extends Fragment {
         list1 = new ArrayList<>();
         list2 = new ArrayList<>();
         list3 = new ArrayList<>();
+        list1.add("Flick Right To see Score Cards");
         list1.add("IND vs SA" + "\n IND 140/2 (Over 60)");
         list1.add("ENG vs AUS" + " \n AUS 260/9 (Over 56.2)");
         list1.add("WI vs BAN" + " \n WI 110/5 (Over 75.2)");
         list1.add("ZIM vs PAK" + " \n PAK 111/9 (Over 88.1)");
-
+        list2.add("Flick Right To see Score Cards");
         list2.add("SL vs IRE" + "\n SL 200/3 (Over 48)");
         list2.add("AFG vs SCO" + " \n SCO 360/9 (Over 50)");
         list2.add("UAE vs NETH" + " \n UAE 112/5 (Over 27)");
         list2.add("HKG vs OMN" + " \n HKG 90/7 (Over 28.1)");
-
+        list3.add("Flick Right To see Score Cards");
         list3.add("IND vs PAK" + "\n Ind 140/2 (Over 19)");
         list3.add("ENG vs SL" + " \n SL 260/9 (Over 20)");
         list3.add("WI vs BAN" + " \n WI 190/5 (Over 18.5)");

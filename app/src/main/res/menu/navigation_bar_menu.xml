@@ -4,7 +4,7 @@
 
     <item
         android:id="@+id/current_matches_item"
-        android:title="@string/matches"
+        android:title="@string/Current_Matches"
         android:enabled="true"
         android:icon="@drawable/current_matches_icon"
         app:showAsAction="ifRoom"
@@ -20,7 +20,7 @@
         android:id="@+id/battlefield_item"
         android:title="@string/Battlefield"
         android:enabled="true"
-        android:icon="@mipmap/battlefield_icon"
+        android:icon="@drawable/battlefield_icon"
         app:showAsAction="ifRoom"
         />
 
