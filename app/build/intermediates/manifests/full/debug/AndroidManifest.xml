@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="21"
-        android:targetSdkVersion="26" />
+        android:targetSdkVersion="27" />
 
     <application
         android:allowBackup="true"
@@ -20,23 +20,16 @@
         <activity
             android:name="com.example.manvijay.sports_app.MainActivity"
             android:theme="@style/splash" >
+        </activity>
+        <activity
+            android:name="com.example.manvijay.sports_app.home_page"
+            android:theme="@style/homePage" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.example.manvijay.sports_app.home_page"
-            android:theme="@style/homePage" >
-        </activity>
-
-        <meta-data
-            android:name="android.support.VERSION"
-            android:value="26.1.0" />
-        <meta-data
-            android:name="android.arch.lifecycle.VERSION"
-            android:value="27.0.0-SNAPSHOT" />
     </application>
 
 </manifest>

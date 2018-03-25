@@ -10,16 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.manvijay.sports_app.MainActivity"
             android:theme="@style/splash">
+        </activity>
+
+        <activity android:name="com.example.manvijay.sports_app.home_page"
+            android:theme="@style/homePage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".home_page"
-            android:theme="@style/homePage">
         </activity>
     </application>
 
