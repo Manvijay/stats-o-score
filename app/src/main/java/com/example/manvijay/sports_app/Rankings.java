@@ -55,9 +55,9 @@ public class Rankings extends Fragment {
         final View view=inflater.inflate(R.layout.fragment_rankings, container, false);
         Typeface tf= Typeface.createFromAsset(getActivity().getAssets(),"Comfortaa-Regular.ttf");
         final TabLayout tl=(TabLayout) view.findViewById(R.id.tabs);
-        tl.addTab(tl.newTab().setText("Test"));
-        tl.addTab(tl.newTab().setText("ODI"));
-        tl.addTab(tl.newTab().setText("T20"));
+        tl.addTab(tl.newTab().setText("Premier League"));
+        tl.addTab(tl.newTab().setText("La Liga"));
+        tl.addTab(tl.newTab().setText("Bundesliga"));
         tl.setTabTextColors(ColorStateList.valueOf(Color.WHITE));
 
         tl.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {

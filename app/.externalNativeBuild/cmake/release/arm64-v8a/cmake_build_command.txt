@@ -1,15 +1,15 @@
-Executable : C:\Users\Manvijay\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe
+Executable : D:\Applications\SDK\cmake\3.6.4111459\bin\cmake.exe
 arguments : 
--HC:\Users\Manvijay\AndroidStudioProjects\statsoscore\app
--BC:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\.externalNativeBuild\cmake\release\arm64-v8a
+-HD:\Github\stat-o-score\app
+-BD:\Github\stat-o-score\app\.externalNativeBuild\cmake\release\arm64-v8a
 -DANDROID_ABI=arm64-v8a
 -DANDROID_PLATFORM=android-21
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\Manvijay\AndroidStudioProjects\statsoscore\app\build\intermediates\cmake\release\obj\arm64-v8a
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\Github\stat-o-score\app\build\intermediates\cmake\release\obj\arm64-v8a
 -DCMAKE_BUILD_TYPE=Release
--DANDROID_NDK=C:\Users\Manvijay\AppData\Local\Android\Sdk\ndk-bundle
+-DANDROID_NDK=D:\Applications\SDK\ndk-bundle
 -DCMAKE_CXX_FLAGS=
--DCMAKE_TOOLCHAIN_FILE=C:\Users\Manvijay\AppData\Local\Android\Sdk\ndk-bundle\build\cmake\android.toolchain.cmake
--DCMAKE_MAKE_PROGRAM=C:\Users\Manvijay\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe
+-DCMAKE_TOOLCHAIN_FILE=D:\Applications\SDK\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=D:\Applications\SDK\cmake\3.6.4111459\bin\ninja.exe
 -GAndroid Gradle - Ninja
 jvmArgs : 
 

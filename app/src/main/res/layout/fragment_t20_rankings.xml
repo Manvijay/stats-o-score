@@ -1,16 +1,185 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.manvijay.sports_app.T20Rankings">
+    tools:context="com.example.manvijay.sports_app.TestRankings">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/scroll2"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        >
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:text="Pos"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:autoSizeMaxTextSize="20sp"
+            android:autoSizeMinTextSize="12sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:text="Team Name"
+            android:layout_weight="3"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAlignment="center"
+            android:autoSizeMaxTextSize="20sp"
+            android:autoSizeMinTextSize="12sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:paddingLeft="30dp"
+            android:autoSizeMaxTextSize="20sp"
+            android:autoSizeMinTextSize="12sp"
+            android:text="PG"
+            android:textColor="@color/colorPrimaryDark" />
+        <TextView
+            android:text="W"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:autoSizeMaxTextSize="20sp"
+            android:autoSizeMinTextSize="12sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:text="D"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:autoSizeMaxTextSize="20sp"
+            android:autoSizeMinTextSize="12sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:text="L"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:autoSizeMaxTextSize="20sp"
+            android:autoSizeMinTextSize="12sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:text="Pts"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:autoSizeMaxTextSize="20sp"
+            android:autoSizeMinTextSize="12sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Show T20 Rankings"
-        android:textSize="20dp"
-        android:textColor="@color/colorPrimaryDark"
-        android:gravity="center"/>
+        android:layout_below="@id/scroll2"
+        android:id="@+id/scroll">
 
-</FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:id="@+id/bundestext"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeMinTextSize="12sp"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/bundestext2"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="3"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeMinTextSize="12sp"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/bundestext3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeMinTextSize="12sp"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/bundestext4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeMinTextSize="12sp"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/bundestext5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeMinTextSize="12sp"
+                android:baselineAligned="false"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/bundestext6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeMinTextSize="12sp"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/bundestext7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeMinTextSize="12sp"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

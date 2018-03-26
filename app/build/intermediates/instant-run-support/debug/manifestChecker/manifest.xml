@@ -8,6 +8,9 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="26" />
 
+    <!-- Internet Permission Request -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:debuggable="true"
