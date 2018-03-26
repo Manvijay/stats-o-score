@@ -1,12 +1,9 @@
 
 {
-	"buildFiles" : 
-	[
-		"C:/Users/Manvijay/AndroidStudioProjects/statsoscore/app/CMakeLists.txt"
-	],
+	"buildFiles" : [ "C:/Users/Deepak/Documents/GitHub/stat-o-score/app/CMakeLists.txt" ],
 	"cleanCommands" : 
 	[
-		"C:\\Users\\Manvijay\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\Manvijay\\AndroidStudioProjects\\statsoscore\\app\\.externalNativeBuild\\cmake\\release\\x86 --target clean"
+		"C:\\Users\\Deepak\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\Deepak\\Documents\\GitHub\\stat-o-score\\app\\.externalNativeBuild\\cmake\\release\\x86 --target clean"
 	],
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
@@ -15,27 +12,27 @@
 		{
 			"abi" : "x86",
 			"artifactName" : "native-lib",
-			"buildCommand" : "C:\\Users\\Manvijay\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\Manvijay\\AndroidStudioProjects\\statsoscore\\app\\.externalNativeBuild\\cmake\\release\\x86 --target native-lib",
+			"buildCommand" : "C:\\Users\\Deepak\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\Deepak\\Documents\\GitHub\\stat-o-score\\app\\.externalNativeBuild\\cmake\\release\\x86 --target native-lib",
 			"buildType" : "release",
 			"files" : 
 			[
 				
 				{
-					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=C:/Users/Manvijay/AppData/Local/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Manvijay/AppData/Local/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem C:\\Users\\Manvijay\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\Users\\Manvijay\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem C:\\Users\\Manvijay\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/Users/Manvijay/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
-					"src" : "C:/Users/Manvijay/AndroidStudioProjects/statsoscore/app/src/main/cpp/native-lib.cpp",
-					"workingDirectory" : "C:/Users/Manvijay/AndroidStudioProjects/statsoscore/app/.externalNativeBuild/cmake/release/x86"
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=C:/Users/Deepak/AppData/Local/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Deepak/AppData/Local/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem C:\\Users\\Deepak\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\Users\\Deepak\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem C:\\Users\\Deepak\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/Users/Deepak/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/Users/Deepak/Documents/GitHub/stat-o-score/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "C:/Users/Deepak/Documents/GitHub/stat-o-score/app/.externalNativeBuild/cmake/release/x86"
 				}
 			],
-			"output" : "C:/Users/Manvijay/AndroidStudioProjects/statsoscore/app/build/intermediates/cmake/release/obj/x86/libnative-lib.so",
-			"toolchain" : "3650788623"
+			"output" : "C:/Users/Deepak/Documents/GitHub/stat-o-score/app/build/intermediates/cmake/release/obj/x86/libnative-lib.so",
+			"toolchain" : "2461648105"
 		}
 	},
 	"toolchains" : 
 	{
-		"3650788623" : 
+		"2461648105" : 
 		{
-			"cCompilerExecutable" : "C:/Users/Manvijay/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
-			"cppCompilerExecutable" : "C:/Users/Manvijay/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+			"cCompilerExecutable" : "C:/Users/Deepak/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/Deepak/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
 		}
 	}
 }
