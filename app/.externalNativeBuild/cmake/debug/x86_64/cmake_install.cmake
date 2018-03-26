@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Manvijay/AndroidStudioProjects/statsoscore/app
+# Install script for directory: C:/Users/Deepak/Documents/GitHub/stat-o-score/app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Manvijay/AndroidStudioProjects/statsoscore/app/.externalNativeBuild/cmake/debug/x86_64/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Deepak/Documents/GitHub/stat-o-score/app/.externalNativeBuild/cmake/debug/x86_64/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
