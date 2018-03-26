@@ -1,8 +1,13 @@
 package com.example.manvijay.sports_app;
 
+/**
+ * Created by Deepak on 25-03-2018.
+ */
+
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.internal.BottomNavigationItemView;
 import android.support.design.widget.BottomNavigationView;
@@ -33,8 +38,8 @@ public class home_page extends AppCompatActivity {
                         transaction.commit();
                         break;
                     case R.id.battlefield_item:
-                        transaction.replace(R.id.frame_layout, Battlefield.newInstance());
-                        transaction.commit();
+                        Intent intent = new Intent(home_page.this , SearchActivity.class);
+                        startActivity(intent);
                         break;
                 }
                 return true;

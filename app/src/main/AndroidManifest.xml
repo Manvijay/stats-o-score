@@ -21,9 +21,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".home_page"
-            android:theme="@style/homePage">
-        </activity>
+        <activity
+            android:name=".home_page"
+            android:theme="@style/homePage" />
+        <activity android:name=".BattleActivity" />
+        <activity android:name=".SearchActivity" />
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
 </manifest>

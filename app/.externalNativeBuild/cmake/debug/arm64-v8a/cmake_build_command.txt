@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Executable : D:\Applications\SDK\cmake\3.6.4111459\bin\cmake.exe
 arguments : 
 -HD:\Github\stat-o-score\app
@@ -10,6 +11,20 @@ arguments :
 -DCMAKE_CXX_FLAGS=
 -DCMAKE_TOOLCHAIN_FILE=D:\Applications\SDK\ndk-bundle\build\cmake\android.toolchain.cmake
 -DCMAKE_MAKE_PROGRAM=D:\Applications\SDK\cmake\3.6.4111459\bin\ninja.exe
+=======
+Executable : C:\Users\Deepak\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HC:\Users\Deepak\Documents\GitHub\stat-o-score\app
+-BC:\Users\Deepak\Documents\GitHub\stat-o-score\app\.externalNativeBuild\cmake\debug\arm64-v8a
+-DANDROID_ABI=arm64-v8a
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\intermediates\cmake\debug\obj\arm64-v8a
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=C:\Users\Deepak\AppData\Local\Android\Sdk\ndk-bundle
+-DCMAKE_CXX_FLAGS=
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\Deepak\AppData\Local\Android\Sdk\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=C:\Users\Deepak\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe
+>>>>>>> develop
 -GAndroid Gradle - Ninja
 jvmArgs : 
 

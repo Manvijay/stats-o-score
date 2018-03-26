@@ -38,17 +38,6 @@ public class Current_Matches extends Fragment {
         super.onCreate(savedInstanceState);
 
 
-
-       /* list1 = new ArrayList<>();
-       // mrecycler1 = (RecyclerView) getView().findViewById(R.id.recycle1);
-
-        mrecycler1.setHasFixedSize(true);
-        mlayout1 = new LinearLayoutManager(getActivity());
-        madapter1 = new MainAdapter(list1);
-        mrecycler1.setLayoutManager(mlayout1);
-        mrecycler1.setAdapter(madapter1);
-*/
-
         
 
 

@@ -8,7 +8,10 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="26" />
 
+<<<<<<< HEAD
     <!-- Internet Permission Request -->
+=======
+>>>>>>> develop
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -30,8 +33,9 @@
         </activity>
         <activity
             android:name="com.example.manvijay.sports_app.home_page"
-            android:theme="@style/homePage" >
-        </activity>
+            android:theme="@style/homePage" />
+        <activity android:name="com.example.manvijay.sports_app.BattleActivity" />
+        <activity android:name="com.example.manvijay.sports_app.SearchActivity" />
 
         <meta-data
             android:name="android.support.VERSION"
