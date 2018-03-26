@@ -74,6 +74,8 @@ public class SearchActivity extends AppCompatActivity  {
                         Image_left = left[1].toString();
                         break;
                     }
+
+
                 }
                 for(int i=0;i<mylist.size();i++)
                 {

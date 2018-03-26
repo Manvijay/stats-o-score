@@ -6,8 +6,11 @@ package com.example.manvijay.sports_app;
 
 import android.content.Intent;
 import android.os.Parcelable;
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -150,6 +153,7 @@ public class BattleActivity extends AppCompatActivity {
         profile_Image_right = (ImageView) findViewById(R.id.imageViewRight);
 
         //Toast.makeText(getApplicationContext(),model.getNam_right(),Toast.LENGTH_SHORT).show();
+
         naam_left.setText(Name_left);
         naam_right.setText(Name_right);
         Glide.with(this).load(Image_left).into(profile_Image_left);
@@ -172,8 +176,10 @@ public class BattleActivity extends AppCompatActivity {
         body_right.setText(Strength_right);
 
 
-
-
     }
+
+
+
+
 }
 

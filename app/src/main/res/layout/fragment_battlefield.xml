@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     android:background="#dcdcdc"
+
     tools:context="com.example.manvijay.sports_app.BattleActivity">
 
     <LinearLayout
@@ -61,19 +63,20 @@
         android:layout_below="@+id/LinearLayout_PlayerNames"
         android:background="@android:color/white"
         android:orientation="vertical"
-        android:weightSum="9">
+        android:weightSum="8">
 
         <LinearLayout
             android:id="@+id/LinearLayout_PlayersImage"
             android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_weight="3"
+            android:layout_height="1dp"
+            android:layout_weight="2"
+
             android:weightSum="2">
 
             <ImageView
                 android:id="@+id/imageViewLeft"
                 android:layout_width="match_parent"
-                android:layout_height="142dp"
+                android:layout_height="107dp"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:background="@android:color/white"
@@ -83,7 +86,7 @@
             <ImageView
                 android:id="@+id/imageViewRight"
                 android:layout_width="match_parent"
-                android:layout_height="142dp"
+                android:layout_height="107dp"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:background="@android:color/white"
@@ -95,13 +98,13 @@
         <LinearLayout
             android:id="@+id/LinearLayout_PlayersStats"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:layout_below="@id/LinearLayout_PlayersImage"
             android:layout_marginTop="5dp"
             android:layout_weight="5"
             android:background="@color/colorPrimaryDark"
             android:orientation="vertical"
-            android:weightSum="9">
+            android:weightSum="8">
 
             <LinearLayout
                 android:id="@+id/LinearLayout_MatchesStats"
@@ -393,6 +396,8 @@
                 android:text="Result" />
 
         </LinearLayout>
+
+
 
     </LinearLayout>
 
