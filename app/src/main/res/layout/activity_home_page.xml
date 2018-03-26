@@ -24,15 +24,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:visibility="visible"
+        android:layout_alignParentStart="true"
+        android:background="#000000"
         android:pointerIcon="zoom_in"
+        android:visibility="visible"
         app:itemIconTint="@drawable/selector"
-        app:itemTextColor="@color/colorPrimary"
-        app:itemBackground="@color/colorPrimaryDark"
-        android:background="@color/colorPrimary"
-        app:menu="@menu/navigation_bar_menu"
-        >
+        app:itemTextColor="#FFFFFF  "
+        app:menu="@menu/navigation_bar_menu" />
 
-    </android.support.design.widget.BottomNavigationView>
 
 </RelativeLayout>

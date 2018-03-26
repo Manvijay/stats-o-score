@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
+            "outputFile": "D:\\Github\\stat-o-score\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\bansa\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\da4d9c02231d3e472e1543ee988bb6ba\\res\\values-land\\values-land.xml",
+=======
             "outputFile": "C:\\Users\\Deepak\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Deepak\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\f8783bb9b4577fbb99d83dfde4858cec\\res\\values-land\\values-land.xml",
+>>>>>>> develop
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +30,11 @@
                     }
                 },
                 {
+<<<<<<< HEAD
+                    "source": "C:\\Users\\bansa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\8bbd733f11bdd87046d62ad23d4dddbb\\res\\values-land\\values-land.xml",
+=======
                     "source": "C:\\Users\\Deepak\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\6967a459e1fe1ed0bba26162c154c5c4\\res\\values-land\\values-land.xml",
+>>>>>>> develop
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

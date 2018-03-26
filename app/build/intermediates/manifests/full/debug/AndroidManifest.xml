@@ -8,6 +8,10 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="26" />
 
+<<<<<<< HEAD
+    <!-- Internet Permission Request -->
+=======
+>>>>>>> develop
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -17,7 +21,6 @@
         android:label="Stat-o-Score"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.manvijay.sports_app.MainActivity"

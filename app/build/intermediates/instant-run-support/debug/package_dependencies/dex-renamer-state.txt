@@ -1,4 +1,9 @@
+<<<<<<< HEAD
+#Sun Mar 25 19:24:05 EDT 2018
+base.0=D\:\\Github\\stat-o-score\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+=======
 #Mon Mar 26 03:29:33 EDT 2018
 base.0=C\:\\Users\\Deepak\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+>>>>>>> develop
 path.0=classes.dex
 renamed.0=classes.dex

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+# Install script for directory: D:/Github/stat-o-score/app
+=======
 # Install script for directory: C:/Users/Deepak/Documents/GitHub/stat-o-score/app
+>>>>>>> develop
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +44,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
+file(WRITE "D:/Github/stat-o-score/app/.externalNativeBuild/cmake/debug/x86_64/${CMAKE_INSTALL_MANIFEST}"
+=======
 file(WRITE "C:/Users/Deepak/Documents/GitHub/stat-o-score/app/.externalNativeBuild/cmake/debug/x86_64/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> develop
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

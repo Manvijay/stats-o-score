@@ -8,6 +8,10 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="26" />
 
+<<<<<<< HEAD
+    <!-- Internet Permission Request -->
+=======
+>>>>>>> develop
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application

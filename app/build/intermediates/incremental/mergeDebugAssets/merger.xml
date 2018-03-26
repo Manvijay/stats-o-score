@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<merger version="3"><dataSet config="main"><source path="D:\Github\stat-o-score\app\src\main\assets"><file name="Comfortaa-Regular.ttf" path="D:\Github\stat-o-score\app\src\main\assets\Comfortaa-Regular.ttf"/></source><source path="D:\Github\stat-o-score\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\Github\stat-o-score\app\src\debug\assets"/></dataSet></merger>
+=======
 <merger version="3"><dataSet config="main"><source path="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\src\main\assets"><file name="Comfortaa-Regular.ttf" path="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\src\main\assets\Comfortaa-Regular.ttf"/></source><source path="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\Deepak\Documents\GitHub\stat-o-score\app\src\debug\assets"/></dataSet></merger>
+>>>>>>> develop
