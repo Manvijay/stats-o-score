@@ -119,7 +119,9 @@ public class ODIRankings extends Fragment {
 
                     // The user didn't have any repos.
 
-                    setval("No repos found.");
+                    //setval("No repos found.");
+                    Toast.makeText(getActivity().getApplicationContext(), "Offline Turn On Connection",
+                            Toast.LENGTH_SHORT).show();
                 }
             }
         },
@@ -132,7 +134,9 @@ public class ODIRankings extends Fragment {
 
                         // If there a HTTP error then add a note to our repo list.
 
-                        setval("Error while calling REST API");
+                        //setval("Error while calling REST API");
+                        Toast.makeText(getActivity().getApplicationContext(), "Too many Requests or Offline",
+                                Toast.LENGTH_SHORT).show();
 
                         Log.e("Volley", error.toString());
 

@@ -173,7 +173,9 @@ public class Current_Matches extends Fragment {
 
                     // The user didn't have any repos.
 
-                    list1.add("Too many requests, try after some time");
+                    //list1.add("Too many requests, try after some time");
+                    Toast.makeText(getActivity().getApplicationContext(), "Offline Turn On Connection",
+                            Toast.LENGTH_SHORT).show();
                 }
             }
         },
@@ -186,8 +188,9 @@ public class Current_Matches extends Fragment {
 
                         // If there a HTTP error then add a note to our repo list.
 
-                        list1.add("Too many requests, try after some time");
-
+                        //list1.add("Too many requests, try after some time");
+                        Toast.makeText(getActivity().getApplicationContext(), "Too many Request or Offline",
+                                Toast.LENGTH_SHORT).show();
                         Log.e("Volley", error.toString());
 
                     }
@@ -278,7 +281,9 @@ public class Current_Matches extends Fragment {
 
                     // The user didn't have any repos.
 
-                    list2.add("Too many requests, try after some time");
+                    //list2.add("Too many requests, try after some time");
+                    Toast.makeText(getActivity().getApplicationContext(), "Offline Turn On Connection",
+                            Toast.LENGTH_SHORT).show();
                 }
             }
         },
@@ -291,7 +296,9 @@ public class Current_Matches extends Fragment {
 
                         // If there a HTTP error then add a note to our repo list.
 
-                        list2.add("Too many requests, try after some time");
+                       // list2.add("Too many requests, try after some time");
+                        Toast.makeText(getActivity().getApplicationContext(), "Too many Request or Offline",
+                                Toast.LENGTH_SHORT).show();
 
                         Log.e("Volley", error.toString());
 
@@ -383,7 +390,9 @@ public class Current_Matches extends Fragment {
 
                     // The user didn't have any repos.
 
-                    list3.add("Too many requests, try after some time");
+                    //list3.add("Too many requests, try after some time");
+                    Toast.makeText(getActivity().getApplicationContext(), "Offline Turn On Connection",
+                            Toast.LENGTH_SHORT).show();
                 }
             }
         },
@@ -396,7 +405,9 @@ public class Current_Matches extends Fragment {
 
                         // If there a HTTP error then add a note to our repo list.
 
-                        list3.add("Too many requests, try after some time");
+                       // list3.add("Too many requests, try after some time");
+                        Toast.makeText(getActivity().getApplicationContext(), "Too many Request or Offline",
+                                Toast.LENGTH_SHORT).show();
 
                         Log.e("Volley", error.toString());
 
