@@ -35,6 +35,7 @@ public class BattleActivity extends AppCompatActivity {
     String Sta_left, Sta_right;
     String Strength_left, Strength_right;
     String Image_left, Image_right;
+    String Flag_left,Flag_right;
 
     int leftCount = 0, rightCount = 0;
 
@@ -58,6 +59,8 @@ public class BattleActivity extends AppCompatActivity {
     private TextView naam_right;
     private ImageView profile_Image_left;
     private ImageView profile_Image_right;
+    private ImageView profile_Image_Flag_left;
+    private ImageView profile_Image_Flag_right;
 
 
 
@@ -86,6 +89,8 @@ public class BattleActivity extends AppCompatActivity {
         Strength_right = getIntent().getExtras().getString("Strength_right");
         Image_left = getIntent().getExtras().getString("Image_left");
         Image_right = getIntent().getExtras().getString("Image_right");
+        Flag_left = getIntent().getExtras().getString("Flag_left");
+        Flag_right = getIntent().getExtras().getString("Flag_right");
 
 
         if(Integer.parseInt(Accel_left)>Integer.parseInt(Accel_right)){
@@ -124,11 +129,11 @@ public class BattleActivity extends AppCompatActivity {
         TextView mresult = (TextView) findViewById(R.id.result);
         if(leftCount>rightCount){
 
-            mresult.setText(Name_left + " is the Winner");
+            mresult.setText(Name_left.trim());
         }
         else
         {
-            mresult.setText(Name_right + " is the Winner");
+            mresult.setText(Name_right.trim());
         }
 
         naam_left = (TextView) findViewById(R.id.name_left);
@@ -151,6 +156,8 @@ public class BattleActivity extends AppCompatActivity {
         body_right = (TextView) findViewById(R.id.strength_right);
         profile_Image_left = (ImageView) findViewById(R.id.imageViewLeft);
         profile_Image_right = (ImageView) findViewById(R.id.imageViewRight);
+        profile_Image_Flag_left = (ImageView) findViewById(R.id.imageViewFlagLeft);
+        profile_Image_Flag_right = (ImageView) findViewById(R.id.imageViewFlagRight);
 
         //Toast.makeText(getApplicationContext(),model.getNam_right(),Toast.LENGTH_SHORT).show();
 
@@ -158,6 +165,8 @@ public class BattleActivity extends AppCompatActivity {
         naam_right.setText(Name_right);
         Glide.with(this).load(Image_left).into(profile_Image_left);
         Glide.with(this).load(Image_right).into(profile_Image_right);
+        Glide.with(this).load(Flag_left).into(profile_Image_Flag_left);
+        Glide.with(this).load(Flag_right).into(profile_Image_Flag_right);
         acc_left.setText(Accel_left);
         acc_right.setText(Accel_right);
         fin_left.setText(Finish_left);
@@ -176,6 +185,12 @@ public class BattleActivity extends AppCompatActivity {
         body_right.setText(Strength_right);
 
 
+
+    }
+    @Override
+    public void onBackPressed() {
+        Intent intent4 = new Intent(BattleActivity.this, SearchActivity.class);
+        startActivity(intent4);
     }
 
 

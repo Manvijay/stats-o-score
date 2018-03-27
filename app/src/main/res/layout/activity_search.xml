@@ -36,4 +36,15 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="52dp"
         android:text="Battle" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:text="Please Enter Full Name of Players"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 </RelativeLayout>

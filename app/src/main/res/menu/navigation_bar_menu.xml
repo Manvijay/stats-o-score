@@ -20,7 +20,7 @@
         android:id="@+id/battlefield_item"
         android:title="@string/Battlefield"
         android:enabled="true"
-        android:icon="@mipmap/battlefield_icon"
+        android:icon="@drawable/current_matches_icon"
         app:showAsAction="ifRoom"
         />
 
