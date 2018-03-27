@@ -27,7 +27,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:src="#000000"/>
+                    android:src="@drawable/hometeam" />
 
                 <ImageView
                     android:id="@+id/flag2"
@@ -35,7 +35,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:layout_marginLeft="3dp"
-                    android:src="#dddddd"/>
+                    android:src="@drawable/awayteam"/>
 
 
             </LinearLayout>
