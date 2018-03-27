@@ -6,7 +6,7 @@
         android:id="@+id/current_matches_item"
         android:title="@string/matches"
         android:enabled="true"
-        android:icon="@drawable/current_matches_icon"
+        android:icon="@drawable/football"
         app:showAsAction="ifRoom"
         />
     <item
@@ -20,7 +20,7 @@
         android:id="@+id/battlefield_item"
         android:title="@string/Battlefield"
         android:enabled="true"
-        android:icon="@mipmap/battlefield_icon"
+        android:icon="@drawable/people"
         app:showAsAction="ifRoom"
         />
 
