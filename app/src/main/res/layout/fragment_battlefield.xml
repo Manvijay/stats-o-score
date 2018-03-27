@@ -73,25 +73,61 @@
 
             android:weightSum="2">
 
-            <ImageView
-                android:id="@+id/imageViewLeft"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="107dp"
-                android:layout_margin="1dp"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@android:color/white"
-                android:scaleType="centerCrop"
-                android:src="@mipmap/ic_launcher" />
+                android:orientation="vertical"
+                android:weightSum="2">
 
-            <ImageView
-                android:id="@+id/imageViewRight"
+                <ImageView
+                    android:id="@+id/imageViewLeft"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dhoni" />
+
+                <ImageView
+                    android:id="@+id/imageViewFlagLeft"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="30dp"
+                    android:maxHeight="30dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:src="@mipmap/ic_launcher" />
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="107dp"
-                android:layout_margin="1dp"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@android:color/white"
-                android:scaleType="centerCrop"
-                android:src="@mipmap/ic_launcher" />
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <ImageView
+                    android:id="@+id/imageViewRight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dhoni" />
+
+                <ImageView
+                    android:id="@+id/imageViewFlagRight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="30dp"
+                    android:maxHeight="30dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:src="@mipmap/ic_launcher" />
+            </LinearLayout>
 
         </LinearLayout>
 
@@ -385,15 +421,30 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:background="#00cc00"
-            android:orientation="horizontal">
+            android:orientation="vertical"
+            android:weightSum="2">
 
             <TextView
                 android:id="@+id/result"
                 android:layout_width="match_parent"
 
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
                 android:gravity="center"
-                android:text="Result" />
+                android:text="Result"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="is the Winner"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
 
