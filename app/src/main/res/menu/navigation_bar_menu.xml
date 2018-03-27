@@ -11,7 +11,7 @@
         />
     <item
         android:id="@+id/rankings_item"
-        android:title="@string/Rankings"
+        android:title="Standings"
         android:enabled="true"
         android:icon="@drawable/rankings_icon"
         app:showAsAction="ifRoom"

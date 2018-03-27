@@ -8,12 +8,12 @@
         "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_background.png"
-    },
-    {
         "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_background.png"
     },
     {
         "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_title_material.xml.flat",
@@ -36,12 +36,12 @@
         "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
-        "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
-    },
-    {
         "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_menu_overflow_material.xml.flat",
         "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
@@ -80,12 +80,12 @@
         "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\dc6ee277ba544f9a1cfeb8c83ecf2609\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
-        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\color_design_error.xml.flat",
-        "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\f13144aa80a5f011a0826f9a48c24a64\\res\\color\\design_error.xml"
-    },
-    {
         "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\color_design_error.xml.flat",
+        "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\f13144aa80a5f011a0826f9a48c24a64\\res\\color\\design_error.xml"
     },
     {
         "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_search_url_text.xml.flat",
@@ -112,12 +112,12 @@
         "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_voice_search_api_material.xml.flat",
-        "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\drawable\\abc_ic_voice_search_api_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_design_password_eye.xml.flat",
         "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\f13144aa80a5f011a0826f9a48c24a64\\res\\drawable-v21\\design_password_eye.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_voice_search_api_material.xml.flat",
+        "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
         "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -192,12 +192,12 @@
         "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_clear_material.xml.flat",
-        "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\drawable\\abc_ic_clear_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_clear_material.xml.flat",
+        "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
         "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_item_layout.xml.flat",
@@ -220,12 +220,12 @@
         "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\dc6ee277ba544f9a1cfeb8c83ecf2609\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow.xml.flat",
-        "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\570d565bdbfa63c36749f27229a0d8d0\\res\\layout\\notification_template_big_media_narrow.xml"
-    },
-    {
         "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\dc6ee277ba544f9a1cfeb8c83ecf2609\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow.xml.flat",
+        "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\570d565bdbfa63c36749f27229a0d8d0\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
         "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_btn_colored_borderless_text_material.xml.flat",
@@ -280,24 +280,24 @@
         "source": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\layout_recyclerview1.xml.flat",
-        "source": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\src\\main\\res\\layout\\recyclerview1.xml"
+        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
     {
         "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_battlefield_icon_round.xml.flat",
         "source": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\src\\main\\res\\mipmap-anydpi-v26\\battlefield_icon_round.xml"
     },
     {
-        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
-        "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
-    },
-    {
-        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_rankings_icon.png.flat",
-        "source": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\src\\main\\res\\drawable-xhdpi\\rankings_icon.png"
+        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\layout_recyclerview1.xml.flat",
+        "source": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\src\\main\\res\\layout\\recyclerview1.xml"
     },
     {
         "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
         "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_rankings_icon.png.flat",
+        "source": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\src\\main\\res\\drawable-xhdpi\\rankings_icon.png"
     },
     {
         "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_16dp.png.flat",
@@ -324,16 +324,16 @@
         "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\570d565bdbfa63c36749f27229a0d8d0\\res\\layout\\notification_template_media_custom.xml"
     },
     {
-        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_design_ic_visibility.xml.flat",
-        "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\f13144aa80a5f011a0826f9a48c24a64\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
         "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_radio_material.xml.flat",
         "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
-        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_design_ic_visibility.xml.flat",
+        "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\f13144aa80a5f011a0826f9a48c24a64\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     },
     {
         "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
@@ -352,12 +352,12 @@
         "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable_virat.png.flat",
-        "source": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\src\\main\\res\\drawable\\virat.png"
-    },
-    {
         "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_battlefield_icon.png.flat",
         "source": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\src\\main\\res\\drawable-xhdpi\\battlefield_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable_virat.png.flat",
+        "source": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\src\\main\\res\\drawable\\virat.png"
     },
     {
         "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
@@ -380,16 +380,16 @@
         "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_text_input_password_icon.xml.flat",
-        "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\f13144aa80a5f011a0826f9a48c24a64\\res\\layout\\design_text_input_password_icon.xml"
+        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\anim_tooltip_exit.xml.flat",
         "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\anim\\tooltip_exit.xml"
     },
     {
-        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_text_input_password_icon.xml.flat",
+        "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\f13144aa80a5f011a0826f9a48c24a64\\res\\layout\\design_text_input_password_icon.xml"
     },
     {
         "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
@@ -424,12 +424,12 @@
         "source": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\src\\main\\res\\mipmap-xxhdpi\\battlefield_icon_round.png"
     },
     {
-        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
-        "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
-    },
-    {
         "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_out_bottom.xml.flat",
         "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
+        "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
     },
     {
         "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -472,16 +472,16 @@
         "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_item_background_holo_light.xml.flat",
-        "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
         "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\dc6ee277ba544f9a1cfeb8c83ecf2609\\res\\drawable\\notification_tile_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_item_background_holo_light.xml.flat",
+        "source": "C:\\Users\\Vishu.Saharan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9089805182af456810ba1934910479f\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
         "merged": "C:\\Users\\Vishu.Saharan\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_dark.xml.flat",
