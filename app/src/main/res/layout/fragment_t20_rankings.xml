@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.manvijay.sports_app.T20Rankings">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Show T20 Rankings"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"/>
+
+</FrameLayout>
