@@ -1,9 +1,9 @@
 
 {
-	"buildFiles" : [ "C:/Users/amrit/Documents/GitHub/stat-o-score/app/CMakeLists.txt" ],
+	"buildFiles" : [ "C:/Users/amrit/Documents/GitHub/stats-o-score/app/CMakeLists.txt" ],
 	"cleanCommands" : 
 	[
-		"C:\\Users\\amrit\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\amrit\\Documents\\GitHub\\stat-o-score\\app\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target clean"
+		"C:\\Users\\amrit\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\amrit\\Documents\\GitHub\\stats-o-score\\app\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target clean"
 	],
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
@@ -12,18 +12,18 @@
 		{
 			"abi" : "arm64-v8a",
 			"artifactName" : "native-lib",
-			"buildCommand" : "C:\\Users\\amrit\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\amrit\\Documents\\GitHub\\stat-o-score\\app\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target native-lib",
+			"buildCommand" : "C:\\Users\\amrit\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\amrit\\Documents\\GitHub\\stats-o-score\\app\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target native-lib",
 			"buildType" : "release",
 			"files" : 
 			[
 				
 				{
 					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=C:/Users/amrit/AppData/Local/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/amrit/AppData/Local/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem C:\\Users\\amrit\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\Users\\amrit\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem C:\\Users\\amrit\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/Users/amrit/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
-					"src" : "C:/Users/amrit/Documents/GitHub/stat-o-score/app/src/main/cpp/native-lib.cpp",
-					"workingDirectory" : "C:/Users/amrit/Documents/GitHub/stat-o-score/app/.externalNativeBuild/cmake/release/arm64-v8a"
+					"src" : "C:/Users/amrit/Documents/GitHub/stats-o-score/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "C:/Users/amrit/Documents/GitHub/stats-o-score/app/.externalNativeBuild/cmake/release/arm64-v8a"
 				}
 			],
-			"output" : "C:/Users/amrit/Documents/GitHub/stat-o-score/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so",
+			"output" : "C:/Users/amrit/Documents/GitHub/stats-o-score/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so",
 			"toolchain" : "983215409"
 		}
 	},

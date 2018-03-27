@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:2:1-30:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\amrit\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\fbabe67b40a5abe3ae5deb6c129c2388\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.volley:volley:1.1.0] C:\Users\amrit\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\1984b3f647b4e65caecb82659a39cabd\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\amrit\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\e63f6bc4f8b714ff008fa6cc59056162\AndroidManifest.xml:17:1-31:12
@@ -20,25 +20,25 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\amrit\.grad
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\amrit\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8f8529c3e329b19787afdff2b8784531\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\amrit\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\6abef58323df6b062366f81b98f75fbb\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\amrit\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\1a367d5cdfe27ea5b057347b82e6220b\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:2:1-30:12
 	package
-		ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:3:5-46
-		INJECTED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:3:5-46
+		INJECTED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:2:1-30:12
-		INJECTED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:2:1-30:12
+		INJECTED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:2:1-30:12
-		INJECTED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:2:1-30:12
+		INJECTED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:5:5-26:19
+ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:5:5-26:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\amrit\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\fbabe67b40a5abe3ae5deb6c129c2388\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\amrit\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\fbabe67b40a5abe3ae5deb6c129c2388\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.volley:volley:1.1.0] C:\Users\amrit\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\1984b3f647b4e65caecb82659a39cabd\AndroidManifest.xml:9:5-20
@@ -72,55 +72,55 @@ MERGED from [com.android.support:support-compat:26.1.0] C:\Users\amrit\.gradle\c
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\amrit\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\1a367d5cdfe27ea5b057347b82e6220b\AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\amrit\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\1a367d5cdfe27ea5b057347b82e6220b\AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:8:9-37
+		ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:8:9-37
 	android:roundIcon
-		ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.example.manvijay.sports_app.MainActivity
-ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:12:9-20:20
+ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:12:9-20:20
 	android:theme
-		ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:14:13-42
+		ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:14:13-42
 	android:name
-		ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:13:13-41
+		ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:13:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:18:27-74
 activity#com.example.manvijay.sports_app.home_page
-ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:21:9-23:47
+ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:21:9-23:47
 	android:theme
-		ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:23:13-44
+		ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:23:13-44
 	android:name
-		ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:22:13-38
+		ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:22:13-38
 activity#com.example.manvijay.sports_app.BattleActivity
-ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:24:9-52
+ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:24:9-52
 	android:name
-		ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:24:19-49
+		ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:24:19-49
 activity#com.example.manvijay.sports_app.SearchActivity
-ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:25:9-52
+ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:25:9-52
 	android:name
-		ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:25:19-49
+		ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:25:19-49
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:28:5-83
+ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:28:5-83
 	android:name
-		ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml:28:22-64
+		ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml:28:22-64
 uses-sdk
-INJECTED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:design:26.1.0] C:\Users\amrit\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\fbabe67b40a5abe3ae5deb6c129c2388\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:design:26.1.0] C:\Users\amrit\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\fbabe67b40a5abe3ae5deb6c129c2388\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.volley:volley:1.1.0] C:\Users\amrit\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\1984b3f647b4e65caecb82659a39cabd\AndroidManifest.xml:7:5-43
@@ -153,18 +153,18 @@ MERGED from [com.android.support:support-compat:26.1.0] C:\Users\amrit\.gradle\c
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\amrit\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\6abef58323df6b062366f81b98f75fbb\AndroidManifest.xml:21:5-23:58
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\amrit\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\1a367d5cdfe27ea5b057347b82e6220b\AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\amrit\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\1a367d5cdfe27ea5b057347b82e6220b\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:26.1.0] C:\Users\amrit\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\fbabe67b40a5abe3ae5deb6c129c2388\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\amrit\Documents\GitHub\stat-o-score\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\amrit\Documents\GitHub\stats-o-score\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:26.1.0] C:\Users\amrit\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\fbabe67b40a5abe3ae5deb6c129c2388\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\amrit\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\e63f6bc4f8b714ff008fa6cc59056162\AndroidManifest.xml:26:9-28:38

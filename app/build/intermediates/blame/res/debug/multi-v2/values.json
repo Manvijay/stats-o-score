@@ -1,23 +1,23 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\amrit\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\amrit\\Documents\\GitHub\\stats-o-score\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\amrit\\Documents\\GitHub\\stat-o-score\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
+                    "source": "C:\\Users\\amrit\\Documents\\GitHub\\stats-o-score\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endColumns": "56",
-                        "endOffsets": "109"
+                        "startLines": "4,7,6,2,3,5",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "157,294,248,57,105,204",
+                        "endColumns": "45,43,44,46,50,42",
+                        "endOffsets": "198,333,288,99,151,242"
                     },
                     "to": {
-                        "startLines": "146",
-                        "startColumns": "4",
-                        "startOffsets": "8006",
-                        "endColumns": "56",
-                        "endOffsets": "8058"
+                        "startLines": "122,123,124,125,126,127",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "6483,6529,6573,6618,6665,6716",
+                        "endColumns": "45,43,44,46,50,42",
+                        "endOffsets": "6524,6568,6613,6660,6711,6754"
                     }
                 },
                 {
@@ -57,7 +57,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\amrit\\Documents\\GitHub\\stat-o-score\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\amrit\\Documents\\GitHub\\stats-o-score\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,11,10",
                         "startColumns": "4,4,4",
@@ -95,20 +95,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\amrit\\Documents\\GitHub\\stat-o-score\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "C:\\Users\\amrit\\Documents\\GitHub\\stats-o-score\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "4,7,6,2,3,5",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "157,294,248,57,105,204",
-                        "endColumns": "45,43,44,46,50,42",
-                        "endOffsets": "198,333,288,99,151,242"
+                        "startLines": "3,2,4,1,10,12,6,7,5,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "127,66,180,17,449,615,282,335,227,520",
+                        "endColumns": "51,59,45,47,69,43,51,51,53,93",
+                        "endOffsets": "174,121,221,60,514,654,329,382,276,609"
                     },
                     "to": {
-                        "startLines": "122,123,124,125,126,127",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "6483,6529,6573,6618,6665,6716",
-                        "endColumns": "45,43,44,46,50,42",
-                        "endOffsets": "6524,6568,6613,6660,6711,6754"
+                        "startLines": "745,746,747,779,783,784,785,793,794,795",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "62783,62835,62895,65179,65580,65650,65694,66685,66737,66791",
+                        "endColumns": "51,59,45,47,69,43,51,51,53,93",
+                        "endOffsets": "62830,62890,62936,65222,65645,65689,65741,66732,66786,66880"
                     }
                 },
                 {
@@ -203,20 +203,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\amrit\\Documents\\GitHub\\stat-o-score\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\amrit\\Documents\\GitHub\\stats-o-score\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
                     "from": {
-                        "startLines": "3,2,4,1,10,12,6,7,5,11",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "127,66,180,17,449,615,282,335,227,520",
-                        "endColumns": "51,59,45,47,69,43,51,51,53,93",
-                        "endOffsets": "174,121,221,60,514,654,329,382,276,609"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "56",
+                        "endOffsets": "109"
                     },
                     "to": {
-                        "startLines": "745,746,747,779,783,784,785,793,794,795",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "62783,62835,62895,65179,65580,65650,65694,66685,66737,66791",
-                        "endColumns": "51,59,45,47,69,43,51,51,53,93",
-                        "endOffsets": "62830,62890,62936,65222,65645,65689,65741,66732,66786,66880"
+                        "startLines": "146",
+                        "startColumns": "4",
+                        "startOffsets": "8006",
+                        "endColumns": "56",
+                        "endOffsets": "8058"
                     }
                 }
             ]
