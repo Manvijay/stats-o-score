@@ -4,14 +4,14 @@
 
     <item
         android:id="@+id/current_matches_item"
-        android:title="@string/Current_Matches"
+        android:title="@string/matches"
         android:enabled="true"
-        android:icon="@drawable/current_matches_icon"
+        android:icon="@drawable/football"
         app:showAsAction="ifRoom"
         />
     <item
         android:id="@+id/rankings_item"
-        android:title="@string/Rankings"
+        android:title="Standings"
         android:enabled="true"
         android:icon="@drawable/rankings_icon"
         app:showAsAction="ifRoom"
@@ -20,7 +20,7 @@
         android:id="@+id/battlefield_item"
         android:title="@string/Battlefield"
         android:enabled="true"
-        android:icon="@drawable/battlefield_icon"
+        android:icon="@drawable/people"
         app:showAsAction="ifRoom"
         />
 

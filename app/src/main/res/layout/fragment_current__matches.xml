@@ -12,57 +12,86 @@
         android:orientation="vertical"
         android:weightSum="3">
 
-        <HorizontalScrollView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="#ffffff">
-
-            //temporary textview just to tell what will replace it
+            android:weightSum="6"
+            android:background="#ffffff"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center_horizontal"
-                android:gravity="center_vertical"
-                android:text="@string/test_matches" />
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="EPL Matches"
+                android:gravity="center"
+                android:id="@+id/testtext"
+                android:textColor="@color/colorPrimaryDark"
+                />
 
-        </HorizontalScrollView>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycle1"
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_below="@id/testtext"/>
 
-        <HorizontalScrollView
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="#eeeeee">
-
-            //temporary textview just to tell what will replace it
+            android:weightSum="6"
+            android:background="#ffffff"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center_horizontal"
-                android:gravity="center_vertical"
-                android:text="@string/odi_matches" />
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="La Liga Matches"
+                android:gravity="center"
+                android:id="@+id/oditext"
+                android:textColor="@color/colorPrimaryDark"
+                />
 
-        </HorizontalScrollView>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycle2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:layout_below="@+id/oditext"/>
 
-        <HorizontalScrollView
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="#dfdfdf">
-
-            //temporary textview just to tell what will replace it
+            android:weightSum="6"
+            android:background="#ffffff"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center_horizontal"
-                android:gravity="center_vertical"
-                android:text="@string/t20_matches" />
+                android:layout_height="0dp"
+                android:text="Bundesliga Matches"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:id="@+id/t20text"
+                android:textColor="@color/colorPrimaryDark"
+                />
 
-        </HorizontalScrollView>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycle3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:layout_below="@+id/t20text"/>
 
+        </LinearLayout>
 
     </LinearLayout>
 

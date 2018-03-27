@@ -1,15 +1,25 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#cdefab"
+    android:id="@+id/rank1"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.example.manvijay.sports_app.Rankings">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="You will soon see Rankings here...." />
+        android:layout_height="50dip"
+        app:tabBackground="@color/colorPrimaryDark"
+        app:tabIndicatorColor="@color/colorGreen">
 
-</FrameLayout>
+    </android.support.design.widget.TabLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/frame"
+        android:layout_below="@+id/tabs">
+    </FrameLayout>
+
+</RelativeLayout>
