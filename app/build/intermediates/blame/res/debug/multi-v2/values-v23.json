@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Github\\stat-o-score\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "C:\\Users\\Deepak\\Documents\\GitHub\\stat-o-score\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\bansa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\8bbd733f11bdd87046d62ad23d4dddbb\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Deepak\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\bdfe1b02e635587114a105e20b62ce22\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\bansa\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-26.1.0.aar\\a9f61ed5e69ae4497be496ae2833c182\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Deepak\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-26.1.0.aar\\825c82c1e99501b558389ea3002934fc\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

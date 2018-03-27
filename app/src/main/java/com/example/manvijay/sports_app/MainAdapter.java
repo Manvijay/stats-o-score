@@ -45,7 +45,7 @@ class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
 
         public ViewHolder(View itemView) {
             super(itemView);
-            text1=itemView.findViewById(R.id.text1);
+            text1=itemView.findViewById(R.id.text);
         }
        // text1=itemView.findViewById(R.id.text1);
     }
