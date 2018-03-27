@@ -122,7 +122,10 @@ public class TestRankings extends Fragment {
 
                     // The user didn't have any repos.
 
-                    setval("No repos found.");
+                    Toast.makeText(getActivity().getApplicationContext(), "Offline Turn On Connection",
+                            Toast.LENGTH_SHORT).show();
+
+                    //setval("No repos found.");
                 }
             }
         },
@@ -134,8 +137,10 @@ public class TestRankings extends Fragment {
                     public void onErrorResponse(VolleyError error) {
 
                         // If there a HTTP error then add a note to our repo list.
+                        Toast.makeText(getActivity().getApplicationContext(), "Too many Request Or Offline",
+                                Toast.LENGTH_SHORT).show();
 
-                        setval("Error while calling REST API");
+                        //setval("Error while calling REST API");
 
                         Log.e("Volley", error.toString());
 
