@@ -19,7 +19,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.Response;
 
 import com.android.volley.Request;
-
+ 
 import com.android.volley.toolbox.JsonArrayRequest;
 
 import com.android.volley.toolbox.JsonObjectRequest;
@@ -42,7 +42,7 @@ public class TestRankings extends Fragment {
 
     TextView text1,text2,text3,text4,text5,text6,text7;
     RequestQueue req1;
-    String baseUrl = "http://api.football-data.org/v1/competitions/445/leagueTable";
+    String baseUrl = "http://api.football-data.org/v1/competitions/445/leagueTable";  // api url for getting standings from EPL
     String disp = "",disp2 = "",disp3 = "",disp4 = "",disp5 = "",disp6 = "",disp7 = "";
     //ListView listView;
     //ItemArrayAdapter itemArrayAdapter;
@@ -73,18 +73,20 @@ public class TestRankings extends Fragment {
         this.text6 = rootview.findViewById(R.id.epltext6);
         this.text7 = rootview.findViewById(R.id.epltext7);
         req1 = Volley.newRequestQueue(getActivity());
-
+        
+        
+        //api call for getting team standings for EPL
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest (Request.Method.GET, baseUrl, null, new Response.Listener<JSONObject>(){
 
             @Override
 
             public void onResponse(JSONObject response) {
 
-                // Check the length of our response (to see if the user has any repos)
+                // Check the length of our response
 
                 if (response.length() > 0) {
 
-                    // The user does have repos, so let's loop through them all.
+                    //if we did receive some response
                     JSONArray jsonarr = null;
                     try {
                         jsonarr = response.getJSONArray("standing");
@@ -96,7 +98,7 @@ public class TestRankings extends Fragment {
 
                         try {
 
-                            // For each repo, add a new line to our repo list.
+                            // FOr each JsonObject we put the key value in a separate string to displayed later
                             JSONObject temp = jsonarr.getJSONObject(i);
                             disp = disp + temp.get("position").toString() + "\n\n";
                             disp2 = disp2 + temp.get("teamName").toString()  + "\n\n";
@@ -116,11 +118,12 @@ public class TestRankings extends Fragment {
 
                         }
                     }
+                    //function to use the string created before and display it in fragment_test_rankings.xml i.e. EPL Tab
                     setval(disp,disp2,disp3,disp4,disp5,disp6,disp7);
 
                 } else {
 
-                    // The user didn't have any repos.
+                    // if we did not recieve any response
 
                     Toast.makeText(getActivity().getApplicationContext(), "Offline Turn On Connection",
                             Toast.LENGTH_SHORT).show();
@@ -136,7 +139,7 @@ public class TestRankings extends Fragment {
 
                     public void onErrorResponse(VolleyError error) {
 
-                        // If there a HTTP error then add a note to our repo list.
+                        // If there a HTTP error 
                         Toast.makeText(getActivity().getApplicationContext(), "Too many Request Or Offline",
                                 Toast.LENGTH_SHORT).show();
 
@@ -156,9 +159,9 @@ public class TestRankings extends Fragment {
             }
         };
 
-        // Add the request we just defined to our request queue.
+        // Add the api request we just defined to our request queue.
 
-        // The request queue will automatically handle the request as soon as it can.
+        
         req1.add(jsonObjectRequest);
         return rootview;
     }
