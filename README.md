@@ -1,5 +1,3 @@
-
-
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Stat-O-Score/Stat-O-Score_public?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Youtube Link Alpha Release : -
@@ -14,7 +12,7 @@ How to Run:
 5.	Next open the file explorer and navigate to position where you copied the Stat-o-score v0.2.0 in your android device.
 6.	Click on install. It might ask you to enable a security setting to “Enable Install Unknown App”. Click on Enable.
 7.	Now Install the App.
-8.	Congratulations the App is now installed on your phone.
+8.	Congratulations the App is now installed on your phone. Make sure that you have internet connection before starting the App.
 
 
 
