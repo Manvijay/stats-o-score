@@ -1,10 +1,10 @@
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Stat-O-Score/Stat-O-Score_public?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+ [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Stat-O-Score/Stat-O-Score_public?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Youtube Link Alpha Release : -
 https://www.youtube.com/watch?v=nx8Zb8jfRvA
 
 
-How to Run:
+(Easy) How to Run the single executable Apk file:
 1.	In github repo find the APk-s folder
 2.	Inside the folder download the file named Stat-o-score v0.2.0.
 3.	Now connect your android device to the computer and copy the Stat-o-score v0.2.0 to your “android device”. (The app will only work on Google Android OS device)
