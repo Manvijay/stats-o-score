@@ -52,7 +52,7 @@ public class Current_Matches extends Fragment {
     RecyclerView mrecycler1,mrecycler2,mrecycler3;      //Recycler View variables
     RecyclerView.LayoutManager mlayout1,mlayout2,mlayout3; 
     RecyclerView.Adapter madapter1,madapter2,madapter3;
-    ArrayList<String> list1,list2,list3;
+    ArrayList<String> list1,list2,list3;  // array list to store data to be displayed in current matches
 
     RequestQueue req1;
    // api URL's for calling scores from different leagues
@@ -165,7 +165,7 @@ public class Current_Matches extends Fragment {
                             e.printStackTrace();
                         }
                     }
-                    // add command here
+                    // call the MainAdapter class and the pass the array list to handle displaying
                     madapter1 = new MainAdapter(list1);
                     mrecycler1.setLayoutManager(mlayout1);
                     mrecycler1.setAdapter(madapter1);
@@ -273,7 +273,7 @@ public class Current_Matches extends Fragment {
                             e.printStackTrace();
                         }
                     }
-                    // add command here
+                    // Call the MainAdapter class to pass the list2 array to display
                     madapter2 = new MainAdapter(list2);
                     mrecycler2.setLayoutManager(mlayout2);
                     mrecycler2.setAdapter(madapter2);
@@ -380,7 +380,7 @@ public class Current_Matches extends Fragment {
                             e.printStackTrace();
                         }
                     }
-                    // add command here
+                    // call the MainAdapter to pass arraylist list3 to display the matches
                     madapter3 = new MainAdapter(list3);
                     mrecycler3.setLayoutManager(mlayout3);
                     mrecycler3.setAdapter(madapter3);
