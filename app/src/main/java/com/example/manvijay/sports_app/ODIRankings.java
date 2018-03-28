@@ -1,4 +1,4 @@
-//package com.example.manvijay.sports_app;
+package com.example.manvijay.sports_app;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
