@@ -2,8 +2,8 @@
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Stat-O-Score/Stat-O-Score_public?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Youtube Link Prototype
-https://youtu.be/sXmq9UtOkI8
+Youtube Link for Alpha Release Video
+https://www.youtube.com/watch?v=nx8Zb8jfRvA
 
 How to Run:
 •	Open in the github repo find the APk-s folder
