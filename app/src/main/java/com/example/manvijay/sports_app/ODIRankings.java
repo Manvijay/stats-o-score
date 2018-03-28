@@ -1,4 +1,4 @@
-package com.example.manvijay.sports_app;
+//package com.example.manvijay.sports_app;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -33,13 +33,13 @@ import org.json.JSONException;
 
 import java.util.HashMap;
 import java.util.Map;
-
+// this for displaying Stadnings of Team in La Liga
 
 public class ODIRankings extends Fragment {
 
     TextView text1,text2,text3,text4,text5,text6,text7;
     RequestQueue req1;
-    String baseUrl = "http://api.football-data.org/v1/competitions/455/leagueTable";
+    String baseUrl = "http://api.football-data.org/v1/competitions/455/leagueTable";    //api url to get league standings for la liga matches
     String disp = "",disp2 = "",disp3 = "",disp4 = "",disp5 = "",disp6 = "",disp7 = "";
 
 
@@ -71,17 +71,18 @@ public class ODIRankings extends Fragment {
         this.text7 = rootview.findViewById(R.id.ligatext7);
         req1 = Volley.newRequestQueue(getActivity());
 
+        //api call to get league standings for la liga matches
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest (Request.Method.GET, baseUrl, null, new Response.Listener<JSONObject>(){
 
             @Override
 
             public void onResponse(JSONObject response) {
 
-                // Check the length of our response (to see if the user has any repos)
+                // Check the length of our Json request
 
                 if (response.length() > 0) {
 
-                    // The user does have repos, so let's loop through them all.
+                    // The we do have some league stadnigs so let's loop through them all.
                     JSONArray jsonarr = null;
                     try {
                         jsonarr = response.getJSONArray("standing");
@@ -93,7 +94,7 @@ public class ODIRankings extends Fragment {
 
                         try {
 
-                            // For each repo, add a new line to our repo list.
+                            // Get a json object and for each key get it value and put it in a string
                             JSONObject temp = jsonarr.getJSONObject(i);
                             disp = disp + temp.get("position").toString() + "\n\n";
                             disp2 = disp2 + temp.get("teamName").toString()  + "\n\n";
@@ -107,17 +108,18 @@ public class ODIRankings extends Fragment {
 
                         } catch (JSONException e) {
 
-                            // If there is an error then output this to the logs.
+                            // If there is an error
 
                             Log.e("Volley", "Invalid JSON Object.");
 
                         }
                     }
+                    //send our strings to be displayed on fragment_odirankings.xml i.e. the La liga Tab
                     setval(disp,disp2,disp3,disp4,disp5,disp6,disp7);
 
                 } else {
 
-                    // The user didn't have any repos.
+                    // No standings retreived some error
 
                     //setval("No repos found.");
                     Toast.makeText(getActivity().getApplicationContext(), "Offline Turn On Connection",
@@ -132,7 +134,7 @@ public class ODIRankings extends Fragment {
 
                     public void onErrorResponse(VolleyError error) {
 
-                        // If there a HTTP error then add a note to our repo list.
+                        // If there a HTTP error 
 
                         //setval("Error while calling REST API");
                         Toast.makeText(getActivity().getApplicationContext(), "Too many Requests or Offline",
@@ -153,9 +155,9 @@ public class ODIRankings extends Fragment {
         };
 
 
-        // Add the request we just defined to our request queue.
+        // Add the api call request we just defined to our request queue.
 
-        // The request queue will automatically handle the request as soon as it can.
+       
         req1.add(jsonObjectRequest);
 
 
