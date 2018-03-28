@@ -30,7 +30,7 @@ The following are the main goals of our app that we plan on completing before th
 ADD-ON Features:
 Though we have a vivid version of the app there are certain features we believe that we wouldn't be able to include right because of time constraints and inexperience. Also there are certain features in this list which would also require a considerable about of funding :-
 
--> Cover more sports than cricket, like football, tennis and leagues like NBA, NFL etc
+-> Cover more sports than cricket, tennis and leagues like NBA, NFL etc
 -> Create a newsfeed where the user can search by player name and read all the current news about the player. This would fetch news data about the player from the internet and show all the news stories about the player in question
 -> To elaborate on our mingame and create a fantasy league, where users can make their teams and gain points depending on how the player performes in real life.
 -> Live streaming of live matches in the app itself. We could partner with live streaming apps or providers to fulfill this requirement  
