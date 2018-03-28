@@ -1,4 +1,5 @@
- [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Stat-O-Score/Stat-O-Score_public?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Stat-O-Score/Stat-O-Score_public?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Youtube Link Alpha Release : -
 https://www.youtube.com/watch?v=nx8Zb8jfRvA
@@ -13,6 +14,85 @@ https://www.youtube.com/watch?v=nx8Zb8jfRvA
 6.	Click on install. It might ask you to enable a security setting to “Enable Install Unknown App”. Click on Enable.
 7.	Now Install the App.
 8.	Congratulations the App is now installed on your phone. Make sure that you have internet connection before starting the App.
+
+Setup on Android Studio for Devs : -
+
+For Developer to run the you need to download and setup android studio.
+If you don’t have android studio setup already please refer to this link to setup android studio https://www.youtube.com/watch?v=F-k5gwz_91o (Watch till 15 min only)
+After that follow these to run our app in android studio.
+1.	First got to our github repo and copy the our clone https link from here from here
+
+![image](https://user-images.githubusercontent.com/36175612/38015294-54784976-3239-11e8-8510-3e53e61d7cf4.png)
+
+
+
+
+
+
+
+
+
+
+2.	Now open android studio and choose Checkout Version Control -> GitHub (If you don’t see this window click on File -> Close Project)
+
+![image](https://user-images.githubusercontent.com/36175612/38015327-70f8d94e-3239-11e8-899c-b2f0ddef5d33.png)
+
+3.	Now you have to paste the Github clone url we copied earlier here. Select your parent Directory and/or a name for Directory Name.
+
+![image](https://user-images.githubusercontent.com/36175612/38015357-85a1498a-3239-11e8-8073-bfc32c14c3ee.png)
+
+
+
+4.	Click and clone let the process go on
+
+![image](https://user-images.githubusercontent.com/36175612/38015395-9f48c3a4-3239-11e8-84a5-7070fe6c951a.png)
+
+
+
+5.	After cloning is done, you might get an error. Don’t worry just click on okay
+
+![image](https://user-images.githubusercontent.com/36175612/38015429-bb18ae8c-3239-11e8-91d1-6995813cf8e2.png)
+ 
+
+6.	Android Studio will start working on setting up your project
+
+![image](https://user-images.githubusercontent.com/36175612/38015451-cd452842-3239-11e8-9f2c-84aae1e21ba9.png)
+ 
+
+
+
+
+
+
+7.	After the process is done(don’t worry if it’s still giving an error) click on Build -> Clean Project
+
+![image](https://user-images.githubusercontent.com/36175612/38015471-ddc9e7fc-3239-11e8-884b-138b89214595.png)
+
+ 
+
+8.	After its done click on Build -> Build Apk(s)
+
+
+![image](https://user-images.githubusercontent.com/36175612/38015492-eea86544-3239-11e8-938d-3219dd4c6af3.png)
+
+ 
+9.	After that click on Sync Project with Gradle Files icon. If you can’t find the icon just click Tools -> Android -> Sync Gradle Files
+
+
+![image](https://user-images.githubusercontent.com/36175612/38015517-04209554-323a-11e8-8371-beb424b3fe59.png)
+
+ 
+10.	Finally click on Run to start the project
+
+![image](https://user-images.githubusercontent.com/36175612/38015528-0f7fb164-323a-11e8-9af8-da7dc297c843.png)
+
+
+11.	Select your own AVD device from this video. Congrats on running the app.
+
+![image](https://user-images.githubusercontent.com/36175612/38015542-1e836980-323a-11e8-848f-52aaa387a662.png)
+
+![image](https://user-images.githubusercontent.com/36175612/38015557-26e19f84-323a-11e8-86f9-cfa9c3710a2a.png)
+
 
 
 
