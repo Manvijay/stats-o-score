@@ -11,13 +11,14 @@ import java.util.ArrayList;
 /**
  * Created by saksham on 21-Feb-18.
  */
+// this class is for managing the recycler view on our current matches play. It manages the display for all the 3 recycler views
 
 class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
-    ArrayList<String> list1;
+    ArrayList<String> list1;  //receive the String array list to display
 
-
+  
     public MainAdapter(ArrayList<String> templist){
-        list1 = templist;
+        list1 = templist;   
 
     }
 
