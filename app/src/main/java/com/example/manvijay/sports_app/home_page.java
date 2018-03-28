@@ -42,7 +42,7 @@ public class home_page extends AppCompatActivity {
                         transaction.commit();
                         break;
                         
-                        //Calling the Battlefield Acticity
+                        //Calling the Search Acticity
                     case R.id.battlefield_item:
                         Intent intent = new Intent(home_page.this , SearchActivity.class);
                         startActivity(intent);
