@@ -1,3 +1,6 @@
+//This Activity is responsible for Displaying Player Attributes and determining the winner in the Battlefield
+
+
 package com.example.manvijay.sports_app;
 
 /**
