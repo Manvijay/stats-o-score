@@ -20,7 +20,6 @@ import android.view.ViewGroup;
 
 import java.util.ArrayList;
 
-
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
@@ -55,7 +54,8 @@ public class Rankings extends Fragment {
         final View view=inflater.inflate(R.layout.fragment_rankings, container, false);
         Typeface tf= Typeface.createFromAsset(getActivity().getAssets(),"Comfortaa-Regular.ttf");
         final TabLayout tl=(TabLayout) view.findViewById(R.id.tabs);
-        tl.addTab(tl.newTab().setText("EPL"));
+        //setting names of Tabs in Standings page of app. This is for fragments_ranking.xml file
+        tl.addTab(tl.newTab().setText("EPL")); 
         tl.addTab(tl.newTab().setText("La Liga"));
         tl.addTab(tl.newTab().setText("Bundesliga"));
         tl.setTabTextColors(ColorStateList.valueOf(Color.WHITE));
@@ -65,7 +65,8 @@ public class Rankings extends Fragment {
             public void onTabSelected(TabLayout.Tab tab) {
 
                 FragmentTransaction transaction= getFragmentManager().beginTransaction();
-                switch (tab.getPosition()){
+                //switch case to open the pages for different tabs when clicked on
+                switch (tab.getPosition()){                          //getting id of clicked tab from fragment_ranking.xml
 
                     case 0: transaction.replace(R.id.frame, TestRankings.newInstance());
                             transaction.commit();

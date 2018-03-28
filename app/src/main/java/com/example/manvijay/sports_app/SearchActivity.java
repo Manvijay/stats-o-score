@@ -19,6 +19,7 @@ import java.util.List;
 
 public class SearchActivity extends AppCompatActivity  {
 
+    // Declaring all the EditTexts, Button, and ImageViews as private
     private Button startbattle;
     private EditText l_search;
     private EditText r_search;
@@ -27,6 +28,7 @@ public class SearchActivity extends AppCompatActivity  {
     private ImageView profile_Image_Flag_left;
     private ImageView profile_Image_Flag_right;
 
+    //Declaring the Strings which will be used to set the values of players
     String Name_left, Name_right;
     String Accel_left, Accel_right;
     String Finish_left, Finish_right;
@@ -39,62 +41,72 @@ public class SearchActivity extends AppCompatActivity  {
     String Image_left, Image_right;
     String Flag_left, Flag_right;
 
-
+    //Activity_search layout will be opened in onCreate
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
+        
+        //these variables are referencing to the id's of activity_search.xml layout  
+        startbattle = (Button) findViewById(R.id.battle);  // id battle in xml file
+        l_search = (EditText) findViewById(R.id.search_left);  // id search_left in xml file
+        r_search = (EditText) findViewById(R.id.search_right); // id search_right in xml file
 
-        startbattle = (Button) findViewById(R.id.battle);
-        l_search = (EditText) findViewById(R.id.search_left);
-        r_search = (EditText) findViewById(R.id.search_right);
-
-
-        /*profile_Image_left = (ImageView) findViewById(R.id.imageViewLeft);
-        profile_Image_right = (ImageView) findViewById(R.id.imageViewRight);
-*/
+        //SetOnClickListener function will call when Button (startbattle) will be clicked
         startbattle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //Getting the players data from app/res/raw/complete_dataset.csv
                 InputStream inputStream = getResources().openRawResource(R.raw.complete_dataset);
                 CSVFile csvFile = new CSVFile(inputStream);
+                //Setting the data of players in List<String[]> format
                 List<String[]> mylist = csvFile.read();
                 String left1, right1;
                 String ls = null;
-                ls=l_search.getText().toString();
+                ls=l_search.getText().toString();  // getting the name of player one into ls from the search field in search activity
                 String rs = null;
-                rs=r_search.getText().toString();
+                rs=r_search.getText().toString();  //getting the name of player second into rs from the search field in search activity
+                
+                //checking the name fields ls and rs are empty
                 if(ls.isEmpty() && rs.isEmpty())
                 {
+                    // if yes then it is calling this same search_activity again and showing the toast "player names required" 
                     Toast.makeText(getApplicationContext(),"Player Names Required ",Toast.LENGTH_SHORT).show();
                     Intent intent2= new Intent(SearchActivity.this, SearchActivity.class);
-                    startActivity(intent2);
+                    startActivity(intent2); // starting the activity
                 }
+                // checking first name is empty or name contains spaces at the begining or end
                 else if(ls.isEmpty() || ls.trim().length()==0)
                 {
+                    //if yes then it is calling this same search_activity again and showing the toast "Player 1 name Required"
                     Toast.makeText(getApplicationContext(),"Player 1 Name Required ",Toast.LENGTH_SHORT).show();
                     Intent intent2= new Intent(SearchActivity.this, SearchActivity.class);
-                    startActivity(intent2);
+                    startActivity(intent2); // starting the activity
                 }
-                else if(rs.isEmpty() || rs.trim().length()==0) {
+                
+                //checking the second name is empty or name contains spaces at the  begining or end
+                else if(rs.isEmpty() || rs.trim().length()==0) 
+                {
+                    //if yes then it is calling the same search_activity again and showing the toast "Player 2 name is required"
                     Toast.makeText(getApplicationContext(), "Player 2 Name Required ", Toast.LENGTH_SHORT).show();
                     Intent intent2 = new Intent(SearchActivity.this, SearchActivity.class);
-                    startActivity(intent2);
+                    startActivity(intent2); //starting the activity
                 }
+                
+                // will enter in this loop if names are in proper format 
                 else {
                     int i=0,j=0;
-                   for (i = 0; i < mylist.size(); i++) {
+                   for (i = 0; i < mylist.size(); i++) {  // loop will run until name is found in database 
 
                         String[] left = mylist.get(i);
-                        // left1 = left[0].toLowerCase();
-                        String lower_ls = ls.toLowerCase();
-                        String str_left = left[0].toString();
+                        String lower_ls = ls.toLowerCase();   // Changing the name into lowercase
+                        String str_left = left[0].toString();  
                         String got_left = str_left.toLowerCase();
-
+                        
+                        //if name is found then all the stats will be stored in the variables given below
                         if (got_left.contains(lower_ls)) {
                             Name_left = left[0].toString();
                             Accel_left = left[8].toString();
-                            //Toast.makeText(getApplicationContext(),m.getAccel_left(),Toast.LENGTH_SHORT).show();
                             Finish_left = left[9].toString();
                             Free_left = left[10].toString();
                             Pen_left = left[11].toString();
@@ -110,16 +122,14 @@ public class SearchActivity extends AppCompatActivity  {
 
                     }
 
-
-
-
-
+                    //loop will run until name is found in database
                     for (j = 0; j < mylist.size(); j++) {
                         String[] right = mylist.get(j);
-                        String lower_rs = rs.toLowerCase();
+                        String lower_rs = rs.toLowerCase();  // changing the name into lowercase
                         String str_right = right[0].toString();
                         String got_right = str_right.toLowerCase();
-                        //right1 = right[0].toLowerCase();
+                        
+                        //if name is found then all the stats will be stored in the variables given below
                          if (got_right.contains(lower_rs)) {
                             Name_right = right[0].toString();
                             Accel_right = right[8].toString();
@@ -135,29 +145,25 @@ public class SearchActivity extends AppCompatActivity  {
                             break;
                         }
 
-                       /* if(i==1798)
-                        {
-                            Toast.makeText(getApplicationContext(),"Player 2 Not Found ",Toast.LENGTH_SHORT).show();
-                            Intent intent2= new Intent(SearchActivity.this, SearchActivity.class);
-                            startActivity(intent2);
-                        }*/
-
-
                     }
-
-
+                    
+                    //if name1 is not found in the database then print the player not found and load the search_activity again
                     if(i>mylist.size()-1)
                     {
                         Toast.makeText(getApplicationContext(),"Player 1 Not Found ",Toast.LENGTH_SHORT).show();
                         Intent intent2= new Intent(SearchActivity.this, SearchActivity.class);
                         startActivity(intent2);
                     }
+                    
+                    //if name2 is not found in the database then print the player not found and load the search_activity again
                     else if(j>mylist.size()-1)
                     {
                         Toast.makeText(getApplicationContext(),"Player 2 Not Found ",Toast.LENGTH_SHORT).show();
                         Intent intent2= new Intent(SearchActivity.this, SearchActivity.class);
                         startActivity(intent2);
                     }
+                    
+                    // if name is found then sending all the values to BattleActivity via intent1 object
                     else
                     {
                     Intent intent1 = new Intent(SearchActivity.this, BattleActivity.class);
@@ -185,7 +191,7 @@ public class SearchActivity extends AppCompatActivity  {
                     intent1.putExtra("Flag_right", Flag_right);
 
 
-                    startActivity(intent1);
+                    startActivity(intent1); 
 
                 }}
             }
@@ -194,6 +200,7 @@ public class SearchActivity extends AppCompatActivity  {
 
 
     }
+    //home_page activity is called when back button is pressed 
     @Override
     public void onBackPressed() {
         Intent intent4 = new Intent(SearchActivity.this,home_page.class);

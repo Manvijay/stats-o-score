@@ -34,12 +34,13 @@ import org.json.JSONException;
 import java.util.HashMap;
 import java.util.Map;
 
+// this is for displaying standings of teams in Bundesliga 
 
 public class T20Rankings extends Fragment {
 
     TextView text1,text2,text3,text4,text5,text6,text7;
     RequestQueue req1;
-    String baseUrl = "http://api.football-data.org/v1/competitions/452/leagueTable";
+    String baseUrl = "http://api.football-data.org/v1/competitions/452/leagueTable";  //api url for getting bundesliga teams standings
     String disp = "",disp2 = "",disp3 = "",disp4 = "",disp5 = "",disp6 = "",disp7 = "";
 
 
@@ -71,18 +72,19 @@ public class T20Rankings extends Fragment {
         this.text6 = rootview.findViewById(R.id.bundestext6);
         this.text7 = rootview.findViewById(R.id.bundestext7);
         req1 = Volley.newRequestQueue(getActivity());
-
+        
+        //api call through Http json to get the Bundesliga standings
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest (Request.Method.GET, baseUrl, null, new Response.Listener<JSONObject>(){
 
             @Override
 
             public void onResponse(JSONObject response) {
 
-                // Check the length of our response (to see if the user has any repos)
+                // Check the length of our response
 
                 if (response.length() > 0) {
 
-                    // The user does have repos, so let's loop through them all.
+                    // if we did receive a response with the standings
                     JSONArray jsonarr = null;
                     try {
                         jsonarr = response.getJSONArray("standing");
@@ -94,7 +96,7 @@ public class T20Rankings extends Fragment {
 
                         try {
 
-                            // For each repo, add a new line to our repo list.
+                            // For every json object we get value from each key and put it in its respective strings to display later
                             JSONObject temp = jsonarr.getJSONObject(i);
                             disp = disp + temp.get("position").toString() + "\n\n";
                             disp2 = disp2 + temp.get("teamName").toString()  + "\n\n";
@@ -114,11 +116,13 @@ public class T20Rankings extends Fragment {
 
                         }
                     }
+                    
+                    //function to pass all strings to be displayed on our fragments_t20rankings.xml i.e. Bundesliga Tab 
                     setval(disp,disp2,disp3,disp4,disp5,disp6,disp7);
 
                 } else {
 
-                    // The user didn't have any repos.
+                    // If we didnt receive any response
 
                    // setval("No repos found.");
                     Toast.makeText(getActivity().getApplicationContext(), "Offline Turn On Connection",
@@ -133,7 +137,7 @@ public class T20Rankings extends Fragment {
 
                     public void onErrorResponse(VolleyError error) {
 
-                        // If there a HTTP error then add a note to our repo list.
+                        // If there a HTTP error
 
                         //setval("Error while calling REST API");
                         Toast.makeText(getActivity().getApplicationContext(), "Too many Request or Offline",
@@ -153,9 +157,9 @@ public class T20Rankings extends Fragment {
             }
         };
 
-        // Add the request we just defined to our request queue.
+        // Add the api request we just defined to our request queue.
 
-        // The request queue will automatically handle the request as soon as it can.
+        
         req1.add(jsonObjectRequest);
         return rootview;
     }

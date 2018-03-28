@@ -1,3 +1,6 @@
+//This Activity is responsible for Displaying Player Attributes and determining the winner in the Battlefield
+
+
 package com.example.manvijay.sports_app;
 
 /**
@@ -22,10 +25,11 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
+//Start the Activity
 public class BattleActivity extends AppCompatActivity {
 
-
-    String Name_left, Name_right;
+    //String to get values from Search Activity
+    String Name_left, Name_right;       
     String Accel_left, Accel_right;
     String Finish_left, Finish_right;
     String Free_left, Free_right;
@@ -37,8 +41,9 @@ public class BattleActivity extends AppCompatActivity {
     String Image_left, Image_right;
     String Flag_left,Flag_right;
 
-    int leftCount = 0, rightCount = 0;
-
+    int leftCount = 0, rightCount = 0;  // Counters to determine the Winner
+    
+    //Declaring Views for each Attribute to be linked in the Layout
     private TextView acc_left;
     private TextView acc_right;
     private TextView fin_left;
@@ -63,12 +68,13 @@ public class BattleActivity extends AppCompatActivity {
     private ImageView profile_Image_Flag_right;
 
 
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_battlefield);
-
+        
+        //Getting the Values from Search Activity into this Activity
         Name_left = getIntent().getExtras().getString("Name_left");
         Name_right = getIntent().getExtras().getString("Name_right");
         Accel_left = getIntent().getExtras().getString("Accel_left");
@@ -92,7 +98,7 @@ public class BattleActivity extends AppCompatActivity {
         Flag_left = getIntent().getExtras().getString("Flag_left");
         Flag_right = getIntent().getExtras().getString("Flag_right");
 
-
+        //Determining the Winner by comparing all attributes of the players
         if(Integer.parseInt(Accel_left)>Integer.parseInt(Accel_right)){
             leftCount++;
         }
@@ -129,13 +135,14 @@ public class BattleActivity extends AppCompatActivity {
         TextView mresult = (TextView) findViewById(R.id.result);
         if(leftCount>rightCount){
 
-            mresult.setText(Name_left.trim());
+            mresult.setText(Name_left.trim());//Display Winner Player1 Name
         }
         else
         {
-            mresult.setText(Name_right.trim());
+            mresult.setText(Name_right.trim());//Display Winner Player2 Name
         }
-
+        
+        //Give Id to each View so that it can link to the Layout
         naam_left = (TextView) findViewById(R.id.name_left);
         naam_right = (TextView) findViewById(R.id.name_right);
         acc_left = (TextView) findViewById(R.id.acceleration_left);
@@ -159,8 +166,8 @@ public class BattleActivity extends AppCompatActivity {
         profile_Image_Flag_left = (ImageView) findViewById(R.id.imageViewFlagLeft);
         profile_Image_Flag_right = (ImageView) findViewById(R.id.imageViewFlagRight);
 
-        //Toast.makeText(getApplicationContext(),model.getNam_right(),Toast.LENGTH_SHORT).show();
-
+               
+        //Set Values to each Attribute 
         naam_left.setText(Name_left);
         naam_right.setText(Name_right);
         Glide.with(this).load(Image_left).into(profile_Image_left);
@@ -187,6 +194,7 @@ public class BattleActivity extends AppCompatActivity {
 
 
     }
+    //If back button is pressed, go to Search Activity
     @Override
     public void onBackPressed() {
         Intent intent4 = new Intent(BattleActivity.this, SearchActivity.class);

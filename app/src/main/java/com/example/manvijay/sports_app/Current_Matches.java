@@ -28,8 +28,6 @@ import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
 
-
-
 import org.json.JSONArray;
 
 import org.json.JSONObject;
@@ -51,15 +49,16 @@ import java.util.*;
  */
 public class Current_Matches extends Fragment {
    
-    RecyclerView mrecycler1,mrecycler2,mrecycler3;
-    RecyclerView.LayoutManager mlayout1,mlayout2,mlayout3;
+    RecyclerView mrecycler1,mrecycler2,mrecycler3;      //Recycler View variables
+    RecyclerView.LayoutManager mlayout1,mlayout2,mlayout3; 
     RecyclerView.Adapter madapter1,madapter2,madapter3;
-    ArrayList<String> list1,list2,list3;
+    ArrayList<String> list1,list2,list3;  // array list to store data to be displayed in current matches
 
     RequestQueue req1;
-    String urlepl = "http://api.football-data.org/v1/competitions/445/fixtures/";
-    String urlliga = "http://api.football-data.org/v1/competitions/455/fixtures/";
-    String urlbundes = "http://api.football-data.org/v1/competitions/452/fixtures/";
+   // api URL's for calling scores from different leagues
+    String urlepl = "http://api.football-data.org/v1/competitions/445/fixtures/";  // this for epl 
+    String urlliga = "http://api.football-data.org/v1/competitions/455/fixtures/"; // this is for laliga
+    String urlbundes = "http://api.football-data.org/v1/competitions/452/fixtures/";  // this is for bundesliga
 
     public static Current_Matches newInstance() {
         Current_Matches fragment = new Current_Matches();
@@ -78,9 +77,10 @@ public class Current_Matches extends Fragment {
 
         Toast.makeText(getActivity().getApplicationContext(), "Loading Matches..",
                 Toast.LENGTH_SHORT).show();
-
-        View rootView = inflater.inflate(R.layout.fragment_current__matches, container, false);
-        mrecycler1 = rootView.findViewById(R.id.recycle1);
+       
+       //initializes rootView with fragment_current_mathces.xml layout
+        View rootView = inflater.inflate(R.layout.fragment_current__matches, container, false);  
+        mrecycler1 = rootView.findViewById(R.id.recycle1); 
         mrecycler2 = rootView.findViewById(R.id.recycle2);
         mrecycler3 = rootView.findViewById(R.id.recycle3);
         list1 = new ArrayList<>();
@@ -95,18 +95,19 @@ public class Current_Matches extends Fragment {
         mlayout1 = new LinearLayoutManager(getActivity(),LinearLayoutManager.HORIZONTAL,false);
         mlayout2 = new LinearLayoutManager(getActivity(),LinearLayoutManager.HORIZONTAL,false);
         mlayout3 = new LinearLayoutManager(getActivity(),LinearLayoutManager.HORIZONTAL,false);
-
+       
+         // api call for epl mathces
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest (Request.Method.GET,  urlepl, null, new Response.Listener<JSONObject>(){
 
             @Override
 
             public void onResponse(JSONObject response) {
 
-                // Check the length of our response (to see if the user has any repos)
+                // Check the length of our response (to see if we getting fixtures)
 
                 if (response.length() > 0) {
 
-                    // The user does have repos, so let's loop through them all.
+                    // We did receive fixtures so let's loop through them all.
                     JSONArray jsonarr = null;
                     Integer count = null;
                     try {
@@ -133,14 +134,14 @@ public class Current_Matches extends Fragment {
 
                         try {
 
-                            // For each repo, add a new line to our repo list.
+                            // For each new fixture add the value to the our layout
                             JSONObject temp = jsonarr.getJSONObject(i);
                             String tempdate = temp.get("date").toString();
                             tempdate = tempdate.substring(0,10);
                             Date temp2 = mdformat.parse(tempdate);
                             if( (temp.get("status").toString().equals("FINISHED") || temp.get("status").toString().equals("IN_PLAY")) && temp2.after(curr) &&  temp2.before(currfut) ) {
                                 JSONObject result = temp.getJSONObject("result");
-
+                                 //adding values to list1 for display
                                 list1.add(temp.get("homeTeamName").toString() + " " + result.get("goalsHomeTeam").toString() + "\n" + temp.get("awayTeamName").toString() + " " + result.get("goalsAwayTeam").toString());
 
 
@@ -164,14 +165,14 @@ public class Current_Matches extends Fragment {
                             e.printStackTrace();
                         }
                     }
-                    // add command here
+                    // call the MainAdapter class and the pass the array list to handle displaying
                     madapter1 = new MainAdapter(list1);
                     mrecycler1.setLayoutManager(mlayout1);
                     mrecycler1.setAdapter(madapter1);
 
                 } else {
 
-                    // The user didn't have any repos.
+                    // We did not receive any fixtures
 
                     //list1.add("Too many requests, try after some time");
                     Toast.makeText(getActivity().getApplicationContext(), "Offline Turn On Connection",
@@ -186,7 +187,7 @@ public class Current_Matches extends Fragment {
 
                     public void onErrorResponse(VolleyError error) {
 
-                        // If there a HTTP error then add a note to our repo list.
+                        // If there a HTTP error then display a pop-up error message.
 
                         //list1.add("Too many requests, try after some time");
                         Toast.makeText(getActivity().getApplicationContext(), "Too many Request or Offline",
@@ -203,18 +204,18 @@ public class Current_Matches extends Fragment {
                 return params;
             }
         };
-
+         //api call for laliga matches
         JsonObjectRequest jsonObjectRequest1 = new JsonObjectRequest (Request.Method.GET,  urlliga, null, new Response.Listener<JSONObject>(){
 
             @Override
 
             public void onResponse(JSONObject response) {
 
-                // Check the length of our response (to see if the user has any repos)
+                
 
                 if (response.length() > 0) {
 
-                    // The user does have repos, so let's loop through them all.
+                    
                     JSONArray jsonarr = null;
                     Integer count = null;
                     try {
@@ -241,7 +242,7 @@ public class Current_Matches extends Fragment {
 
                         try {
 
-                            // For each repo, add a new line to our repo list.
+                            
                             JSONObject temp = jsonarr.getJSONObject(i);
                             String tempdate = temp.get("date").toString();
                             tempdate = tempdate.substring(0,10);
@@ -272,15 +273,14 @@ public class Current_Matches extends Fragment {
                             e.printStackTrace();
                         }
                     }
-                    // add command here
+                    // Call the MainAdapter class to pass the list2 array to display
                     madapter2 = new MainAdapter(list2);
                     mrecycler2.setLayoutManager(mlayout2);
                     mrecycler2.setAdapter(madapter2);
 
                 } else {
 
-                    // The user didn't have any repos.
-
+                    
                     //list2.add("Too many requests, try after some time");
                     Toast.makeText(getActivity().getApplicationContext(), "Offline Turn On Connection",
                             Toast.LENGTH_SHORT).show();
@@ -294,8 +294,7 @@ public class Current_Matches extends Fragment {
 
                     public void onErrorResponse(VolleyError error) {
 
-                        // If there a HTTP error then add a note to our repo list.
-
+                        
                        // list2.add("Too many requests, try after some time");
                         Toast.makeText(getActivity().getApplicationContext(), "Too many Request or Offline",
                                 Toast.LENGTH_SHORT).show();
@@ -312,18 +311,18 @@ public class Current_Matches extends Fragment {
                 return params;
             }
         };
-
+            //api call for bundseliga matches
         JsonObjectRequest jsonObjectRequest2 = new JsonObjectRequest (Request.Method.GET,  urlbundes, null, new Response.Listener<JSONObject>(){
 
             @Override
 
             public void onResponse(JSONObject response) {
 
-                // Check the length of our response (to see if the user has any repos)
+                
 
                 if (response.length() > 0) {
 
-                    // The user does have repos, so let's loop through them all.
+                    
                     JSONArray jsonarr = null;
                     Integer count = null;
                     try {
@@ -381,15 +380,14 @@ public class Current_Matches extends Fragment {
                             e.printStackTrace();
                         }
                     }
-                    // add command here
+                    // call the MainAdapter to pass arraylist list3 to display the matches
                     madapter3 = new MainAdapter(list3);
                     mrecycler3.setLayoutManager(mlayout3);
                     mrecycler3.setAdapter(madapter3);
 
                 } else {
 
-                    // The user didn't have any repos.
-
+                    
                     //list3.add("Too many requests, try after some time");
                     Toast.makeText(getActivity().getApplicationContext(), "Offline Turn On Connection",
                             Toast.LENGTH_SHORT).show();
@@ -403,8 +401,7 @@ public class Current_Matches extends Fragment {
 
                     public void onErrorResponse(VolleyError error) {
 
-                        // If there a HTTP error then add a note to our repo list.
-
+                        
                        // list3.add("Too many requests, try after some time");
                         Toast.makeText(getActivity().getApplicationContext(), "Too many Request or Offline",
                                 Toast.LENGTH_SHORT).show();
@@ -417,11 +414,11 @@ public class Current_Matches extends Fragment {
             @Override
             public Map<String, String> getHeaders() throws AuthFailureError {
                 Map<String, String>  params = new HashMap<String, String>();
-                params.put("X-Auth-Token", " c1719e0814b54b13a2e1725eb778ed13");
+                params.put("X-Auth-Token", " c1719e0814b54b13a2e1725eb778ed13");  // our api key for making that api call
                 return params;
             }
         };
-
+         // adding all the api calls to HTTP request queue
         req1.add(jsonObjectRequest);
         req1.add(jsonObjectRequest1);
         req1.add(jsonObjectRequest2);

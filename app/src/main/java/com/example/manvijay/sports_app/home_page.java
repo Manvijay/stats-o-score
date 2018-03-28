@@ -1,3 +1,4 @@
+
 package com.example.manvijay.sports_app;
 
 /**
@@ -29,14 +30,19 @@ public class home_page extends AppCompatActivity {
                 android.support.v4.app.FragmentManager fragmentManager= getSupportFragmentManager();
                 android.support.v4.app.FragmentTransaction transaction = fragmentManager.beginTransaction();
                 switch(item.getItemId()){
+                        //Calling the Current_matches fragment
                     case R.id.current_matches_item:
                         transaction.replace(R.id.frame_layout, Current_Matches.newInstance());
                         transaction.commit();
                         break;
+                        
+                        //Calling the Rankings Fragment
                     case R.id.rankings_item:
                         transaction.replace(R.id.frame_layout, Rankings.newInstance());
                         transaction.commit();
                         break;
+                        
+                        //Calling the Search Acticity
                     case R.id.battlefield_item:
                         Intent intent = new Intent(home_page.this , SearchActivity.class);
                         startActivity(intent);
@@ -53,6 +59,7 @@ public class home_page extends AppCompatActivity {
         transaction.commit();
     }
 
+    //Exiting the app when clicking the back button
     @Override
     public void onBackPressed() {
         Intent intent = new Intent(Intent.ACTION_MAIN);
