@@ -12,7 +12,7 @@ Regardless the app will run fine on your phone as well as android studio
 https://www.youtube.com/watch?v=nx8Zb8jfRvA
 
 
-## **(Easy) How to Run the single executable Apk file:**
+## **(Easy) How to install and run the app:**
 1.	In github repo find the APk-s folder
 2.	Inside the folder download the file named Stat-o-score v0.2.0.
 3.	Now connect your android device to the computer and copy the Stat-o-score v0.2.0 to your “android device”. (The app will only work on Google Android OS device)
@@ -20,7 +20,7 @@ https://www.youtube.com/watch?v=nx8Zb8jfRvA
 5.	Next open the file explorer and navigate to position where you copied the Stat-o-score v0.2.0 in your android device.
 6.	Click on install. It might ask you to enable a security setting to “Enable Install Unknown App”. Click on Enable.
 7.	Now Install the App.
-8.	Congratulations the App is now installed on your phone. Make sure that you have internet connection before starting the App.
+8.	Voila! The App is now installed on your phone. Make sure that you have internet connection before using the App.
 
 ## **Setup on Android Studio for Devs : -**
 
