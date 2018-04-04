@@ -1,4 +1,4 @@
-
+## Gitter Badge:-
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Stat-O-Score/Stat-O-Score_public?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 # **IMPORTANT NOTICE TO DEVS !!!**
@@ -102,9 +102,10 @@ After that follow these to run our app in android studio.
 
 
 
-# **MVP:**
+# **OverView:-**
 Our goal is to make an Android App by the name "Stat-o-Score" that will provide a new vision to the sports app category. Usually sports app tick few important boxes, like provide stats for players or provide scores of matches. However, we plan on adding some twist to that and add a sort of minigame in the app, which will be a kind of battle arena where the user can compare two players and see which one comes to the top. Our app will currently only focus on one sport i.e. "soccer" (because we are very passionate about the game!!).  
 
+## **MVP:-**
 **The following are the main goals of our app that we plan on completing before the end of CSE442 semester :-**
 1. Add live score of ongoing matches
 2. Add schedule of future matches for the year
