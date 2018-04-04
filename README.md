@@ -127,4 +127,4 @@ Though we have a vivid version of the app there are certain features we believe 
 
 ## **USER STORY:**
 
-"I want an app on my smartphone that gives me live scores of soccer games going on right now. I also want to see the standings of my favourite soccer club playing in a league. I also want to use the app to be able to compare two proffessional soccer players currently playing and see which of two is better based on his stats like strength, free kick prowess, sprint speed and many more."
+"I want an app on my smartphone that gives me live scores of soccer games going on right now. I want to see the standings of my favourite soccer club playing in a league. I should be able to compare two proffessional soccer players currently playing and see which of the two is better based on his stats like strength, free kick prowess, sprint speed and many more."
