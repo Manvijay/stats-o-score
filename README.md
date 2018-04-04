@@ -22,7 +22,7 @@ https://www.youtube.com/watch?v=nx8Zb8jfRvA
 7.	Now Install the App.
 8.	Voila! The App is now installed on your phone. Make sure that you have internet connection before using the App.
 
-Note: In case of any difficulty while running the app, visit the youtube link provided above to know the functionality better. Enjoy!
+Note: In case of any difficulty while running the app, visit the YouTube link provided above to know the functionality better. Enjoy!
 
 ## **Setup on Android Studio for Devs : -**
 
