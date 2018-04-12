@@ -8,6 +8,7 @@ package com.example.manvijay.sports_app;
  */
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Parcelable;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -67,7 +68,6 @@ public class BattleActivity extends AppCompatActivity {
     private ImageView profile_Image_Flag_left;
     private ImageView profile_Image_Flag_right;
 
-
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -101,45 +101,129 @@ public class BattleActivity extends AppCompatActivity {
         //Determining the Winner by comparing all attributes of the players
         if(Integer.parseInt(Accel_left)>Integer.parseInt(Accel_right)){
             leftCount++;
+            TextView acc_r_l = (TextView) findViewById(R.id.accel_result_left);
+            acc_r_l.setText("Win");
+            TextView acc_r_r = (TextView) findViewById(R.id.accel_result_right);
+            acc_r_r.setText("Lose");
         }
-        else rightCount++;
+        else {
+            rightCount++;
+            TextView acc_r_l = (TextView) findViewById(R.id.accel_result_left);
+            acc_r_l.setText("Lose");
+            TextView acc_r_r = (TextView) findViewById(R.id.accel_result_right);
+            acc_r_r.setText("Win");
+        }
         if(Integer.parseInt(Finish_left)>Integer.parseInt(Finish_right)){
             leftCount++;
+            TextView fin_r_l = (TextView) findViewById(R.id.finish_result_left);
+            fin_r_l.setText("Win");
+            TextView fin_r_r = (TextView) findViewById(R.id.finish_result_right);
+            fin_r_r.setText("Lose");
         }
-        else rightCount++;
+        else {
+            TextView fin_r_l = (TextView) findViewById(R.id.finish_result_left);
+            fin_r_l.setText("Lose");
+            TextView fin_r_r = (TextView) findViewById(R.id.finish_result_right);
+            fin_r_r.setText("Win");
+            rightCount++;
+        }
         if(Integer.parseInt(Free_left)>Integer.parseInt(Free_right)){
             leftCount++;
+            TextView kick_r_l = (TextView) findViewById(R.id.kick_result_left);
+            kick_r_l.setText("Win");
+            TextView kick_r_r = (TextView) findViewById(R.id.kick_result_right);
+            kick_r_r.setText("Lose");
         }
-        else rightCount++;
+        else {
+            TextView kick_r_l = (TextView) findViewById(R.id.kick_result_left);
+            kick_r_l.setText("Lose");
+            TextView kick_r_r = (TextView) findViewById(R.id.kick_result_right);
+            kick_r_r.setText("Win");
+            rightCount++;
+        }
         if(Integer.parseInt(Pen_left)>Integer.parseInt(Pen_right)){
             leftCount++;
+            TextView pen_r_l = (TextView) findViewById(R.id.pen_result_left);
+            pen_r_l.setText("Win");
+            TextView pen_r_r = (TextView) findViewById(R.id.pen_result_right);
+            pen_r_r.setText("Lose");
         }
-        else rightCount++;
+        else {
+            TextView pen_r_l = (TextView) findViewById(R.id.pen_result_left);
+            pen_r_l.setText("Lose");
+            TextView pen_r_r = (TextView) findViewById(R.id.pen_result_right);
+            pen_r_r.setText("Win");
+            rightCount++;
+        }
         if(Integer.parseInt(Pow_left)>Integer.parseInt(Pow_right)){
             leftCount++;
+            TextView pow_r_l = (TextView) findViewById(R.id.pow_result_left);
+            pow_r_l.setText("Win");
+            TextView pow_r_r = (TextView) findViewById(R.id.pow_result_right);
+            pow_r_r.setText("Lose");
         }
-        else rightCount++;
+        else {
+            TextView pow_r_l = (TextView) findViewById(R.id.pow_result_left);
+            pow_r_l.setText("Lose");
+            TextView pow_r_r = (TextView) findViewById(R.id.pow_result_right);
+            pow_r_r.setText("Win");
+            rightCount++;
+        }
         if(Integer.parseInt(Sprint_left)>Integer.parseInt(Sprint_right)){
             leftCount++;
+            TextView speed_r_l = (TextView) findViewById(R.id.speed_result_left);
+            speed_r_l.setText("Win");
+            TextView speed_r_r = (TextView) findViewById(R.id.speed_result_right);
+            speed_r_r.setText("Lose");
         }
-        else rightCount++;
+        else {
+            TextView speed_r_l = (TextView) findViewById(R.id.speed_result_left);
+            speed_r_l.setText("Lose");
+            TextView speed_r_r = (TextView) findViewById(R.id.speed_result_right);
+            speed_r_r.setText("Win");
+            rightCount++;
+        }
         if(Integer.parseInt(Strength_left)>Integer.parseInt(Strength_right)){
             leftCount++;
+            TextView strength_r_l = (TextView) findViewById(R.id.strength_result_left);
+            strength_r_l.setText("Win");
+            TextView strength_r_r = (TextView) findViewById(R.id.strength_result_right);
+            strength_r_r.setText("Lose");
         }
-        else rightCount++;
-        if(Integer.parseInt(Sta_left)>Integer.parseInt(Strength_right)){
+        else {
+            TextView strength_r_l = (TextView) findViewById(R.id.strength_result_left);
+            strength_r_l.setText("Lose");
+            TextView strength_r_r = (TextView) findViewById(R.id.strength_result_right);
+            strength_r_r.setText("Win");
+            rightCount++;
+        }
+        if(Integer.parseInt(Sta_left)>Integer.parseInt(Sta_right)){
             leftCount++;
+            TextView stamina_r_l = (TextView) findViewById(R.id.stamina_result_left);
+            stamina_r_l.setText("Win");
+            TextView stamina_r_r = (TextView) findViewById(R.id.stamina_result_right);
+            stamina_r_r.setText("Lose");
         }
-        else rightCount++;
+        else {
+            TextView stamina_r_l = (TextView) findViewById(R.id.stamina_result_left);
+            stamina_r_l.setText("Lose");
+            TextView stamina_r_r = (TextView) findViewById(R.id.stamina_result_right);
+            stamina_r_r.setText("Win");
+            rightCount++;
+        }
 
         TextView mresult = (TextView) findViewById(R.id.result);
         if(leftCount>rightCount){
 
             mresult.setText(Name_left.trim());//Display Winner Player1 Name
         }
-        else
+        else if(leftCount<rightCount)
         {
             mresult.setText(Name_right.trim());//Display Winner Player2 Name
+        }
+        else
+        {
+            mresult.setText("Nobody");
         }
         
         //Give Id to each View so that it can link to the Layout
