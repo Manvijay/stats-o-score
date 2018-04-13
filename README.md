@@ -12,8 +12,8 @@ Regardless the app will run fine on your phone as well as android studio
 
 **The Club logos of La Liga and Bundesliga are still under development.**
 
-**Youtube Link Alpha Release : -**
-https://www.youtube.com/watch?v=nx8Zb8jfRvA
+**Youtube Link Beta Release : -**
+https://www.youtube.com/watch?v=CtqGfHxLzNs
 
 
 ## **(Easy) How to install and run the app:**
