@@ -1,21 +1,34 @@
+# Stats-o-Score
+
+### Landing Page for this app: https://manvijay.github.io/stats-o-score/ 
+
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Stat-O-Score/Stat-O-Score_public?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Youtube Link Alpha Release : -
-https://www.youtube.com/watch?v=nx8Zb8jfRvA
+## **IMPORTANT NOTICE TO DEVS !!!**
+We know that when you run app in Android Studio you might see a lot of errors in the IDE.
+This has to do with some android studio update error because on older versions it didn't show us any. We are currently looking into a workaround to temporarily stop showing those errors.
+Regardless the app will run fine on your phone as well as android studio
+
+**The Club logos of La Liga and Bundesliga are still under development.**
+
+**Youtube Link Beta Release : -**
+https://www.youtube.com/watch?v=CtqGfHxLzNs
 
 
-(Easy) How to Run the single executable Apk file:
+## **(Easy) How to install and run the app:**
 1.	In github repo find the APk-s folder
-2.	Inside the folder download the file named Stat-o-score v0.2.0.
-3.	Now connect your android device to the computer and copy the Stat-o-score v0.2.0 to your “android device”. (The app will only work on Google Android OS device)
+2.	Inside the folder download the file named Stat-o-score v0.3.0.
+3.	Now connect your android device to the computer and copy the Stat-o-score v0.3.0 to your “android device”. (The app will only work on Google Android OS device)
 4.	Now in your android device open a file explorer. If you don’t have one you can download one from the Google Play Appstore. I recommend “Astro File Manager”. Link to download Astro File Manager link : https://play.google.com/store/apps/details?id=com.metago.astro&hl=en 
-5.	Next open the file explorer and navigate to position where you copied the Stat-o-score v0.2.0 in your android device.
+5.	Next, open the file explorer and navigate to position where you copied the Stat-o-score v0.3.0 in your android device.
 6.	Click on install. It might ask you to enable a security setting to “Enable Install Unknown App”. Click on Enable.
 7.	Now Install the App.
-8.	Congratulations the App is now installed on your phone. Make sure that you have internet connection before starting the App.
+8.	Voila! The App is now installed on your phone. Make sure that you have internet connection before using the App.
 
-Setup on Android Studio for Devs : -
+Note: In case of any difficulty while running the app, visit the YouTube link provided above to know the functionality better. Enjoy!
+
+## **Setup on Android Studio for Devs : -**
 
 For Developer to run the you need to download and setup android studio.
 If you don’t have android studio setup already please refer to this link to setup android studio https://www.youtube.com/watch?v=F-k5gwz_91o (Watch till 15 min only)
@@ -96,23 +109,24 @@ After that follow these to run our app in android studio.
 
 
 
-MVP:
-Our goal is to make an Android App by the name "Stat-o-Score" that will provide a new vision to the sports app category. Usually sports app tick few important boxes, like provide stats for players or provide scores of matches. However, we plan on adding some twist to that and add a sort of minigame in the app, which will be a kind of battle arena where the user can compare two players and see which one comes to the top. Our app will currently only focus on one sport i.e. "soccer" (because we are very passionate about the game!!).  
+## **Overview:-**
+Our goal is to make an Android App by the name "Stats-o-Score" that will provide a new vision to the sports app category. Usually sports app tick few important boxes, like providing stats for players or provide scores of matches. However, we plan on adding a new dimesnion  to that and add a sort of minigame within the app, which will be a kind of battle arena. Here, the user can compare two players and see which one comes on top. Initially this app will focus on one soccer and we plan on adding more sports later.  
 
-The following are the main goals of our app that we plan on completing before the end of CSE442 semester :-
-1> Add live score of ongoing matches
-2> Add schedule of future matches for the year
-3> Add stats of all the international players in the world right now
-4> Add a VS battle mode and a leaderboard for the players (minigame).
+## **MVP:-**
+**The following are the main goals of our app that we plan on completing before the end of CSE442 semester :-**
+1. Add live score of ongoing matches
+2. Add schedule of future matches for the year
+3. Add stats of all the international players in the world right now
+4. Add a VS battle mode and a leaderboard for the players (minigame).
 
-ADD-ON Features:
+## **ADD-ON Features:**
 Though we have a vivid version of the app there are certain features we believe that we wouldn't be able to include right because of time constraints and inexperience. Also there are certain features in this list which would also require a considerable about of funding :-
 
--> Cover more sports than cricket, tennis and leagues like NBA, NFL etc
--> Create a newsfeed where the user can search by player name and read all the current news about the player. This would fetch news data about the player from the internet and show all the news stories about the player in question
--> To elaborate on our mingame and create a fantasy league, where users can make their teams and gain points depending on how the player performes in real life.
--> Live streaming of live matches in the app itself. We could partner with live streaming apps or providers to fulfill this requirement  
+- Cover more sports than cricket, tennis and leagues like NBA, NFL etc
+- Create a newsfeed where the user can search by player name and read all the current news about the player. This would fetch news data about the player from the internet and show all the news stories about the player in question
+- To elaborate on our mingame and create a fantasy league, where users can make their teams and gain points depending on how the player performes in real life.
+- Live streaming of live matches in the app itself. We could partner with live streaming apps or providers to fulfill this requirement  
 
-USER STORY:
+## **USER STORY:**
 
-I want an app on my smartphone that gives me live scores of soccer games going on right now. I also want to see the standings of my favourite soccer club in playing in a league. I also want to use the app to be able to compare two proffessional soccer players currently playing and see which of two is better based on his stats like strength, free kick prowess, sprint speed and many more. 
+I want an app on my smartphone that gives me live scores of soccer games going on right now. I want to see the standings of my favourite soccer club playing in a league. I should be able to compare two proffessional soccer players currently playing and see which of the two is better based on his stats like strength, free kick prowess, sprint speed and many more.
