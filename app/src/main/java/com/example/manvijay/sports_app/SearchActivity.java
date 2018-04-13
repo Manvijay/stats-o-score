@@ -77,9 +77,12 @@ public class SearchActivity extends AppCompatActivity  {
             public void onClick(View v) {
                 //Getting the players data from app/res/raw/complete_dataset.csv
                 InputStream inputStream = getResources().openRawResource(R.raw.complete_dataset);
+                //InputStream inputS = getResources().openRawResource(R.raw.countries);
+                //CSVFile csvF = new CSVFile(inputS);
                 CSVFile csvFile = new CSVFile(inputStream);
                 //Setting the data of players in List<String[]> format
                 List<String[]> mylist = csvFile.read();
+                //List<String[]> myClist = csvF.read();
                 String left1, right1;
                 String ls = null;
                 ls=l_search.getText().toString();  // getting the name of player one into ls from the search field in search activity
@@ -134,6 +137,16 @@ public class SearchActivity extends AppCompatActivity  {
                             Sta_left = left[14].toString();
                             Strength_left = left[15].toString();
                             Image_left = left[1].toString();
+                            /*String FL = left[2].toString();
+                            for(j=0;j<myClist.size();j++)
+                            {
+                                String[] CL = myClist.get(j);
+                                String toS = CL[0].toString();
+                                if(toS.equals(FL))
+                                {
+                                    Flag_left = CL[5];
+                                }
+                            }*/
                             Flag_left = left[3].toString();
                             break;
                         }
@@ -160,6 +173,16 @@ public class SearchActivity extends AppCompatActivity  {
                             Sta_right = (right[14].toString());
                             Strength_right = (right[15].toString());
                             Image_right = right[1].toString();
+                            /* String RL = right[2].toString();
+                             for(j=0;j<myClist.size();j++)
+                             {
+                                 String[] CR = myClist.get(j);
+                                 String toSs = CR[0].toString();
+                                 if(toSs.equals(RL))
+                                 {
+                                     Flag_right = CR[5];
+                                 }
+                             }*/
                             Flag_right = right[3].toString();
                             break;
                         }
