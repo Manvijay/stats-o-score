@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.gif.GifDrawableResource;
-import com.squareup.picasso.Picasso;
+//import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
