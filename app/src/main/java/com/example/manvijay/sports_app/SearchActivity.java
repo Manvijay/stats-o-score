@@ -2,10 +2,17 @@ package com.example.manvijay.sports_app;
 
 /* Created by Deepak */
 
+import android.app.Fragment;
+import android.app.FragmentManager;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Parcelable;
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -19,14 +26,18 @@ import java.util.List;
 
 public class SearchActivity extends AppCompatActivity  {
 
+
     // Declaring all the EditTexts, Button, and ImageViews as private
     private Button startbattle;
     private EditText l_search;
     private EditText r_search;
+    private TextView title;
     private ImageView profile_Image_left;
     private ImageView profile_Image_right;
     private ImageView profile_Image_Flag_left;
     private ImageView profile_Image_Flag_right;
+
+    Typeface tf;
 
     //Declaring the Strings which will be used to set the values of players
     String Name_left, Name_right;
@@ -46,11 +57,19 @@ public class SearchActivity extends AppCompatActivity  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
-        
+
+        tf = Typeface.createFromAsset(getAssets(), "Comfortaa-Regular.ttf");
+
         //these variables are referencing to the id's of activity_search.xml layout  
         startbattle = (Button) findViewById(R.id.battle);  // id battle in xml file
         l_search = (EditText) findViewById(R.id.search_left);  // id search_left in xml file
         r_search = (EditText) findViewById(R.id.search_right); // id search_right in xml file
+        title = (TextView) findViewById(R.id.textView_search);
+
+        startbattle.setTypeface(tf);
+        l_search.setTypeface(tf);
+        r_search.setTypeface(tf);
+        title.setTypeface(tf);
 
         //SetOnClickListener function will call when Button (startbattle) will be clicked
         startbattle.setOnClickListener(new View.OnClickListener() {
@@ -200,7 +219,7 @@ public class SearchActivity extends AppCompatActivity  {
 
 
     }
-    //home_page activity is called when back button is pressed 
+    //home_page activity is called when back button is pressed
     @Override
     public void onBackPressed() {
         Intent intent4 = new Intent(SearchActivity.this,home_page.class);
