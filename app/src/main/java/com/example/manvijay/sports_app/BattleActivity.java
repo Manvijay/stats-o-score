@@ -308,7 +308,7 @@ public class BattleActivity extends AppCompatActivity {
             TextView stamina_r_r = (TextView) findViewById(R.id.stamina_result_right);
             stamina_r_r.setTypeface(tf);
             stamina_r_r.setText("Win");
-            stamina_r_l.setTextColor(Color.parseColor("#7cfc00"));
+            stamina_r_r.setTextColor(Color.parseColor("#7cfc00"));
             rightCount++;
         }
 
