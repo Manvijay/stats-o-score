@@ -1,4 +1,4 @@
-#Tue Mar 27 16:49:32 EDT 2018
-base.0=C\:\\Users\\amrit\\Documents\\GitHub\\stats-o-score\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+#Thu Apr 12 02:33:58 EDT 2018
+base.0=C\:\\Users\\Manvijay\\StudioProjects\\stats-o-score\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
 path.0=classes.dex
 renamed.0=classes.dex

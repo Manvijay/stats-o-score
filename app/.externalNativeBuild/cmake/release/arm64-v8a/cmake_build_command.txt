@@ -1,15 +1,15 @@
-Executable : C:\Users\amrit\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe
+Executable : C:\Users\Manvijay\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe
 arguments : 
--HC:\Users\amrit\Documents\GitHub\stats-o-score\app
--BC:\Users\amrit\Documents\GitHub\stats-o-score\app\.externalNativeBuild\cmake\release\arm64-v8a
+-HC:\Users\Manvijay\StudioProjects\stats-o-score\app
+-BC:\Users\Manvijay\StudioProjects\stats-o-score\app\.externalNativeBuild\cmake\release\arm64-v8a
 -DANDROID_ABI=arm64-v8a
 -DANDROID_PLATFORM=android-21
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\amrit\Documents\GitHub\stats-o-score\app\build\intermediates\cmake\release\obj\arm64-v8a
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\Manvijay\StudioProjects\stats-o-score\app\build\intermediates\cmake\release\obj\arm64-v8a
 -DCMAKE_BUILD_TYPE=Release
--DANDROID_NDK=C:\Users\amrit\AppData\Local\Android\Sdk\ndk-bundle
+-DANDROID_NDK=C:\Users\Manvijay\AppData\Local\Android\Sdk\ndk-bundle
 -DCMAKE_CXX_FLAGS=
--DCMAKE_TOOLCHAIN_FILE=C:\Users\amrit\AppData\Local\Android\Sdk\ndk-bundle\build\cmake\android.toolchain.cmake
--DCMAKE_MAKE_PROGRAM=C:\Users\amrit\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\Manvijay\AppData\Local\Android\Sdk\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=C:\Users\Manvijay\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe
 -GAndroid Gradle - Ninja
 jvmArgs : 
 
