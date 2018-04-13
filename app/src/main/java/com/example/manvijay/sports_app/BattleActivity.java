@@ -139,35 +139,43 @@ public class BattleActivity extends AppCompatActivity {
             TextView acc_r_l = (TextView) findViewById(R.id.accel_result_left);
             acc_r_l.setTypeface(tf);
             acc_r_l.setText("Win");
+            acc_r_l.setTextColor(Color.parseColor("#7cfc00"));
             TextView acc_r_r = (TextView) findViewById(R.id.accel_result_right);
             acc_r_r.setTypeface(tf);
             acc_r_r.setText("Lose");
+            acc_r_r.setTextColor(Color.parseColor("#ff0000"));
         }
         else {
             rightCount++;
             TextView acc_r_l = (TextView) findViewById(R.id.accel_result_left);
             acc_r_l.setTypeface(tf);
             acc_r_l.setText("Lose");
+            acc_r_l.setTextColor(Color.parseColor("#ff0000"));
             TextView acc_r_r = (TextView) findViewById(R.id.accel_result_right);
             acc_r_l.setTypeface(tf);
             acc_r_r.setText("Win");
+            acc_r_r.setTextColor(Color.parseColor("#7cfc00"));
         }
         if(Integer.parseInt(Finish_left)>Integer.parseInt(Finish_right)){
             leftCount++;
             TextView fin_r_l = (TextView) findViewById(R.id.finish_result_left);
             fin_r_l.setTypeface(tf);
             fin_r_l.setText("Win");
+            fin_r_l.setTextColor(Color.parseColor("#7cfc00"));
             TextView fin_r_r = (TextView) findViewById(R.id.finish_result_right);
             fin_r_r.setTypeface(tf);
             fin_r_r.setText("Lose");
+            fin_r_r.setTextColor(Color.parseColor("#ff0000"));
         }
         else {
             TextView fin_r_l = (TextView) findViewById(R.id.finish_result_left);
             fin_r_l.setTypeface(tf);
             fin_r_l.setText("Lose");
+            fin_r_l.setTextColor(Color.parseColor("#ff0000"));
             TextView fin_r_r = (TextView) findViewById(R.id.finish_result_right);
             fin_r_r.setTypeface(tf);
             fin_r_r.setText("Win");
+            fin_r_r.setTextColor(Color.parseColor("#7cfc00"));
             rightCount++;
         }
         if(Integer.parseInt(Free_left)>Integer.parseInt(Free_right)){
@@ -175,17 +183,22 @@ public class BattleActivity extends AppCompatActivity {
             TextView kick_r_l = (TextView) findViewById(R.id.kick_result_left);
             kick_r_l.setTypeface(tf);
             kick_r_l.setText("Win");
+            kick_r_l.setTextColor(Color.parseColor("#7cfc00"));
             TextView kick_r_r = (TextView) findViewById(R.id.kick_result_right);
             kick_r_r.setTypeface(tf);
             kick_r_r.setText("Lose");
+            kick_r_r.setTextColor(Color.parseColor("#ff0000"));
         }
         else {
             TextView kick_r_l = (TextView) findViewById(R.id.kick_result_left);
             kick_r_l.setTypeface(tf);
             kick_r_l.setText("Lose");
+            kick_r_l.setTextColor(Color.parseColor("#ff0000"));
             TextView kick_r_r = (TextView) findViewById(R.id.kick_result_right);
             kick_r_r.setTypeface(tf);
             kick_r_r.setText("Win");
+            kick_r_r.setTextColor(Color.parseColor("#7cfc00"));
+
             rightCount++;
         }
         if(Integer.parseInt(Pen_left)>Integer.parseInt(Pen_right)){
@@ -193,17 +206,21 @@ public class BattleActivity extends AppCompatActivity {
             TextView pen_r_l = (TextView) findViewById(R.id.pen_result_left);
             pen_r_l.setTypeface(tf);
             pen_r_l.setText("Win");
+            pen_r_l.setTextColor(Color.parseColor("#7cfc00"));
             TextView pen_r_r = (TextView) findViewById(R.id.pen_result_right);
             pen_r_r.setTypeface(tf);
             pen_r_r.setText("Lose");
+            pen_r_r.setTextColor(Color.parseColor("#ff0000"));
         }
         else {
             TextView pen_r_l = (TextView) findViewById(R.id.pen_result_left);
             pen_r_l.setTypeface(tf);
             pen_r_l.setText("Lose");
+            pen_r_l.setTextColor(Color.parseColor("#ff0000"));
             TextView pen_r_r = (TextView) findViewById(R.id.pen_result_right);
             pen_r_r.setTypeface(tf);
             pen_r_r.setText("Win");
+            pen_r_r.setTextColor(Color.parseColor("#7cfc00"));
             rightCount++;
         }
         if(Integer.parseInt(Pow_left)>Integer.parseInt(Pow_right)){
@@ -211,17 +228,21 @@ public class BattleActivity extends AppCompatActivity {
             TextView pow_r_l = (TextView) findViewById(R.id.pow_result_left);
             pow_r_l.setTypeface(tf);
             pow_r_l.setText("Win");
+            pow_r_l.setTextColor(Color.parseColor("#7cfc00"));
             TextView pow_r_r = (TextView) findViewById(R.id.pow_result_right);
             pow_r_r.setTypeface(tf);
             pow_r_r.setText("Lose");
+            pow_r_r.setTextColor(Color.parseColor("#ff0000"));
         }
         else {
             TextView pow_r_l = (TextView) findViewById(R.id.pow_result_left);
             pow_r_l.setTypeface(tf);
             pow_r_l.setText("Lose");
+            pow_r_l.setTextColor(Color.parseColor("#ff0000"));
             TextView pow_r_r = (TextView) findViewById(R.id.pow_result_right);
             pow_r_r.setTypeface(tf);
             pow_r_r.setText("Win");
+            pow_r_r.setTextColor(Color.parseColor("#7cfc00"));
             rightCount++;
         }
         if(Integer.parseInt(Sprint_left)>Integer.parseInt(Sprint_right)){
@@ -229,17 +250,21 @@ public class BattleActivity extends AppCompatActivity {
             TextView speed_r_l = (TextView) findViewById(R.id.speed_result_left);
             speed_r_l.setTypeface(tf);
             speed_r_l.setText("Win");
+            speed_r_l.setTextColor(Color.parseColor("#7cfc00"));
             TextView speed_r_r = (TextView) findViewById(R.id.speed_result_right);
             speed_r_r.setTypeface(tf);
             speed_r_r.setText("Lose");
+            speed_r_r.setTextColor(Color.parseColor("#ff0000"));
         }
         else {
             TextView speed_r_l = (TextView) findViewById(R.id.speed_result_left);
             speed_r_l.setTypeface(tf);
             speed_r_l.setText("Lose");
+            speed_r_l.setTextColor(Color.parseColor("#ff0000"));
             TextView speed_r_r = (TextView) findViewById(R.id.speed_result_right);
             speed_r_r.setTypeface(tf);
             speed_r_r.setText("Win");
+            speed_r_r.setTextColor(Color.parseColor("#7cfc00"));
             rightCount++;
         }
         if(Integer.parseInt(Strength_left)>Integer.parseInt(Strength_right)){
@@ -247,17 +272,21 @@ public class BattleActivity extends AppCompatActivity {
             TextView strength_r_l = (TextView) findViewById(R.id.strength_result_left);
             strength_r_l.setTypeface(tf);
             strength_r_l.setText("Win");
+            strength_r_l.setTextColor(Color.parseColor("#7cfc00"));
             TextView strength_r_r = (TextView) findViewById(R.id.strength_result_right);
             strength_r_r.setTypeface(tf);
             strength_r_r.setText("Lose");
+            strength_r_r.setTextColor(Color.parseColor("#ff0000"));
         }
         else {
             TextView strength_r_l = (TextView) findViewById(R.id.strength_result_left);
             strength_r_l.setTypeface(tf);
             strength_r_l.setText("Lose");
+            strength_r_l.setTextColor(Color.parseColor("#ff0000"));
             TextView strength_r_r = (TextView) findViewById(R.id.strength_result_right);
             strength_r_r.setTypeface(tf);
             strength_r_r.setText("Win");
+            strength_r_r.setTextColor(Color.parseColor("#7cfc00"));
             rightCount++;
         }
         if(Integer.parseInt(Sta_left)>Integer.parseInt(Sta_right)){
@@ -265,17 +294,21 @@ public class BattleActivity extends AppCompatActivity {
             TextView stamina_r_l = (TextView) findViewById(R.id.stamina_result_left);
             stamina_r_l.setTypeface(tf);
             stamina_r_l.setText("Win");
+            stamina_r_l.setTextColor(Color.parseColor("#7cfc00"));
             TextView stamina_r_r = (TextView) findViewById(R.id.stamina_result_right);
             stamina_r_r.setTypeface(tf);
             stamina_r_r.setText("Lose");
+            stamina_r_r.setTextColor(Color.parseColor("#ff0000"));
         }
         else {
             TextView stamina_r_l = (TextView) findViewById(R.id.stamina_result_left);
             stamina_r_l.setTypeface(tf);
             stamina_r_l.setText("Lose");
+            stamina_r_l.setTextColor(Color.parseColor("#ff0000"));
             TextView stamina_r_r = (TextView) findViewById(R.id.stamina_result_right);
             stamina_r_r.setTypeface(tf);
             stamina_r_r.setText("Win");
+            stamina_r_l.setTextColor(Color.parseColor("#7cfc00"));
             rightCount++;
         }
 
