@@ -36,7 +36,7 @@
             android:paddingTop="20dp"
             android:text="Name"
             android:textAlignment="center"
-            android:textSize="20dp">
+            android:textSize="18dp">
 
         </TextView>
 
@@ -50,7 +50,7 @@
             android:paddingTop="20dp"
             android:text="Name"
             android:textAlignment="center"
-            android:textSize="20dp">
+            android:textSize="18dp">
 
         </TextView>
 
@@ -166,15 +166,18 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Win/Lose"
+                    android:textSize="13sp"
                     tools:layout_width="match_parent" />
 
                 <TextView
+                    android:id="@+id/acc1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Acceleration"
                     android:textAlignment="center"
                     tools:layout_weight="1" />
+                    android:textSize="13dp"
 
                 <TextView
                     android:id="@+id/accel_result_right"
@@ -182,7 +185,9 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Win/Lose"
-                    android:textAlignment="textEnd" />
+                    android:textSize="13sp"
+                    android:textAlignment="textEnd"
+                    />
 
                 <TextView
                     android:id="@+id/acceleration_right"
@@ -215,13 +220,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Win/Lose" />
+                    android:text="Win/Lose"
+                    android:textSize="13sp" />
 
                 <TextView
+                    android:id="@+id/fin1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Finishing"
+                    android:textSize="13sp"
                     android:textAlignment="center" />
 
                 <TextView
@@ -230,6 +238,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Win/Lose"
+                    android:textSize="13sp"
                     android:textAlignment="textEnd" />
 
                 <TextView
@@ -264,13 +273,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Win/Lose" />
+                    android:text="Win/Lose"
+                    android:textSize="13sp" />
 
                 <TextView
+                    android:id="@+id/kick1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Free Kick"
+                    android:textSize="13sp"
                     android:textAlignment="center" />
 
                 <TextView
@@ -279,6 +291,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Win/Lose"
+                    android:textSize="13sp"
                     android:textAlignment="textEnd" />
 
                 <TextView
@@ -313,13 +326,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Win/Lose" />
+                    android:text="Win/Lose"
+                    android:textSize="13sp"/>
 
                 <TextView
+                    android:id="@+id/penal1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Penalties"
+                    android:textSize="13sp"
                     android:textAlignment="center" />
 
                 <TextView
@@ -328,6 +344,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Win/Lose"
+                    android:textSize="13sp"
                     android:textAlignment="textEnd" />
 
                 <TextView
@@ -362,13 +379,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Win/Lose" />
+                    android:text="Win/Lose"
+                    android:textSize="13sp"/>
 
                 <TextView
+                    android:id="@+id/shot1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Shot Power"
+                    android:textSize="13sp"
                     android:textAlignment="center" />
 
                 <TextView
@@ -377,6 +397,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Win/Lose"
+                    android:textSize="13sp"
                     android:textAlignment="textEnd" />
 
                 <TextView
@@ -411,13 +432,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Win/Lose" />
+                    android:text="Win/Lose"
+                    android:textSize="13sp"/>
 
                 <TextView
+                    android:id="@+id/sprint1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Sprint Speed"
+                    android:textSize="13sp"
                     android:textAlignment="center" />
 
                 <TextView
@@ -426,6 +450,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Win/Lose"
+                    android:textSize="13sp"
                     android:textAlignment="textEnd" />
 
                 <TextView
@@ -460,13 +485,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Win/Lose" />
+                    android:text="Win/Lose"
+                    android:textSize="13sp"/>
 
                 <TextView
+                    android:id="@+id/sta1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Stamina"
+                    android:textSize="13sp"
                     android:textAlignment="center" />
 
                 <TextView
@@ -475,6 +503,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Win/Lose"
+                    android:textSize="13sp"
                     android:textAlignment="textEnd" />
 
                 <TextView
@@ -509,13 +538,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Win/Lose" />
+                    android:text="Win/Lose"
+                    android:textSize="13sp"/>
 
                 <TextView
+                    android:id="@+id/stren1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Strength"
+                    android:textSize="13sp"
                     android:textAlignment="center" />
 
                 <TextView
@@ -524,6 +556,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Win/Lose"
+                    android:textSize="13sp"
                     android:textAlignment="textEnd" />
 
                 <TextView
@@ -558,9 +591,9 @@
                 android:textSize="22sp"
                 android:textStyle="bold"
                 android:layout_weight="1"/>
-
+              
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/result2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="monospace"
