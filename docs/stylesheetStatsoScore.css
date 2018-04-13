@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Didact+Gothic|Julius+Sans+One');
+
+body,html{
+  padding: 0;
+  margin: 0;
+  background-color: red;
+  font-family: "Comfortaa";
+}
+
+#topBar{
+  display: block;
+  position: relative;
+  height: 68vh; /*2vh is padding on top so that makes it 70vh*/
+  width: 100%;
+  background:#3498DB;
+  padding-top:2vh;
+  margin: 0;
+  overflow: hidden;
+  /*background: url("topBarBackground.jpg");
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: cover;*/
+}
+
+#topBarTop{
+  width: 100%;
+  height: 20%;
+  position: relative;
+  font-family: 'Comfortaa',cursive;
+}
+
+#topBarTop img{
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  left: 50vw;
+  transform: translateX(-50%);
+}
+
+.grid2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: auto;
+}
+
+#topBarBottom{
+  display: grid;
+  height: 75%;
+}
+
+#topBarText{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#topBarText p{
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "Comfortaa", cursive;
+
+}
+
+#appScreenShot{
+  position: relative;
+  overflow: hidden;
+}
+
+#appScreenShot figure{
+  position: relative;
+  width: 300%;
+}
+
+#appScreenShot figure #imageContainer{
+  position: relative;
+  width: 25%;
+}
+
+#appScreenShot #imageContainer img{
+  position: relative;
+  width: 100%;
+}
+
+#appFeatures{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: white;
+  text-align: center;
+}
+
+.title{
+  font-size: 40px;
+  padding: 10vh 0;
+  font-family: "Comfortaa", cursive;
+  text-align: center;
+}
+
+.grid3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 3vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+#gridItem{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#appFeatures #gridItem #imageContainer img{
+  max-width: auto;
+  height: 40vh;
+}
+
+#appFeatures #gridItem #imageContainer p{
+  position: relative;
+  text-align: center;
+}
+
+#Instructions{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(grey, white, white, white, white, white, white, white, white);
+  text-align: center;
+
+}
+
+
+
+#linkSection{
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  background-color:#3498DB;
+  text-align: center;
+}
+
+#linkSection i{
+  font-size: 3vw;
+}
+
+footer{
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding:8px 0px;;
+}
