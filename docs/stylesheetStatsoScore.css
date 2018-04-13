@@ -8,6 +8,11 @@ body,html{
   font-weight: normal;
 }
 
+a{
+  text-decoration: none;
+  color:#3498DB;
+}
+
 #topBar{
   display: block;
   position: relative;
@@ -146,19 +151,25 @@ body,html{
 #Instructions{
   position: relative;
   width: 100%;
-  background: linear-gradient(grey, white, white, white, white, white, white, white, white);
+  /*background: linear-gradient(grey, white, white, white, white, white, white, white, white);*/
+  background: white;
   text-align: center;
   padding-bottom: 20px;
 
 }
 
-.subInstructions{
-  height: 100vh;
-}
-
 .subInstructions #title{
   color:#3498DB;
   font-weight: bold;
+  font-size: 1.6em;
+  padding-bottom: 20px;
+}
+
+.subInstructions p{
+  font-weight: normal;
+  font-size: 0.7em;
+  text-align: justify;
+  padding: 20px;
 }
 
 
@@ -198,6 +209,27 @@ footer{
   font-weight: normal;
   text-align: center;
   padding:8px 0px;
+}
+
+.grid5{
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 3vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.grid5 #imageContainer{
+  position: relative;
+  max-width: 80%;
+  height: 200px;
+}
+
+.grid5 #imageContainer img{
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 
