@@ -552,11 +552,12 @@
 
                 android:layout_height="wrap_content"
                 android:fontFamily="monospace"
-                android:gravity="center"
+                android:gravity="bottom"
                 android:text="Result"
                 android:textAlignment="center"
                 android:textSize="22sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:layout_weight="1"/>
 
             <TextView
                 android:id="@+id/textView2"
@@ -566,7 +567,8 @@
                 android:text="is the Winner"
                 android:textAlignment="center"
                 android:textSize="22sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:layout_weight="1"/>
 
         </LinearLayout>
 
