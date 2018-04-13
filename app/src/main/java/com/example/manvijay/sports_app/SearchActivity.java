@@ -2,10 +2,17 @@ package com.example.manvijay.sports_app;
 
 /* Created by Deepak */
 
+import android.app.Fragment;
+import android.app.FragmentManager;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Parcelable;
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -19,14 +26,18 @@ import java.util.List;
 
 public class SearchActivity extends AppCompatActivity  {
 
+
     // Declaring all the EditTexts, Button, and ImageViews as private
     private Button startbattle;
     private EditText l_search;
     private EditText r_search;
+    private TextView title;
     private ImageView profile_Image_left;
     private ImageView profile_Image_right;
     private ImageView profile_Image_Flag_left;
     private ImageView profile_Image_Flag_right;
+
+    Typeface tf;
 
     //Declaring the Strings which will be used to set the values of players
     String Name_left, Name_right;
@@ -46,11 +57,19 @@ public class SearchActivity extends AppCompatActivity  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
-        
+
+        tf = Typeface.createFromAsset(getAssets(), "Comfortaa-Regular.ttf");
+
         //these variables are referencing to the id's of activity_search.xml layout  
         startbattle = (Button) findViewById(R.id.battle);  // id battle in xml file
         l_search = (EditText) findViewById(R.id.search_left);  // id search_left in xml file
         r_search = (EditText) findViewById(R.id.search_right); // id search_right in xml file
+        title = (TextView) findViewById(R.id.textView_search);
+
+        startbattle.setTypeface(tf);
+        l_search.setTypeface(tf);
+        r_search.setTypeface(tf);
+        title.setTypeface(tf);
 
         //SetOnClickListener function will call when Button (startbattle) will be clicked
         startbattle.setOnClickListener(new View.OnClickListener() {
@@ -58,9 +77,12 @@ public class SearchActivity extends AppCompatActivity  {
             public void onClick(View v) {
                 //Getting the players data from app/res/raw/complete_dataset.csv
                 InputStream inputStream = getResources().openRawResource(R.raw.complete_dataset);
+                //InputStream inputS = getResources().openRawResource(R.raw.countries);
+                //CSVFile csvF = new CSVFile(inputS);
                 CSVFile csvFile = new CSVFile(inputStream);
                 //Setting the data of players in List<String[]> format
                 List<String[]> mylist = csvFile.read();
+                //List<String[]> myClist = csvF.read();
                 String left1, right1;
                 String ls = null;
                 ls=l_search.getText().toString();  // getting the name of player one into ls from the search field in search activity
@@ -115,6 +137,16 @@ public class SearchActivity extends AppCompatActivity  {
                             Sta_left = left[14].toString();
                             Strength_left = left[15].toString();
                             Image_left = left[1].toString();
+                            /*String FL = left[2].toString();
+                            for(j=0;j<myClist.size();j++)
+                            {
+                                String[] CL = myClist.get(j);
+                                String toS = CL[0].toString();
+                                if(toS.equals(FL))
+                                {
+                                    Flag_left = CL[5];
+                                }
+                            }*/
                             Flag_left = left[3].toString();
                             break;
                         }
@@ -141,6 +173,16 @@ public class SearchActivity extends AppCompatActivity  {
                             Sta_right = (right[14].toString());
                             Strength_right = (right[15].toString());
                             Image_right = right[1].toString();
+                            /* String RL = right[2].toString();
+                             for(j=0;j<myClist.size();j++)
+                             {
+                                 String[] CR = myClist.get(j);
+                                 String toSs = CR[0].toString();
+                                 if(toSs.equals(RL))
+                                 {
+                                     Flag_right = CR[5];
+                                 }
+                             }*/
                             Flag_right = right[3].toString();
                             break;
                         }
@@ -200,7 +242,7 @@ public class SearchActivity extends AppCompatActivity  {
 
 
     }
-    //home_page activity is called when back button is pressed 
+    //home_page activity is called when back button is pressed
     @Override
     public void onBackPressed() {
         Intent intent4 = new Intent(SearchActivity.this,home_page.class);

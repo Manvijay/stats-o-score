@@ -9,21 +9,35 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.annotation.NonNull;
 import android.support.design.internal.BottomNavigationItemView;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Spannable;
+import android.text.SpannableString;
+import android.view.Menu;
 import android.view.MenuItem;
+import android.view.ViewGroup;
 
 public class home_page extends AppCompatActivity {
+
+    Typeface tf;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_page);
 
+        final ViewGroup mContainer = (ViewGroup) findViewById(android.R.id.content).getRootView();
+        final Typeface tf = Typeface.createFromAsset(getAssets(), "Comfortaa-Regular.ttf");
+        Parameters.setAppFont(mContainer, tf);
+
         BottomNavigationView bottomNB= (BottomNavigationView) findViewById(R.id.bottom_navigation_bar);
+
         bottomNB.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {

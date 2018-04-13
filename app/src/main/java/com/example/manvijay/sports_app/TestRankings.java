@@ -1,5 +1,6 @@
 package com.example.manvijay.sports_app;
 
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Parcelable;
 import android.support.v4.app.Fragment;
@@ -41,6 +42,7 @@ import java.util.*;
 public class TestRankings extends Fragment {
 
     TextView text1,text2,text3,text4,text5,text6,text7;
+    TextView pos1, team1, pg1, w1, l1, d1, pts1;
     RequestQueue req1;
     String baseUrl = "http://api.football-data.org/v1/competitions/445/leagueTable";  // api url for getting standings from EPL
     String disp = "",disp2 = "",disp3 = "",disp4 = "",disp5 = "",disp6 = "",disp7 = "";
@@ -64,6 +66,9 @@ public class TestRankings extends Fragment {
                              Bundle savedInstanceState) {
         Toast.makeText(getActivity().getApplicationContext(), "Loading ..",
                 Toast.LENGTH_SHORT).show();
+
+        Typeface tf = Typeface.createFromAsset(getActivity().getAssets(), "Comfortaa-Regular.ttf");
+
         View rootview = inflater.inflate(R.layout.fragment_test_rankings, container, false);
         this.text1 = rootview.findViewById(R.id.epltext);
         this.text2 = rootview.findViewById(R.id.epltext2);
@@ -73,6 +78,30 @@ public class TestRankings extends Fragment {
         this.text6 = rootview.findViewById(R.id.epltext6);
         this.text7 = rootview.findViewById(R.id.epltext7);
         req1 = Volley.newRequestQueue(getActivity());
+
+        this.text1.setTypeface(tf);
+        this.text2.setTypeface(tf);
+        this.text3.setTypeface(tf);
+        this.text4.setTypeface(tf);
+        this.text5.setTypeface(tf);
+        this.text6.setTypeface(tf);
+        this.text7.setTypeface(tf);
+
+        pos1 = rootview.findViewById(R.id.pos);
+        team1 = rootview.findViewById(R.id.Team);
+        pg1 = rootview.findViewById(R.id.pg);
+        w1 = rootview.findViewById(R.id.w);
+        l1 = rootview.findViewById(R.id.l);
+        d1 = rootview.findViewById(R.id.d);
+        pts1 = rootview.findViewById(R.id.pts);
+
+        pos1.setTypeface(tf);
+        team1.setTypeface(tf);
+        pg1.setTypeface(tf);
+        w1.setTypeface(tf);
+        l1.setTypeface(tf);
+        d1.setTypeface(tf);
+        pts1.setTypeface(tf);
         
         
         //api call for getting team standings for EPL

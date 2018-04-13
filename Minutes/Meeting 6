@@ -1,0 +1,25 @@
+Date : 30 March 2018
+Time : 1pm - 3pm
+
+Meeting Attendence :-
+Saksham Bansal - Present
+Amritpal Singh - Present
+Vishal Saharan - Present
+Deepak         - Present
+Manvijay       - Present
+
+Brief Summary of Meeting Discussion :-
+We discussed the requirements for the beta release and discuessed whether if anyone had any problems handling their assigned tasks.  
+We also settled on timeline for the same so that we can spend some time on testing and squashing bugs. 
+
+
+Work Done Since Last Meeting :-
+We finished the alpha release issues and released an alpha release of our app. We created issues for any new features we feel
+were needed for the beta release.
+
+Work Assigned :-
+Vishal Saharan - Add flags in current matches fragment.
+Saksham Bansal - Sliding functionality in Rankings Page.
+Amritpal Singh - Show winning attribute\loosing feature in Battlefield.
+Manvijay       - Gesture animation & Carasoul in current matches fragment.
+Deepak         - Fix the navigation bar in search activity and battle activity.
