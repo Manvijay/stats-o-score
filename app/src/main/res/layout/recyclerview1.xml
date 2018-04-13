@@ -8,11 +8,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="12dp">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:weightSum="4">
+            android:weightSum="5">
 
             <LinearLayout
                 android:id="@+id/teamFlags"
@@ -40,19 +41,63 @@
 
             </LinearLayout>
 
-
-            <TextView
-                android:id="@+id/text"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="2"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:padding="10dp"
-                android:textSize="17sp"
-                android:textStyle="bold"
-                android:background="#ffffff"
-                android:textColor="@color/colorPrimaryDark"/>
+                android:layout_weight="3"
+                android:weightSum="5"
+                android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:background="#ffffff"
+                    android:textColor="@color/colorPrimaryDark"/>
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:background="#ffffff"
+                    android:textColor="@color/colorPrimaryDark"/>
+
+            </LinearLayout>
+
+             <TextView
+                 android:id="@+id/text3"
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="2"
+                 android:layout_gravity="center"
+                 android:gravity="center_vertical"
+                 android:textAlignment="center"
+                 android:textSize="14sp"
+                 android:textStyle="bold"
+                 android:background="#ffffff"
+                 android:textColor="@color/colorPrimaryDark"
+                 />
+
+            </LinearLayout>
 
         </LinearLayout>
 
