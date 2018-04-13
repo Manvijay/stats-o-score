@@ -17,6 +17,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -55,10 +56,32 @@ public class Rankings extends Fragment {
         Typeface tf= Typeface.createFromAsset(getActivity().getAssets(),"Comfortaa-Regular.ttf");
         final TabLayout tl=(TabLayout) view.findViewById(R.id.tabs);
         //setting names of Tabs in Standings page of app. This is for fragments_ranking.xml file
-        tl.addTab(tl.newTab().setText("EPL")); 
+
+        tl.addTab(tl.newTab().setText("EPL"));
         tl.addTab(tl.newTab().setText("La Liga"));
         tl.addTab(tl.newTab().setText("Bundesliga"));
         tl.setTabTextColors(ColorStateList.valueOf(Color.WHITE));
+
+
+        //Adding custom font to all tablayouts
+            ViewGroup vg = (ViewGroup) tl.getChildAt(0);
+            int tabsCount = vg.getChildCount();
+
+            for (int j = 0; j < tabsCount; j++) {
+                ViewGroup vgTab = (ViewGroup) vg.getChildAt(j);
+
+                int tabChildsCount = vgTab.getChildCount();
+
+                for (int i = 0; i < tabChildsCount; i++) {
+                    View tabViewChild = vgTab.getChildAt(i);
+                    if (tabViewChild instanceof TextView) {
+                        //Put your font in assests folder
+                        //assign name of the font here (Must be case sensitive)
+                        ((TextView) tabViewChild).setTypeface(tf);
+                    }
+                }
+            }
+
 
         tl.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
