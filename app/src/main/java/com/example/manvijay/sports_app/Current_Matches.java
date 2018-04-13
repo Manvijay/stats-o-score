@@ -54,7 +54,9 @@ public class Current_Matches extends Fragment {
     RecyclerView mrecycler1,mrecycler2,mrecycler3;      //Recycler View variables
     RecyclerView.LayoutManager mlayout1,mlayout2,mlayout3; 
     RecyclerView.Adapter madapter1,madapter2,madapter3;
-    ArrayList<String> list1,list2,list3;  // array list to store data to be displayed in current matches
+    ArrayList<String> list11,list12,list13;
+    ArrayList<String> list21,list22,list23;
+    ArrayList<String> list31,list32,list33; // array list to store data to be displayed in current matches
 
     RequestQueue req1;
    // api URL's for calling scores from different leagues
@@ -92,9 +94,17 @@ public class Current_Matches extends Fragment {
         snapHelper2.attachToRecyclerView(mrecycler2);
         snapHelper3.attachToRecyclerView(mrecycler3);
 
-        list1 = new ArrayList<>();
-        list2 = new ArrayList<>();
-        list3 = new ArrayList<>();
+        list11 = new ArrayList<>();
+        list12 = new ArrayList<>();
+        list13 = new ArrayList<>();
+
+        list21 = new ArrayList<>();
+        list22 = new ArrayList<>();
+        list23 = new ArrayList<>();
+
+        list31 = new ArrayList<>();
+        list32 = new ArrayList<>();
+        list33 = new ArrayList<>();
 
         req1 = Volley.newRequestQueue(getActivity());
 
@@ -148,18 +158,51 @@ public class Current_Matches extends Fragment {
                             String tempdate = temp.get("date").toString();
                             tempdate = tempdate.substring(0,10);
                             Date temp2 = mdformat.parse(tempdate);
-                            if( (temp.get("status").toString().equals("FINISHED") || temp.get("status").toString().equals("IN_PLAY")) && temp2.after(curr) &&  temp2.before(currfut) ) {
+
+                            if((temp.get("status").toString().equals("IN_PLAY")) && temp2.after(curr) &&  temp2.before(currfut) ) {
                                 JSONObject result = temp.getJSONObject("result");
-                                 //adding values to list1 for display
-                                list1.add(temp.get("homeTeamName").toString() + " " + result.get("goalsHomeTeam").toString() + "\n" + temp.get("awayTeamName").toString() + " " + result.get("goalsAwayTeam").toString());
+                                list11.add(temp.get("homeTeamName").toString() + "\n" + result.get("goalsHomeTeam").toString());
+                                list12.add(temp.get("awayTeamName").toString() + "\n" + result.get("goalsAwayTeam").toString());
+                                list13.add("● LIVE");
+                            }
+
+
+                        } catch (JSONException e) {
+
+                            // If there is an error then output this to the logs.
+
+                            Log.e("Volley", "Invalid JSON Object.");
+
+                        } catch (ParseException e) {
+                            e.printStackTrace();
+                        }
+                    }
+
+                    for (int i = 0; i <= count; i++) {
+
+                        try {
+
+                            // For each new fixture add the value to the our layout
+                            JSONObject temp = jsonarr.getJSONObject(i);
+                            String tempdate = temp.get("date").toString();
+                            tempdate = tempdate.substring(0,10);
+                            Date temp2 = mdformat.parse(tempdate);
+
+                            if( (temp.get("status").toString().equals("FINISHED")) && temp2.after(curr) &&  temp2.before(currfut) ) {
+                                JSONObject result = temp.getJSONObject("result");
+                                //adding values to list1 for display
+                                list11.add(temp.get("homeTeamName").toString() + "\n" + result.get("goalsHomeTeam").toString());
+                                list12.add(temp.get("awayTeamName").toString() + "\n" + result.get("goalsAwayTeam").toString());
+                                list13.add( temp.get("date").toString().substring(0,10) );
 
 
                             }
 
                             if( (temp.get("status").toString().equals("SCHEDULED") || temp.get("status").toString().equals("TIMED")) && temp2.after(curr) &&  temp2.before(currfut) ) {
-                                //JSONObject result = temp.getJSONObject("result");
 
-                                list1.add(temp.get("homeTeamName").toString() + " " + "VS " + temp.get("awayTeamName").toString() + "\n" + temp.get("date").toString().substring(0,10));
+                                list11.add(temp.get("homeTeamName").toString());
+                                list12.add(temp.get("awayTeamName").toString());
+                                list13.add(temp.get("date").toString().substring(0,10));
 
 
                             }
@@ -175,7 +218,7 @@ public class Current_Matches extends Fragment {
                         }
                     }
                     // call the MainAdapter class and the pass the array list to handle displaying
-                    madapter1 = new MainAdapter(list1);
+                    madapter1 = new MainAdapter(list11,list12,list13);
                     mrecycler1.setLayoutManager(mlayout1);
                     mrecycler1.setAdapter(madapter1);
 
@@ -256,19 +299,52 @@ public class Current_Matches extends Fragment {
                             String tempdate = temp.get("date").toString();
                             tempdate = tempdate.substring(0,10);
                             Date temp2 = mdformat.parse(tempdate);
-                            if( (temp.get("status").toString().equals("FINISHED") || temp.get("status").toString().equals("IN_PLAY")) && temp2.after(curr) &&  temp2.before(currfut) ) {
+
+                            if( (temp.get("status").toString().equals("IN_PLAY")) && temp2.after(curr) &&  temp2.before(currfut) ) {
                                 JSONObject result = temp.getJSONObject("result");
 
-                                list2.add(temp.get("homeTeamName").toString() + " " + result.get("goalsHomeTeam").toString() + "\n" + temp.get("awayTeamName").toString() + " " + result.get("goalsAwayTeam").toString());
+                                list21.add(temp.get("homeTeamName").toString() + "\n" + result.get("goalsHomeTeam").toString());
+                                list22.add(temp.get("awayTeamName").toString() + "\n" + result.get("goalsAwayTeam").toString());
+                                list13.add("● LIVE");
 
+                            }
+
+                        } catch (JSONException e) {
+
+                            // If there is an error then output this to the logs.
+
+                            Log.e("Volley", "Invalid JSON Object.");
+
+                        } catch (ParseException e) {
+                            e.printStackTrace();
+                        }
+                    }
+
+                    for (int i = 0; i <= count; i++) {
+
+                        try {
+
+
+                            JSONObject temp = jsonarr.getJSONObject(i);
+                            String tempdate = temp.get("date").toString();
+                            tempdate = tempdate.substring(0,10);
+                            Date temp2 = mdformat.parse(tempdate);
+
+
+                            if( (temp.get("status").toString().equals("FINISHED")) && temp2.after(curr) &&  temp2.before(currfut) ) {
+                                JSONObject result = temp.getJSONObject("result");
+
+                                list21.add(temp.get("homeTeamName").toString() + "\n" + result.get("goalsHomeTeam").toString());
+                                list22.add(temp.get("awayTeamName").toString() + "\n" + result.get("goalsAwayTeam").toString());
+                                list23.add(temp.get("date").toString().substring(0,10));
 
                             }
 
                             if( (temp.get("status").toString().equals("SCHEDULED") || temp.get("status").toString().equals("TIMED")) && temp2.after(curr) &&  temp2.before(currfut) ) {
-                                //JSONObject result = temp.getJSONObject("result");
 
-                                list2.add(temp.get("homeTeamName").toString() + " " + "VS " + temp.get("awayTeamName").toString() + "\n" + temp.get("date").toString().substring(0,10));
-
+                                list21.add(temp.get("homeTeamName").toString());
+                                list22.add(temp.get("awayTeamName").toString());
+                                list23.add(temp.get("date").toString().substring(0,10));
 
                             }
 
@@ -283,7 +359,7 @@ public class Current_Matches extends Fragment {
                         }
                     }
                     // Call the MainAdapter class to pass the list2 array to display
-                    madapter2 = new MainAdapter(list2);
+                    madapter2 = new MainAdapter(list21,list22,list23);
                     mrecycler2.setLayoutManager(mlayout2);
                     mrecycler2.setAdapter(madapter2);
 
@@ -354,28 +430,63 @@ public class Current_Matches extends Fragment {
                     c.add(Calendar.DATE, -16);
                     curr = c.getTime();
 
+
                     for (int i = 0; i <= count; i++) {
 
                         try {
 
-                            // For each repo, add a new line to our repo list.
+
                             JSONObject temp = jsonarr.getJSONObject(i);
                             String tempdate = temp.get("date").toString();
                             tempdate = tempdate.substring(0,10);
                             Date temp2 = mdformat.parse(tempdate);
-                            if( (temp.get("status").toString().equals("FINISHED") || temp.get("status").toString().equals("IN_PLAY")) && temp2.after(curr) &&  temp2.before(currfut) ) {
+
+                            if( (temp.get("status").toString().equals("IN_PLAY")) && temp2.after(curr) &&  temp2.before(currfut) ) {
                                 JSONObject result = temp.getJSONObject("result");
 
-                                list3.add(temp.get("homeTeamName").toString() + " " + result.get("goalsHomeTeam").toString() + "\n" + temp.get("awayTeamName").toString() + " " + result.get("goalsAwayTeam").toString());
+                                list31.add(temp.get("homeTeamName").toString() + "\n" + result.get("goalsHomeTeam").toString());
+                                list32.add(temp.get("awayTeamName").toString() + "\n" + result.get("goalsAwayTeam").toString());
+                                list13.add("● LIVE");
+
+                            }
+
+                        } catch (JSONException e) {
+
+                            // If there is an error then output this to the logs.
+
+                            Log.e("Volley", "Invalid JSON Object.");
+
+                        } catch (ParseException e) {
+                            e.printStackTrace();
+                        }
+                    }
+
+                    for (int i = 0; i <= count; i++) {
+
+                        try {
+
+
+                            JSONObject temp = jsonarr.getJSONObject(i);
+                            String tempdate = temp.get("date").toString();
+                            tempdate = tempdate.substring(0,10);
+                            Date temp2 = mdformat.parse(tempdate);
+
+
+                            if( (temp.get("status").toString().equals("FINISHED")) && temp2.after(curr) &&  temp2.before(currfut) ) {
+                                JSONObject result = temp.getJSONObject("result");
+
+                                list31.add(temp.get("homeTeamName").toString() + "\n" + result.get("goalsHomeTeam").toString());
+                                list32.add(temp.get("awayTeamName").toString() + "\n" + result.get("goalsAwayTeam").toString());
+                                list33.add(temp.get("date").toString().substring(0,10));
 
 
                             }
 
                             if( (temp.get("status").toString().equals("SCHEDULED") || temp.get("status").toString().equals("TIMED")) && temp2.after(curr) &&  temp2.before(currfut) ) {
-                                //JSONObject result = temp.getJSONObject("result");
 
-                                list3.add(temp.get("homeTeamName").toString() + " " + "VS " + temp.get("awayTeamName").toString() + "\n" + temp.get("date").toString().substring(0,10));
-
+                                list31.add(temp.get("homeTeamName").toString());
+                                list32.add(temp.get("awayTeamName").toString());
+                                list33.add(temp.get("date").toString().substring(0,10));
 
                             }
 
@@ -390,7 +501,7 @@ public class Current_Matches extends Fragment {
                         }
                     }
                     // call the MainAdapter to pass arraylist list3 to display the matches
-                    madapter3 = new MainAdapter(list3);
+                    madapter3 = new MainAdapter(list31,list32,list33);
                     mrecycler3.setLayoutManager(mlayout3);
                     mrecycler3.setAdapter(madapter3);
 
