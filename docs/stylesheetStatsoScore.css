@@ -39,9 +39,18 @@ a{
   transform: translateX(-50%);
 }
 
+.grid2Top{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap: 5vw;
+  width: 100%;
+  height: auto;
+}
+
 .grid2{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-column-gap: 5vw;
   width: 100%;
   height: auto;
 }
@@ -68,8 +77,9 @@ a{
 
 #test{
   position: relative;
-  overflow: hidden;
-  width: 100%;
+  overflow-x: hidden;
+      overflow-y: hidden;
+  width: 100%
   height: 100%;
 }
 
@@ -82,13 +92,14 @@ a{
 #test figure #imageContainer{
   position: relative;
   float: left;
-  width: 33.33%;
+  width: 33%;
+
 }
 
 #test figure #imageContainer img{
   position: relative;
-  width:60%;
-  margin-left:20px;
+  max-width:100%;
+  overflow-y: hidden;
 }
 
 
@@ -124,8 +135,13 @@ a{
   overflow: hidden;
 }
 
+#appFeatures #gridItem #imageContainer{
+  position: relative;
+  width: 100%;
+}
+
 #appFeatures #gridItem #imageContainer img{
-  max-width: 40%;
+  max-width: 100%;
 }
 
 #appFeatures #gridItem #appFeaturesDescription{
@@ -272,7 +288,11 @@ footer{
   66%{
       left: -200%;
   }
-  100%{
+  98%{
     left: -200%;
   }
+  100%{
+    left: 0%;
+  }
+
 }
