@@ -85,10 +85,12 @@ public class Current_Matches extends Fragment {
         mrecycler1 = rootView.findViewById(R.id.recycle1); 
         mrecycler2 = rootView.findViewById(R.id.recycle2);
         mrecycler3 = rootView.findViewById(R.id.recycle3);
-        SnapHelper snapHelper = new LinearSnapHelper();
-        snapHelper.attachToRecyclerView(mrecycler1); // Configures the snap helper and attaches itself to the recycler view -- now items will snap to the center
-        snapHelper.attachToRecyclerView(mrecycler2);
-        snapHelper.attachToRecyclerView(mrecycler3);
+        SnapHelper snapHelper1 = new LinearSnapHelper();
+        SnapHelper snapHelper2 = new LinearSnapHelper();
+        SnapHelper snapHelper3 = new LinearSnapHelper();
+        snapHelper1.attachToRecyclerView(mrecycler1); // Configures the snap helper and attaches itself to the recycler view -- now items will snap to the center
+        snapHelper2.attachToRecyclerView(mrecycler2);
+        snapHelper3.attachToRecyclerView(mrecycler3);
 
         list1 = new ArrayList<>();
         list2 = new ArrayList<>();
