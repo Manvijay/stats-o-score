@@ -4,7 +4,9 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.LinearSnapHelper;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.SnapHelper;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -83,6 +85,11 @@ public class Current_Matches extends Fragment {
         mrecycler1 = rootView.findViewById(R.id.recycle1); 
         mrecycler2 = rootView.findViewById(R.id.recycle2);
         mrecycler3 = rootView.findViewById(R.id.recycle3);
+        SnapHelper snapHelper = new LinearSnapHelper();
+        snapHelper.attachToRecyclerView(mrecycler1); // Configures the snap helper and attaches itself to the recycler view -- now items will snap to the center
+        snapHelper.attachToRecyclerView(mrecycler2);
+        snapHelper.attachToRecyclerView(mrecycler3);
+
         list1 = new ArrayList<>();
         list2 = new ArrayList<>();
         list3 = new ArrayList<>();

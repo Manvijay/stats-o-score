@@ -47,6 +47,7 @@
             android:autoSizeMinTextSize="12sp"
             android:text="PG"
             android:textColor="@color/colorPrimaryDark" />
+
         <TextView
             android:text="W"
             android:layout_weight="1"
