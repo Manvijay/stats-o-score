@@ -18,11 +18,11 @@ https://www.youtube.com/watch?v=CtqGfHxLzNs
 
 ## **(Easy) How to install and run the app:**
 1.	In github repo find the APk-s folder
-2.	Inside the folder download the file named Stat-o-score v0.3.0.
-3.	Now connect your android device to the computer and copy the Stat-o-score v0.3.0 to your “android device”. (The app will only work on Google Android OS device)
+2.	Inside the folder download the file named Stat-o-score with the latest version number..
+3.	Now connect your android device to the computer and copy the Stat-o-score to your “android device”. (The app will only work on Google Android OS device)
 4.	Now in your android device open a file explorer. If you don’t have one you can download one from the Google Play Appstore. I recommend “Astro File Manager”. Link to download Astro File Manager link : https://play.google.com/store/apps/details?id=com.metago.astro&hl=en 
-5.	Next, open the file explorer and navigate to position where you copied the Stat-o-score v0.3.0 in your android device.
-6. Before Installing ensure that you uninstall any previous versions of Stat-o-Score that you might have on your phone.
+5.  Before Installing ensure that you uninstall any previous versions of Stat-o-Score that you might have on your phone.
+6.	Next, open the file explorer and navigate to position where you copied the Stat-o-score in your android device.
 7.	Click on install. It might ask you to enable a security setting to “Enable Install Unknown App”. Click on Enable.
 8.	Now Install the App.
 9.	Voila! The App is now installed on your phone. Make sure that you have internet connection before using the App.
