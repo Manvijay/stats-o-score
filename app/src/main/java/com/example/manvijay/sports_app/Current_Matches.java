@@ -173,8 +173,8 @@ public class Current_Matches extends Fragment {
 
                             if((temp.get("status").toString().equals("IN_PLAY")) && temp2.after(curr) &&  temp2.before(currfut) ) {
                                 JSONObject result = temp.getJSONObject("result");
-                                list11.add(temp.get("homeTeamName").toString() + "\n" + result.get("goalsHomeTeam").toString());
-                                list12.add(temp.get("awayTeamName").toString() + "\n" + result.get("goalsAwayTeam").toString());
+                                list11.add(temp.get("homeTeamName").toString() + " : " + result.get("goalsHomeTeam").toString());
+                                list12.add(temp.get("awayTeamName").toString() + " : " + result.get("goalsAwayTeam").toString());
                                 list13.add("● LIVE");
 
                                 for (int k =0;k<mylist.size();++k)
@@ -214,8 +214,8 @@ public class Current_Matches extends Fragment {
                             if( (temp.get("status").toString().equals("FINISHED")) && temp2.after(curr) &&  temp2.before(currfut) ) {
                                 JSONObject result = temp.getJSONObject("result");
                                 //adding values to list1 for display
-                                list11.add(temp.get("homeTeamName").toString() + "\n" + result.get("goalsHomeTeam").toString());
-                                list12.add(temp.get("awayTeamName").toString() + "\n" + result.get("goalsAwayTeam").toString());
+                                list11.add(temp.get("homeTeamName").toString() + " : " + result.get("goalsHomeTeam").toString());
+                                list12.add(temp.get("awayTeamName").toString() + " : " + result.get("goalsAwayTeam").toString());
                                 list13.add( temp.get("date").toString().substring(0,10) );
                                 for (int k =0;k<mylist.size();++k)
                                 {
@@ -347,8 +347,8 @@ public class Current_Matches extends Fragment {
                             if( (temp.get("status").toString().equals("IN_PLAY")) && temp2.after(curr) &&  temp2.before(currfut) ) {
                                 JSONObject result = temp.getJSONObject("result");
 
-                                list21.add(temp.get("homeTeamName").toString() + "\n" + result.get("goalsHomeTeam").toString());
-                                list22.add(temp.get("awayTeamName").toString() + "\n" + result.get("goalsAwayTeam").toString());
+                                list21.add(temp.get("homeTeamName").toString() + " : " + result.get("goalsHomeTeam").toString());
+                                list22.add(temp.get("awayTeamName").toString() + " : " + result.get("goalsAwayTeam").toString());
                                 list23.add("● LIVE");
 
                                 String home = temp.get("homeTeamName").toString();
@@ -398,8 +398,8 @@ public class Current_Matches extends Fragment {
                             if( (temp.get("status").toString().equals("FINISHED")) && temp2.after(curr) &&  temp2.before(currfut) ) {
                                 JSONObject result = temp.getJSONObject("result");
 
-                                list21.add(temp.get("homeTeamName").toString() + "\n" + result.get("goalsHomeTeam").toString());
-                                list22.add(temp.get("awayTeamName").toString() + "\n" + result.get("goalsAwayTeam").toString());
+                                list21.add(temp.get("homeTeamName").toString() + " : " + result.get("goalsHomeTeam").toString());
+                                list22.add(temp.get("awayTeamName").toString() + " : " + result.get("goalsAwayTeam").toString());
                                 list23.add(temp.get("date").toString().substring(0,10));
 
                                 String home = temp.get("homeTeamName").toString();
@@ -549,8 +549,8 @@ public class Current_Matches extends Fragment {
                             if( (temp.get("status").toString().equals("IN_PLAY")) && temp2.after(curr) &&  temp2.before(currfut) ) {
                                 JSONObject result = temp.getJSONObject("result");
 
-                                list31.add(temp.get("homeTeamName").toString() + "\n" + result.get("goalsHomeTeam").toString());
-                                list32.add(temp.get("awayTeamName").toString() + "\n" + result.get("goalsAwayTeam").toString());
+                                list31.add(temp.get("homeTeamName").toString() + " : " + result.get("goalsHomeTeam").toString());
+                                list32.add(temp.get("awayTeamName").toString() + " : " + result.get("goalsAwayTeam").toString());
                                 list33.add("● LIVE");
 
                                 String home = temp.get("homeTeamName").toString();
@@ -599,8 +599,8 @@ public class Current_Matches extends Fragment {
                             if( (temp.get("status").toString().equals("FINISHED")) && temp2.after(curr) &&  temp2.before(currfut) ) {
                                 JSONObject result = temp.getJSONObject("result");
 
-                                list31.add(temp.get("homeTeamName").toString() + "\n" + result.get("goalsHomeTeam").toString());
-                                list32.add(temp.get("awayTeamName").toString() + "\n" + result.get("goalsAwayTeam").toString());
+                                list31.add(temp.get("homeTeamName").toString() + " : " + result.get("goalsHomeTeam").toString());
+                                list32.add(temp.get("awayTeamName").toString() + " : " + result.get("goalsAwayTeam").toString());
                                 list33.add(temp.get("date").toString().substring(0,10));
 
                                 String home = temp.get("homeTeamName").toString();
