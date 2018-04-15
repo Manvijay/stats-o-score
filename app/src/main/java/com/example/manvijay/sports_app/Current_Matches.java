@@ -182,7 +182,7 @@ public class Current_Matches extends Fragment {
                                     String[] tem = mylist.get(k);
                                     String check = tem[0].toString();
                                     if(check.equals(temp.get("homeTeamName").toString()))
-                                        image11.add(tem[1].toString()+tem[2].toString());
+                                        image11.add(tem[1].toString()+","+tem[2].toString());
                                     if(tem[0].equals(temp.get("awayTeamName").toString()))
                                         image12.add(tem[1]+","+tem[2]);
 
@@ -351,18 +351,24 @@ public class Current_Matches extends Fragment {
                                 list22.add(temp.get("awayTeamName").toString() + "\n" + result.get("goalsAwayTeam").toString());
                                 list23.add("● LIVE");
 
+                                String home = temp.get("homeTeamName").toString();
+                                home = home.replaceAll("é","e");
+                                home = home.replaceAll("á","a");
+                                home = home.replaceAll("ú","u");
+
+                                String away = temp.get("awayTeamName").toString();
+                                away = away.replaceAll("é","e");
+                                away = away.replaceAll("á","a");
+                                away = away.replaceAll("ú","u");
+
                                 for (int k =0;k<mylist.size();++k)
                                 {
                                     String[] tem = mylist.get(k);
                                     String check = tem[0].toString();
-                                    if(check.equals(temp.get("homeTeamName").toString()))
+                                    if(check.equals(home))
                                         image21.add(tem[1].toString()+","+tem[2].toString());
-                                    else
-                                        image21.add("/https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg/");
-                                    if(check.equals(temp.get("awayTeamName").toString()))
+                                    if(check.equals(away))
                                         image22.add(tem[1]+","+tem[2]);
-                                    else
-                                    image22.add("/https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg/");
                                 }
 
                             }
@@ -395,21 +401,25 @@ public class Current_Matches extends Fragment {
                                 list21.add(temp.get("homeTeamName").toString() + "\n" + result.get("goalsHomeTeam").toString());
                                 list22.add(temp.get("awayTeamName").toString() + "\n" + result.get("goalsAwayTeam").toString());
                                 list23.add(temp.get("date").toString().substring(0,10));
+
+                                String home = temp.get("homeTeamName").toString();
+                                home = home.replaceAll("é","e");
+                                home = home.replaceAll("á","a");
+                                home = home.replaceAll("ú","u");
+
+                                String away = temp.get("awayTeamName").toString();
+                                away = away.replaceAll("é","e");
+                                away = away.replaceAll("á","a");
+                                away = away.replaceAll("ú","u");
+
                                 for (int k =0;k<mylist.size();++k)
                                 {
                                     String[] tem = mylist.get(k);
                                     String check = tem[0].toString();
-                                    if(check.equals(temp.get("homeTeamName").toString()))
+                                    if(check.equals(home))
                                         image21.add(tem[1].toString()+","+tem[2].toString());
-
-                                    else
-                                        image21.add("/https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg/");
-                                    if(check.equals(temp.get("awayTeamName").toString()))
+                                    if(check.equals(away))
                                         image22.add(tem[1]+","+tem[2]);
-
-                                    else
-                                        image22.add("/https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg/");
-
                                 }
 
                             }
@@ -419,19 +429,25 @@ public class Current_Matches extends Fragment {
                                 list21.add(temp.get("homeTeamName").toString());
                                 list22.add(temp.get("awayTeamName").toString());
                                 list23.add(temp.get("date").toString().substring(0,10));
+
+                                String home1 = temp.get("homeTeamName").toString();
+                                home1 = home1.replaceAll("é","e");
+                                home1 = home1.replaceAll("á","a");
+                                home1 = home1.replaceAll("ú","u");
+
+                                String away1 = temp.get("awayTeamName").toString();
+                                away1 = away1.replaceAll("é","e");
+                                away1 = away1.replaceAll("á","a");
+                                away1 = away1.replaceAll("ú","u");
+
                                 for (int k =0;k<mylist.size();++k)
                                 {
                                     String[] tem = mylist.get(k);
                                     String check = tem[0].toString();
-                                    if(check.equals(temp.get("homeTeamName").toString()))
+                                    if(check.equals(home1))
                                         image21.add(tem[1].toString()+","+tem[2].toString());
-
-                                    else
-                                        image21.add("/https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg/");
-                                    if(check.equals(temp.get("awayTeamName").toString()))
+                                    if(check.equals(away1))
                                         image22.add(tem[1]+","+tem[2]);
-                                    else
-                                        image22.add("/https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg/");
 
                                 }
 
@@ -536,20 +552,23 @@ public class Current_Matches extends Fragment {
                                 list31.add(temp.get("homeTeamName").toString() + "\n" + result.get("goalsHomeTeam").toString());
                                 list32.add(temp.get("awayTeamName").toString() + "\n" + result.get("goalsAwayTeam").toString());
                                 list33.add("● LIVE");
+
+                                String home = temp.get("homeTeamName").toString();
+                                home = home.replaceAll("ü","u");
+                                home = home.replaceAll("ö","o");
+
+                                String away = temp.get("awayTeamName").toString();
+                                away = away.replaceAll("ü","u");
+                                away = away.replaceAll("ö","o");
+
                                 for (int k =0;k<mylist.size();++k)
                                 {
                                     String[] tem = mylist.get(k);
                                     String check = tem[0].toString();
-                                    if(check.equals(temp.get("homeTeamName").toString()))
+                                    if(check.equals(home))
                                         image31.add(tem[1].toString()+","+tem[2].toString());
-
-                                    else
-                                        image31.add("/https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg/");
-                                    if(check.equals(temp.get("awayTeamName").toString()))
+                                    if(check.equals(away))
                                         image32.add(tem[1]+","+tem[2]);
-
-                                    else
-                                        image32.add("/https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg/");
 
                                 }
 
@@ -583,20 +602,23 @@ public class Current_Matches extends Fragment {
                                 list31.add(temp.get("homeTeamName").toString() + "\n" + result.get("goalsHomeTeam").toString());
                                 list32.add(temp.get("awayTeamName").toString() + "\n" + result.get("goalsAwayTeam").toString());
                                 list33.add(temp.get("date").toString().substring(0,10));
+
+                                String home = temp.get("homeTeamName").toString();
+                                home = home.replaceAll("ü","u");
+                                home = home.replaceAll("ö","o");
+
+                                String away = temp.get("awayTeamName").toString();
+                                away = away.replaceAll("ü","u");
+                                away = away.replaceAll("ö","o");
+
                                 for (int k =0;k<mylist.size();++k)
                                 {
                                     String[] tem = mylist.get(k);
                                     String check = tem[0].toString();
-                                    if(check.equals(temp.get("homeTeamName").toString()))
+                                    if(check.equals(home))
                                         image31.add(tem[1].toString()+","+tem[2].toString());
-
-                                    else
-                                        image31.add("/https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg/");
-                                    if(check.equals(temp.get("awayTeamName").toString()))
+                                    if(check.equals(away))
                                         image32.add(tem[1]+","+tem[2]);
-
-                                    else
-                                        image32.add("/https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg/");
 
                                 }
 
@@ -608,20 +630,23 @@ public class Current_Matches extends Fragment {
                                 list31.add(temp.get("homeTeamName").toString());
                                 list32.add(temp.get("awayTeamName").toString());
                                 list33.add(temp.get("date").toString().substring(0,10));
+
+                                String home1 = temp.get("homeTeamName").toString();
+                                home1 = home1.replaceAll("ü","u");
+                                home1 = home1.replaceAll("ö","o");
+
+                                String away1 = temp.get("awayTeamName").toString();
+                                away1 = away1.replaceAll("ü","u");
+                                away1 = away1.replaceAll("ö","o");
+
                                 for (int k =0;k<mylist.size();++k)
                                 {
                                     String[] tem = mylist.get(k);
                                     String check = tem[0].toString();
-                                    if(check.equals(temp.get("homeTeamName").toString()))
+                                    if(check.equals(home1))
                                         image31.add(tem[1].toString()+","+tem[2].toString());
-
-                                    else
-                                        image31.add("/https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg/");
-                                    if(check.equals(temp.get("awayTeamName").toString()))
+                                    if(check.equals(away1))
                                         image32.add(tem[1]+","+tem[2]);
-
-                                    else
-                                        image32.add("/https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg/");
 
                                 }
 
