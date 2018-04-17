@@ -80,12 +80,18 @@
                 android:orientation="vertical"
                 android:weightSum="2">
 
-                <ImageView
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                     android:id="@+id/imageViewLeft"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/dhoni" />
+                    android:gravity="center"
+                    android:src="@drawable/dhoni"
+                    app:civ_border_color="#100f0f"
+                    app:civ_border_width="1dp" />
+
+
 
                 <ImageView
                     android:id="@+id/imageViewFlagLeft"
@@ -108,12 +114,17 @@
                 android:orientation="vertical"
                 android:weightSum="2">
 
-                <ImageView
+                <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/imageViewRight"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/dhoni" />
+                    android:gravity="center"
+                    android:src="@drawable/dhoni"
+                    app:civ_border_color="#100f0f"
+                    app:civ_border_width="1dp" />
+
 
                 <ImageView
                     android:id="@+id/imageViewFlagRight"
