@@ -22,7 +22,7 @@
             android:layout_height="match_parent"
             android:autoSizeMaxTextSize="20sp"
             android:autoSizeMinTextSize="12sp"
-            android:textColor="@color/colorRed"
+            android:textColor="@color/colorGreen"
             android:fontFamily="serif"
             android:layout_marginTop="10dp"
             />
@@ -35,7 +35,7 @@
             android:textAlignment="center"
             android:autoSizeMaxTextSize="20sp"
             android:autoSizeMinTextSize="12sp"
-            android:textColor="@color/colorRed"
+            android:textColor="@color/colorGreen"
             android:fontFamily="serif"
             android:layout_marginTop="10dp"
             />
@@ -51,7 +51,7 @@
             android:paddingLeft="30dp"
             android:text="PG"
             android:textAlignment="textEnd"
-            android:textColor="@color/colorRed"
+            android:textColor="@color/colorGreen"
             android:fontFamily="serif"
             />
 
@@ -65,7 +65,7 @@
             android:autoSizeMinTextSize="12sp"
             android:text="W"
             android:textAlignment="textEnd"
-            android:textColor="@color/colorRed"
+            android:textColor="@color/colorGreen"
             android:fontFamily="serif"
             />
 
@@ -79,7 +79,7 @@
             android:autoSizeMinTextSize="12sp"
             android:text="D"
             android:textAlignment="textEnd"
-            android:textColor="@color/colorRed"
+            android:textColor="@color/colorGreen"
             android:fontFamily="serif"
             />
 
@@ -93,7 +93,7 @@
             android:autoSizeMinTextSize="12sp"
             android:text="L"
             android:textAlignment="textEnd"
-            android:textColor="@color/colorRed"
+            android:textColor="@color/colorGreen"
             android:fontFamily="serif"
             />
 
@@ -107,7 +107,7 @@
             android:autoSizeMinTextSize="12sp"
             android:text="Pts"
             android:textAlignment="textEnd"
-            android:textColor="@color/colorRed"
+            android:textColor="@color/colorGreen"
             android:fontFamily="serif"
             />
 
