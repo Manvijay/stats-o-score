@@ -65,8 +65,7 @@ public class SearchActivity extends AppCompatActivity  {
         l_search = (EditText) findViewById(R.id.search_left);  // id search_left in xml file
         r_search = (EditText) findViewById(R.id.search_right); // id search_right in xml file
         title = (TextView) findViewById(R.id.textView_search);
-
-        startbattle.setTypeface(tf);
+        
         l_search.setTypeface(tf);
         r_search.setTypeface(tf);
         title.setTypeface(tf);
