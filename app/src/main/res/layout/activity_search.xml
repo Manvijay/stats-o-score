@@ -33,7 +33,7 @@
             android:textAlignment="center"
             android:textSize="16sp" />
 
-        <Button
+      <Button
             android:id="@+id/battle"
             style="?android:attr/buttonStyleSmall"
             android:layout_width="120dp"

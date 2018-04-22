@@ -22,7 +22,8 @@
             android:layout_height="match_parent"
             android:autoSizeMaxTextSize="20sp"
             android:autoSizeMinTextSize="12sp"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="@color/colorGreen"
+            android:fontFamily="serif"
             android:layout_marginTop="10dp"
             />
         <TextView
@@ -34,7 +35,8 @@
             android:textAlignment="center"
             android:autoSizeMaxTextSize="20sp"
             android:autoSizeMinTextSize="12sp"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="@color/colorGreen"
+            android:fontFamily="serif"
             android:layout_marginTop="10dp"
             />
 
@@ -49,7 +51,9 @@
             android:paddingLeft="30dp"
             android:text="PG"
             android:textAlignment="textEnd"
-            android:textColor="@color/colorPrimaryDark" />
+            android:textColor="@color/colorGreen"
+            android:fontFamily="serif"
+            />
 
         <TextView
             android:id="@+id/w"
@@ -61,7 +65,9 @@
             android:autoSizeMinTextSize="12sp"
             android:text="W"
             android:textAlignment="textEnd"
-            android:textColor="@color/colorPrimaryDark" />
+            android:textColor="@color/colorGreen"
+            android:fontFamily="serif"
+            />
 
         <TextView
             android:id="@+id/d"
@@ -73,7 +79,9 @@
             android:autoSizeMinTextSize="12sp"
             android:text="D"
             android:textAlignment="textEnd"
-            android:textColor="@color/colorPrimaryDark" />
+            android:textColor="@color/colorGreen"
+            android:fontFamily="serif"
+            />
 
         <TextView
             android:id="@+id/l"
@@ -85,7 +93,9 @@
             android:autoSizeMinTextSize="12sp"
             android:text="L"
             android:textAlignment="textEnd"
-            android:textColor="@color/colorPrimaryDark" />
+            android:textColor="@color/colorGreen"
+            android:fontFamily="serif"
+            />
 
         <TextView
             android:id="@+id/pts"
@@ -97,7 +107,9 @@
             android:autoSizeMinTextSize="12sp"
             android:text="Pts"
             android:textAlignment="textEnd"
-            android:textColor="@color/colorPrimaryDark" />
+            android:textColor="@color/colorGreen"
+            android:fontFamily="serif"
+            />
 
     </LinearLayout>
 
