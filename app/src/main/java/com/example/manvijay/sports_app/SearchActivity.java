@@ -187,6 +187,7 @@ public class SearchActivity extends AppCompatActivity  {
                         }
 
                     }
+
                     
                     //if name1 is not found in the database then print the player not found and load the search_activity again
                     if(i>mylist.size()-1)
@@ -194,6 +195,7 @@ public class SearchActivity extends AppCompatActivity  {
                         Toast.makeText(getApplicationContext(),"Player 1 Not Found ",Toast.LENGTH_SHORT).show();
                         Intent intent2= new Intent(SearchActivity.this, SearchActivity.class);
                         startActivity(intent2);
+
                     }
                     
                     //if name2 is not found in the database then print the player not found and load the search_activity again
@@ -203,7 +205,12 @@ public class SearchActivity extends AppCompatActivity  {
                         Intent intent2= new Intent(SearchActivity.this, SearchActivity.class);
                         startActivity(intent2);
                     }
-                    
+                    else if ( Name_left==Name_right)
+                    {
+                        Toast.makeText(getApplicationContext(),"Both Players cannot have the same name",Toast.LENGTH_SHORT).show();
+                        Intent intent5= new Intent(SearchActivity.this, SearchActivity.class);
+                        startActivity(intent5);
+                    }
                     // if name is found then sending all the values to BattleActivity via intent1 object
                     else
                     {
