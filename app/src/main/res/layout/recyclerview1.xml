@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="5dp"
-        app:cardCornerRadius="15dp"
+        app:cardCornerRadius="12dp"
         app:cardElevation="5dp"
         app:cardUseCompatPadding="true">
 
