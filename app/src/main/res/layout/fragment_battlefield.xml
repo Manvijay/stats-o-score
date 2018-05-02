@@ -8,21 +8,13 @@
 
     tools:context="com.example.manvijay.sports_app.BattleActivity">
 
-    <LinearLayout
-        android:id="@+id/LinearLayout_SearchView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:weightSum="2"
-        >
-
-    </LinearLayout>
 
 
     <LinearLayout
         android:id="@+id/LinearLayout_PlayerNames"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/LinearLayout_SearchView"
+
         android:background="@android:color/white"
         android:weightSum="2">
 
@@ -150,50 +142,48 @@
                 android:background="#ffffff"
                 android:orientation="horizontal"
                 android:paddingTop="7dp"
-                android:weightSum="5">
+                android:weightSum="100">
 
                 <TextView
                     android:id="@+id/acceleration_left"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="0"
                     android:textAlignment="center" />
 
                 <TextView
                     android:id="@+id/accel_result_left"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="Win/Lose"
-                    android:textSize="13sp"
-                    tools:layout_width="match_parent" />
+                    android:textAlignment="center"
+                    android:textSize="13sp" />
 
                 <TextView
                     android:id="@+id/acc1"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="32"
                     android:text="Acceleration"
-                    android:textAlignment="center"
-                    tools:layout_weight="1" />
-                    android:textSize="13dp"
+                    android:textAlignment="center" />
+                android:textSize="13dp"
 
                 <TextView
                     android:id="@+id/accel_result_right"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="Win/Lose"
-                    android:textSize="13sp"
-                    android:textAlignment="textEnd"
-                    />
+                    android:textAlignment="center"
+                    android:textSize="13sp" />
 
                 <TextView
                     android:id="@+id/acceleration_right"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="0"
                     android:textAlignment="center" />
             </LinearLayout>
@@ -205,47 +195,48 @@
                 android:layout_weight="1"
                 android:background="#ffffff"
                 android:orientation="horizontal"
-                android:weightSum="5">
+                android:weightSum="100">
 
                 <TextView
                     android:id="@+id/finishing_left"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="0"
                     android:textAlignment="center" />
 
                 <TextView
                     android:id="@+id/finish_result_left"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="Win/Lose"
+                    android:textAlignment="center"
                     android:textSize="13sp" />
 
                 <TextView
                     android:id="@+id/fin1"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="32"
                     android:text="Finishing"
-                    android:textSize="13sp"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:textSize="13sp" />
 
                 <TextView
                     android:id="@+id/finish_result_right"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="Win/Lose"
-                    android:textSize="13sp"
-                    android:textAlignment="textEnd" />
+                    android:textAlignment="center"
+                    android:textSize="13sp" />
 
                 <TextView
                     android:id="@+id/finishing_right"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="0"
                     android:textAlignment="center" />
 
@@ -258,47 +249,48 @@
                 android:layout_weight="1"
                 android:background="#ffffff"
                 android:orientation="horizontal"
-                android:weightSum="5">
+                android:weightSum="100">
 
                 <TextView
                     android:id="@+id/freekick_left"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="0"
                     android:textAlignment="center" />
 
                 <TextView
                     android:id="@+id/kick_result_left"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="Win/Lose"
+                    android:textAlignment="center"
                     android:textSize="13sp" />
 
                 <TextView
                     android:id="@+id/kick1"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="32"
                     android:text="Free Kick"
-                    android:textSize="13sp"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:textSize="13sp" />
 
                 <TextView
                     android:id="@+id/kick_result_right"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="Win/Lose"
-                    android:textSize="13sp"
-                    android:textAlignment="textEnd" />
+                    android:textAlignment="center"
+                    android:textSize="13sp" />
 
                 <TextView
                     android:id="@+id/freekick_right"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="0"
                     android:textAlignment="center" />
 
@@ -311,47 +303,48 @@
                 android:layout_weight="1"
                 android:background="#ffffff"
                 android:orientation="horizontal"
-                android:weightSum="5">
+                android:weightSum="100">
 
                 <TextView
                     android:id="@+id/penalties_left"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="0"
                     android:textAlignment="center" />
 
                 <TextView
                     android:id="@+id/pen_result_left"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="Win/Lose"
-                    android:textSize="13sp"/>
+                    android:textAlignment="center"
+                    android:textSize="13sp" />
 
                 <TextView
                     android:id="@+id/penal1"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="32"
                     android:text="Penalties"
-                    android:textSize="13sp"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:textSize="13sp" />
 
                 <TextView
                     android:id="@+id/pen_result_right"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="Win/Lose"
-                    android:textSize="13sp"
-                    android:textAlignment="textEnd" />
+                    android:textAlignment="center"
+                    android:textSize="13sp" />
 
                 <TextView
                     android:id="@+id/penalties_right"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="0"
                     android:textAlignment="center" />
 
@@ -364,47 +357,48 @@
                 android:layout_weight="1"
                 android:background="#ffffff"
                 android:orientation="horizontal"
-                android:weightSum="5">
+                android:weightSum="100">
 
                 <TextView
                     android:id="@+id/shotpower_left"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="0"
                     android:textAlignment="center" />
 
                 <TextView
                     android:id="@+id/pow_result_left"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="Win/Lose"
-                    android:textSize="13sp"/>
+                    android:textAlignment="center"
+                    android:textSize="13sp" />
 
                 <TextView
                     android:id="@+id/shot1"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="32"
                     android:text="Shot Power"
-                    android:textSize="13sp"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:textSize="13sp" />
 
                 <TextView
                     android:id="@+id/pow_result_right"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="Win/Lose"
-                    android:textSize="13sp"
-                    android:textAlignment="textEnd" />
+                    android:textAlignment="center"
+                    android:textSize="13sp" />
 
                 <TextView
                     android:id="@+id/shotpower_right"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="0"
                     android:textAlignment="center" />
 
@@ -417,47 +411,48 @@
                 android:layout_weight="1"
                 android:background="#ffffff"
                 android:orientation="horizontal"
-                android:weightSum="5">
+                android:weightSum="100">
 
                 <TextView
                     android:id="@+id/sprintspeed_left"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="0"
                     android:textAlignment="center" />
 
                 <TextView
                     android:id="@+id/speed_result_left"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="Win/Lose"
-                    android:textSize="13sp"/>
+                    android:textAlignment="center"
+                    android:textSize="13sp" />
 
                 <TextView
                     android:id="@+id/sprint1"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="32"
                     android:text="Sprint Speed"
-                    android:textSize="13sp"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:textSize="13sp" />
 
                 <TextView
                     android:id="@+id/speed_result_right"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="Win/Lose"
-                    android:textSize="13sp"
-                    android:textAlignment="textEnd" />
+                    android:textAlignment="center"
+                    android:textSize="13sp" />
 
                 <TextView
                     android:id="@+id/sprintspeed_right"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="0"
                     android:textAlignment="center" />
 
@@ -470,47 +465,48 @@
                 android:layout_weight="1"
                 android:background="#ffffff"
                 android:orientation="horizontal"
-                android:weightSum="5">
+                android:weightSum="100">
 
                 <TextView
                     android:id="@+id/stamina_left"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="0"
                     android:textAlignment="center" />
 
                 <TextView
                     android:id="@+id/stamina_result_left"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="Win/Lose"
-                    android:textSize="13sp"/>
+                    android:textAlignment="center"
+                    android:textSize="13sp" />
 
                 <TextView
                     android:id="@+id/sta1"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="32"
                     android:text="Stamina"
-                    android:textSize="13sp"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:textSize="13sp" />
 
                 <TextView
                     android:id="@+id/stamina_result_right"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="Win/Lose"
-                    android:textSize="13sp"
-                    android:textAlignment="textEnd" />
+                    android:textAlignment="center"
+                    android:textSize="13sp" />
 
                 <TextView
                     android:id="@+id/stamina_right"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="0"
                     android:textAlignment="center" />
 
@@ -523,47 +519,48 @@
                 android:layout_weight="1"
                 android:background="#ffffff"
                 android:orientation="horizontal"
-                android:weightSum="5">
+                android:weightSum="100">
 
                 <TextView
                     android:id="@+id/strength_left"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="0"
                     android:textAlignment="center" />
 
                 <TextView
                     android:id="@+id/strength_result_left"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="Win/Lose"
-                    android:textSize="13sp"/>
+                    android:textAlignment="center"
+                    android:textSize="13sp" />
 
                 <TextView
                     android:id="@+id/stren1"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="32"
                     android:text="Strength"
-                    android:textSize="13sp"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:textSize="13sp" />
 
                 <TextView
                     android:id="@+id/strength_result_right"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="Win/Lose"
-                    android:textSize="13sp"
-                    android:textAlignment="textEnd" />
+                    android:textAlignment="center"
+                    android:textSize="13sp" />
 
                 <TextView
                     android:id="@+id/strength_right"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="17"
                     android:text="0"
                     android:textAlignment="center" />
 
