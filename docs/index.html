@@ -2,58 +2,117 @@
 <HTML>
   <head>
 
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="stylesheetStatsoScore.css">
+    <link rel="stylesheet" href="responsiveStylesheet.css">
     <link rel="icon" href="AppLogoFinal.png">
     <title> Stats-o-Score </title>
   </head>
   <body>
-<!--***** Top Bar section starts from here*****************************-->
-    <div id="topBar">
+<!--*******************Navigation Bar section starts from here*****************************-->
+    <nav class="container-fluid fixed-top">
+      <img src="AppLogoFinal.png">
 
-      <div class="container-fluid" id="topBarTop">
-        <img src="AppLogoFinal.png">
-      </div>
+      <ul style="float:left">
+        <li>
+          <a href="#myCarousel">App Features </a>
+        </li>
+        <li>
+          <a href="#Instructions">Using Instructions </a>
+        </li>
+      </ul>
+      <ul style="float:right">
+        <li>
+          <a href="#AboutApp">About Stats-o-Score </a>
+        </li>
+        <li>
+          <a href="#AboutUs">About Creators </a>
+        </li>
+        <li>
+          <a href="#linkSection">Connect </a>
+        </li>
+      </ul>
 
-<!-- This is just a padding container between the Top Logo and Top Bar's bottom section**-->
+    </nav>
 
-      <div id="paddingContainer" style="position: relative;width:100vh;height:5%;">
-      </div>
+<!--******************* Navigation bar ends here****************************-->
 
-<!--***** Top Bar's Bottom grid section starts from here*****************************-->
-      <div class="container-fluid grid2Top" id="topBarBottom">
+    <div class="container-fluid" id="topSection" >
 
-        <div id="test">
-          <figure>
-            <div id="imageContainer">
-              <img src="images/image1.png"></img>
-            </div>
-            <div id="imageContainer">
-              <img src="images/image2.png"></img>
-            </div>
-            <div id="imageContainer">
-              <img src="images/image3.png"></img>
-            </div>
-          </figure>
+        <div id="topSectionLogo">
+          <img src="AppLogoFinal.png">
         </div>
 
-        <div id="topBarText">
-          <p>
-            <b>The new era of Android sports applications is here!<b><br><br><br>
-            <a href="app.apk" download="Stats-O-Score">
-              <img style="max-width:14vw;"src="DOWNLOAD.png">
-            </a>
-          </p>
+        <div id="topSectionDownload">
+          <p>Welcome to the world of Stats and Scores. We present to you the new era of android sports applications.</p>
+          <a href="app.apk" download="Stats-O-Score">
+              <img style="position: relative;max-width:14vw;"src="DOWNLOAD.png">
+          </a>
         </div>
+      </div>
 
-
-     </div> <!--Top Bar's Bottom grid section ends here-->
     </div>
-<!--************************************ Top Bar section ends here*****************************-->
 
 <!--************************************AppFeatures section starts here here*****************************-->
-    <div class="container-fluid" id="appFeatures">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+   <h1>App Features</h1>
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active ">
+      <div id="imageContainer">
+        <img src="images/image1.png">
+      </div>
+      <div id="appFeaturesDescription">
+        <span>Current Matches</span>
+        <br>
+        <p>  Keep track of score of all the matches going on in the top 3 European Soccer Leagues,
+           English Premier League, Bundesliga and La Liga .</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <div id="imageContainer">
+        <img src="images/image2.png">
+      </div>
+      <div id="appFeaturesDescription">
+        <span>Rankings</span>
+        <br>
+        <p> Ranking tables of top 3 European Soccer Leagues at one place. Keep track of weekly changes in
+          the ranks of your favorite Soccer teams in the top leagues of European Soccer .</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <div id="imageContainer">
+        <img src="images/image3.png">
+      </div>
+      <div id="appFeaturesDescription">
+        <span>Battlefield </span>
+          <br>
+        <p> Compare top players in Soccer world based on their FIFA stats.
+          Want to see the stats of less popular players?</span> No worry! We have a database of
+          <span style="font-size:0.9em; color:#3498DB">17,000 soccer players</span> .</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!--************************************ AppFeatures ends here*****************************-->
+
+
+<!--************************************AppFeatures section starts here here*****************************-->
+    <!--div class="container-fluid" id="appFeatures">
       <div class="title">
        App Features
       </div>
@@ -106,67 +165,67 @@
       <div class="title">
        Using Instructions
       </div>
-      <div class="container-fluid grid2">
-        <div class="subInstructions">
+      <div class="container-fluid grid-container">
+        <div class="subInstructions grid-item">
             <div id="title">Instuctions for Non-Technical Users.</div>
             <p>
-              <span style="color:white;font-weight:bold">1. </span>You can download the app by clicking on the Download button present on top of this page.
+              <span>1. </span>You can download the app by clicking on the Download button present on top of this page.
               <br><br>
-              <span style="color:white;font-weight:bold">2. </span>Tap on the .apk file which you just downloaded and the file manager will automatically install the file
+              <span>2. </span>Tap on the .apk file which you just downloaded and the file manager will automatically install the file
               on your device. (Note: In some cases you just have to give special permission for this app to be installed on your device.
               Don't Worry this app won't harm your mobile/tablet, It's just that mobile devices by default don't allow any files from unknown sources.)
               <br><br>
-              <span style="color:white;font-weight:bold">3. </span>Cheers! The app is installed on your device.
+              <span>3. </span>Cheers! The app is installed on your device.
               <br><br>
-              <span style="color:white;font-weight:bold">4. </span>After you open the app you will see 3 Horizontally scrollable scorecards of English Premiere League, La Liga and BundesLiga. Swipe left/margin-right
+              <span>4. </span>After you open the app you will see 3 Horizontally scrollable scorecards of English Premiere League, La Liga and BundesLiga. Swipe left/margin-right
               to keep track of scores.
               <br><br>
-              <span style="color:white;font-weight:bold">5. </span>You can also see a black bar(navigation bar) on the bottom of your screen. You can use that to hop between different sections of this app.
+              <span>5. </span>You can also see a black bar(navigation bar) on the bottom of your screen. You can use that to hop between different sections of this app.
               <br><br>
-              <span style="color:white;font-weight:bold">6. </span>Tap on Rankings to see the latest ranking tables of the aforementioned soccer leagues.
+              <span>6. </span>Tap on Rankings to see the latest ranking tables of the aforementioned soccer leagues.
               <br><br>
-              <span style="color:white;font-weight:bold">7. </span>In the Battlefield, you can just type the name of two players you want to compare and then based on FIFA acknowledged stats
+              <span>7. </span>In the Battlefield, you can just type the name of two players you want to compare and then based on FIFA acknowledged stats
               our app will declare a winner out of the two.
               <br><br>
-              <span style="color:white;font-weight:bold">8. </span>If these instructions weren't very useful to you then you can go to our YouTube channel and watch the videos of Stats-o-Score.
+              <span>8. </span>If these instructions weren't very useful to you then you can go to our YouTube channel and watch the videos of Stats-o-Score.
               <br><br>
-              <span style="color:white;font-weight:bold">9. </span>Enjoy using Stats-o-Score!
+              <span>9. </span>Enjoy using Stats-o-Score!
         </div>
 
-        <div class="subInstructions">
+        <div class="subInstructions grid-item">
             <div id="title">Instructions for Technical Users (Testers)</div>
             <p>
               For Developer to run the you need to download and setup android studio.
               If you don’t have android studio setup already please refer to this link to setup android studio
               https://www.youtube.com/watch?v=F-k5gwz_91o (Watch till 15 min only) After that follow these to run our app in android studio.
               <br><br>
-              <span style="color:white;font-weight:bold">1. </span> First got to our github repo and copy the our clone https link from <a href="https://github.com/Manvijay/stats-o-score">here .</a>
+              <span>1. </span> First got to our github repo and copy the our clone https link from <a href="https://github.com/Manvijay/stats-o-score">here .</a>
               <br><br>
-              <span style="color:white;font-weight:bold">2.  </span>Now open android studio and choose Checkout Version Control -> GitHub (If you don’t see this window click on File -> Close Project).
+              <span>2.  </span>Now open android studio and choose Checkout Version Control -> GitHub (If you don’t see this window click on File -> Close Project).
               <br><br>
-              <span style="color:white;font-weight:bold">3.  </span>Now you have to paste the Github clone url we copied earlier here. Select your parent Directory and/or a name for Directory Name.
+              <span>3.  </span>Now you have to paste the Github clone url we copied earlier here. Select your parent Directory and/or a name for Directory Name.
               <br><br>
-              <span style="color:white;font-weight:bold">4.  </span>Click and clone let the process go on.
+              <span>4.  </span>Click and clone let the process go on.
               <br><br>
-              <span style="color:white;font-weight:bold">5.  </span>After cloning is done, you might get an error. Don’t worry just click on .
+              <span>5.  </span>After cloning is done, you might get an error. Don’t worry just click on .
               <br><br>
-              <span style="color:white;font-weight:bold">6.  </span>Android Studio will start working on setting up your project.
+              <span>6.  </span>Android Studio will start working on setting up your project.
               <br><br>
-              <span style="color:white;font-weight:bold">7.  </span>After the process is done(don’t worry if it’s still giving an error) click on Build -> Clean Project
+              <span>7.  </span>After the process is done(don’t worry if it’s still giving an error) click on Build -> Clean Project
               <br><br>
-              <span style="color:white;font-weight:bold">8.  </span>After its done click on Build -> Build Apk(s).
+              <span>8.  </span>After its done click on Build -> Build Apk(s).
               <br><br>
-              <span style="color:white;font-weight:bold">9.  </span>After that click on Sync Project with Gradle Files icon. If you can’t find the icon just click Tools -> Android -> Sync Gradle Files.
+              <span>9.  </span>After that click on Sync Project with Gradle Files icon. If you can’t find the icon just click Tools -> Android -> Sync Gradle Files.
               <br><br>
-              <span style="color:white;font-weight:bold">10.  </span>Finally click on Run to start the project.
+              <span>10.  </span>Finally click on Run to start the project.
               <br><br>
-              <span style="color:white;font-weight:bold">11.  </span>Select your own AVD device. Enjoy running the app!
+              <span>11.  </span>Select your own AVD device. Enjoy running the app!
             </p>
         </div>
 
       </div>
 
-      <p style="color:white;font-size:0.8em;font-weight:normal"> Help us making our app better. Go to our GitHub issue page
+      <p style="color:grey;font-size:0.8em;font-weight:normal"> Help us making our app better. Go to our GitHub issue page
         <a href="https://github.com/Manvijay/stats-o-score/issues">
           <i style="color:#3498DB;font-size:2em" class="fab fa-github"> </i>
         </a>
@@ -182,7 +241,7 @@
        About the App
       </div>
       <div id="appFeaturesDescription" style="padding: 0px 30px;">
-        <p style="font-weight:normal;font-size:0.8em;text-align:justify">
+        <p>
           Our goal was to make an Android App which will add a new dimension to the world of Android Sports Applications.
           This sports app named "Stats-o-Score" will provide a new vision to the sports app category. The name of this app
           is the combination of "Stats" and "Scores" which is what this app provides to it's users, alongwith one of its kind
@@ -197,20 +256,20 @@
      </div>
     </div>
 
-
+<!--***********************About Us starts here**************************-->
     <div class="container-fluid" id="AboutUs">
       <div class="title">
        About Noob Coders
       </div>
-      <div id="appFeaturesDescription" style="padding: 0px 30px;">
-        <p style="font-weight:normal;font-size:0.8em;text-align:justify">
+      <p >
           This is a group of five noobs who didn't know how to code in android environment before Spring,2018
           but our passion for sports and coding helped us overcome all the obstructions to create this app for
           other sports fanatics like us.
        </p>
-       <div class="container-fluid grid5">
-         <div>
-           <a href="https://www.facebook.com/saksham1095">
+
+       <div class="grid-container" id="pictures">
+         <div class="grid-item">
+           <a href="https://www.linkedin.com/in/saksham-bansal-654216a1/">
              <div id="imageContainer">
                <img src="images/saksham.jpg">
              </div>
@@ -218,8 +277,8 @@
              Saksham
            </a>
          </div>
-         <div>
-           <a href="https://www.facebook.com/deepak.lather.589">
+         <div class="grid-item">
+           <a href="https://www.linkedin.com/in/deepak-l-b69314117/">
              <div id="imageContainer">
                <img src="images/deepak.jpg">
              </div>
@@ -227,8 +286,8 @@
              Deepak
            </a>
          </div>
-         <div>
-           <a href="https://www.facebook.com/manvijay.lather">
+         <div class="grid-item">
+           <a href="https://www.linkedin.com/in/manvijay/">
              <div id="imageContainer">
                <img src="images/manvijay.jpg">
              </div>
@@ -236,16 +295,16 @@
              Manvijay
            </a>
          </div>
-         <div>
+         <div class="grid-item">
            <a href="https://www.facebook.com/amritpal96">
              <div id="imageContainer">
                <img src="images/amritpal.jpg">
              </div>
              <br>
-             Amrit
+             Amritpal
            </a>
          </div>
-         <div>
+         <div class="grid-item">
            <a href="https://www.facebook.com/vishu.saharan">
              <div id="imageContainer">
                <img src="images/vishal.jpg">
@@ -254,10 +313,11 @@
              Vishal
            </a>
          </div>
+       </div>
 
        </div>
      </div>
-    </div>
+<!--***********************About Us ends here**************************-->
 
 <!--*************************Link section starts from here**********************************-->
 
@@ -282,7 +342,7 @@
         </div>
 
         <div id="gridItem">
-          <a href="https://www.youtube.com/watch?v=CtqGfHxLzNs&list=PLczx3CjTeHVST0d7_7ThKQSO_Q7ZCvrJm">
+          <a href="https://www.youtube.com/user/Sakdec10">
             <i class="fab fa-youtube"></i>
             <p>YouTube <br>(Watch the app videos)</p>
           </a>

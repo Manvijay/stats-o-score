@@ -3,9 +3,15 @@
 body,html{
   padding: 0;
   margin: 0;
-  background-color: white;
+  background:#F4F6F7;
   font-family: "Comfortaa";
   font-weight: normal;
+  overflow-x: hidden;
+}
+
+ul,li{
+  list-style: none;
+  display: inline;
 }
 
 a{
@@ -13,154 +19,131 @@ a{
   color:#3498DB;
 }
 
-#topBar{
-  display: block;
+nav{
   position: relative;
-  height: 68vh; /*2vh is padding on top so that makes it 70vh*/
-  width: 100%;
-  background:#3498D6;
-  padding-top:2vh;
-  margin: 0;
-  overflow: hidden;
+  background:#2E86C1;
+  height: 10vh;
 }
 
-#topBarTop{
-  width: 100%;
-  height: 20%;
-  position: relative;
-  font-family: 'Comfortaa',cursive;
+nav ul,li{
+  line-height: 10vh;
+  margin:0px  20px;
 }
 
-#topBarTop img{
+nav ul li a{
+  font-size: 1vw;
+  color:white;
+}
+
+nav ul li a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+nav img{
+  position: absolute;
+  max-width: 8vw;
+  max-height: 8vh;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+}
+
+#topSection{
+  position:relative;
+  width:100%;
+  margin-top:10vh;
+  padding:10vh;
+  background:linear-gradient(#85C1E9, #1F618D);
+}
+
+#topSectionLogo{
+  padding-top:10vh;
   position: relative;
-  max-width: 100%;
-  max-height: 100%;
-  left: 50vw;
+  height: 60%;
+}
+
+#topSectionLogo img{
+  position: relative;
+  max-width: 20vw;
+  max-height: 30vh;
+  left: 52%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+#topSectionDownload{
+    position: relative;
+    padding-bottom: 30px;
+}
+
+#topSectionDownload a{
+  position: relative;
+  left: 43%;
   transform: translateX(-50%);
 }
 
-.grid2Top{
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-column-gap: 5vw;
-  width: 100%;
-  height: auto;
-}
-
-.grid2{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 5vw;
-  width: 100%;
-  height: auto;
-}
-
-#topBarBottom{
-  display: grid;
-  height: 75%;
-}
-
-#topBarText{
-  position: relative;
-  height: 50vh;
-  padding: 10px 10px;
-}
-
-#topBarText p{
-  position: relative;
+#topSectionDownload p{
   text-align: center;
-  font-size: 1em;
-  top: 70%;
-  transform: translateY(-50%);
-  font-weight: bold;
-}
-
-#test{
-  position: relative;
-  overflow-x: hidden;
-      overflow-y: hidden;
-  width: 100%
-  height: 100%;
-}
-
-#test figure{
-  position: relative;
-  width: 300%;
-  -webkit-animation: 10s slideAnimation infinite;
-}
-
-#test figure #imageContainer{
-  position: relative;
-  float: left;
-  width: 33%;
-
-}
-
-#test figure #imageContainer img{
-  position: relative;
-  max-width:100%;
-  overflow-y: hidden;
-}
-
-
-#appFeatures{
-  position: relative;
-  width: 100%;
-  padding: 50px 0;
-  background: white;
-  text-align: center;
+  font-size: 1.5vw;
 }
 
 .title{
-  font-size: 2.7em;
-  padding-bottom: 7vh;
-  padding-top: 4vh;
+  font-size: 3vw;
+  padding-bottom: 5vh;
   font-family: "Comfortaa", cursive;
   text-align: center;
   font-weight: normal;
 }
 
-.grid3{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 3vh;
-  width: 100%;
-  overflow: hidden;
-}
 
-#gridItem{
+#myCarousel{
+  padding-top:10vh;
+  height:100vh;
+  width: 100%;
+  background:#F4F6F7;
   position: relative;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
 }
 
-#appFeatures #gridItem #imageContainer{
-  position: relative;
-  width: 100%;
-}
-
-#appFeatures #gridItem #imageContainer img{
-  max-width: 100%;
-}
-
-#appFeatures #gridItem #appFeaturesDescription{
-  margin: 20px;
-
-}
-
-#appFeatures #gridItem span{
+#myCarousel h1{
   text-align: center;
-  font-size: 1.2em;
-  color: #3498DB;
-
+  font-size: 3vw;
+  margin-bottom: 6vh;
 }
 
-#appFeatures #gridItem p{
-  text-align: justify;
-  margin: 10px;
-  font-size: 0.9em;
-  font-weight: normal;
+.carousel-indicators li {
+    display: inline-block;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: black;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
+    opacity: 0.4;
+}
+
+
+#myCarousel .carousel-inner .item #imageContainer{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+#myCarousel .carousel-inner .item img{
+  max-width: 80vw;
+  max-height: 50vh;
+  padding-bottom: 30px;
+}
+
+#myCarousel .carousel-inner .item #appFeaturesDescription{
+  text-align: center;
+  font-size: 1vw;
+  margin: 0;
+  padding: 0 20vw;
+}
+
+#appFeaturesDescription span{
+  font-size: 2vw;
+  color:#3498DB
 }
 
 
@@ -168,74 +151,101 @@ a{
   position: relative;
   width: 100%;
   /*background: linear-gradient(grey, white, white, white, white, white, white, white, white);*/
-  background: grey;
+  background: white;
   text-align: center;
   padding-bottom: 20px;
-
+  padding-top:10vh;
 }
 
 .subInstructions #title{
   font-weight: normal;
-  color:white;
-  font-size: 1.6em;
+  color:grey;
+  font-size: 2vw;
   padding-bottom: 20px;
 }
 
 .subInstructions p{
   font-weight: normal;
-  font-size: 0.7em;
+  font-size: 1vw;
   text-align: justify;
-  padding: 20px;
+  padding:20px;
 }
+
+.subInstructions p span{
+  color:grey;
+  font-weight:bold;
+  margin-right: 6px;
+}
+
 
 #AboutApp{
   position: relative;
   width: 100%;
-  background: white;
+  background: #F4F6F7;
+  padding-top:10vh;
   padding-bottom: 20px;
   text-align: center;
+}
+
+#AboutApp p{
+  font-weight:normal;
+  font-size:1vw;
+  text-align:justify;
 }
 
 #AboutUs{
   position: relative;
   width: 100%;
   background: white;
+  padding-top:10vh;
   padding-bottom: 20px;
   text-align: center;
 }
 
-.grid5{
-  position: relative;
+
+#AboutUs .grid-container {
+  padding-top: 30px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-column-gap: 3vh;
-  width: 100%;
-  overflow: hidden;
+  grid-template-columns: auto auto auto auto auto;
+}
+#AboutUs .grid-container .grid-item {
+  text-align: center;
 }
 
-.grid5 #imageContainer{
+#AboutUs .grid-container .grid-item img{
+  border-radius: 50%;
+  width: 15vw;
+  height: 30vh;
+}
+
+#AboutUs .grid-container .grid-item img:hover{
+  opacity:0.7;
+}
+
+#AboutUs #pictures a{
   position: relative;
-  max-width: 80%;
-  height: 200px;
-}
-
-.grid5 #imageContainer img{
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.grid5 a{
   font-weight: normal;
   color: black;
+}
+
+#AboutUs #pictures a:hover{
+  text-decoration: none;
+  color: #2E86C1;
+}
+
+#AboutUs p{
+  font-weight:normal;
+  font-size:1vw;
+  text-align:justify
 }
 
 
 #linkSection{
   position: relative;
   width: 100%;
+  padding-top:10vh;
   padding-bottom: 70px;
-  background-color:#3498DB;
+  background-color:#2E86C1;
   text-align: center;
 }
 
