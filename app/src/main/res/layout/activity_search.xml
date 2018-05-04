@@ -33,19 +33,26 @@
             android:textAlignment="center"
             android:textSize="16sp" />
 
-        <Button
+      <Button
             android:id="@+id/battle"
-            android:layout_width="wrap_content"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="242dp"
-            android:text="Battle" />
+            android:background="@drawable/circular"
+            android:fontFamily="@font/comfortaa"
+            android:text="Battle"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView_search"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="39dp"

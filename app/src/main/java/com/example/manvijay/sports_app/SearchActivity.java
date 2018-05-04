@@ -1,6 +1,5 @@
 package com.example.manvijay.sports_app;
 
-/* Created by Deepak */
 
 import android.app.Fragment;
 import android.app.FragmentManager;
@@ -36,6 +35,8 @@ public class SearchActivity extends AppCompatActivity  {
     private ImageView profile_Image_right;
     private ImageView profile_Image_Flag_left;
     private ImageView profile_Image_Flag_right;
+    private ImageView profile_Image_Club_left;
+    private ImageView profile_Image_Club_right;
 
     Typeface tf;
 
@@ -51,6 +52,8 @@ public class SearchActivity extends AppCompatActivity  {
     String Strength_left, Strength_right;
     String Image_left, Image_right;
     String Flag_left, Flag_right;
+    String Club_left, Club_right;
+    String Club_name_left, Club_name_right;
 
     //Activity_search layout will be opened in onCreate
     @Override
@@ -65,8 +68,7 @@ public class SearchActivity extends AppCompatActivity  {
         l_search = (EditText) findViewById(R.id.search_left);  // id search_left in xml file
         r_search = (EditText) findViewById(R.id.search_right); // id search_right in xml file
         title = (TextView) findViewById(R.id.textView_search);
-
-        startbattle.setTypeface(tf);
+        
         l_search.setTypeface(tf);
         r_search.setTypeface(tf);
         title.setTypeface(tf);
@@ -77,12 +79,12 @@ public class SearchActivity extends AppCompatActivity  {
             public void onClick(View v) {
                 //Getting the players data from app/res/raw/complete_dataset.csv
                 InputStream inputStream = getResources().openRawResource(R.raw.complete_dataset);
-                //InputStream inputS = getResources().openRawResource(R.raw.countries);
-                //CSVFile csvF = new CSVFile(inputS);
+                InputStream inputS = getResources().openRawResource(R.raw.countries);
+                CSVFile csvF = new CSVFile(inputS);
                 CSVFile csvFile = new CSVFile(inputStream);
                 //Setting the data of players in List<String[]> format
                 List<String[]> mylist = csvFile.read();
-                //List<String[]> myClist = csvF.read();
+                List<String[]> myClist = csvF.read();
                 String left1, right1;
                 String ls = null;
                 ls=l_search.getText().toString();  // getting the name of player one into ls from the search field in search activity
@@ -137,7 +139,7 @@ public class SearchActivity extends AppCompatActivity  {
                             Sta_left = left[14].toString();
                             Strength_left = left[15].toString();
                             Image_left = left[1].toString();
-                            /*String FL = left[2].toString();
+                            String FL = left[2].toString();
                             for(j=0;j<myClist.size();j++)
                             {
                                 String[] CL = myClist.get(j);
@@ -146,8 +148,10 @@ public class SearchActivity extends AppCompatActivity  {
                                 {
                                     Flag_left = CL[5];
                                 }
-                            }*/
-                            Flag_left = left[3].toString();
+                            }
+                            //Flag_left = left[3].toString();
+                            Club_left = left[7].toString();
+                            Club_name_left = left[6].toString();
                             break;
                         }
 
@@ -173,7 +177,7 @@ public class SearchActivity extends AppCompatActivity  {
                             Sta_right = (right[14].toString());
                             Strength_right = (right[15].toString());
                             Image_right = right[1].toString();
-                            /* String RL = right[2].toString();
+                             String RL = right[2].toString();
                              for(j=0;j<myClist.size();j++)
                              {
                                  String[] CR = myClist.get(j);
@@ -182,12 +186,15 @@ public class SearchActivity extends AppCompatActivity  {
                                  {
                                      Flag_right = CR[5];
                                  }
-                             }*/
-                            Flag_right = right[3].toString();
+                             }
+                            //Flag_right = right[3].toString();
+                            Club_right = right[7].toString();
+                            Club_name_right = right[6].toString();
                             break;
                         }
 
                     }
+
                     
                     //if name1 is not found in the database then print the player not found and load the search_activity again
                     if(i>mylist.size()-1)
@@ -195,6 +202,7 @@ public class SearchActivity extends AppCompatActivity  {
                         Toast.makeText(getApplicationContext(),"Player 1 Not Found ",Toast.LENGTH_SHORT).show();
                         Intent intent2= new Intent(SearchActivity.this, SearchActivity.class);
                         startActivity(intent2);
+
                     }
                     
                     //if name2 is not found in the database then print the player not found and load the search_activity again
@@ -204,7 +212,12 @@ public class SearchActivity extends AppCompatActivity  {
                         Intent intent2= new Intent(SearchActivity.this, SearchActivity.class);
                         startActivity(intent2);
                     }
-                    
+                    else if ( Name_left==Name_right)
+                    {
+                        Toast.makeText(getApplicationContext(),"Both Players cannot have the same name",Toast.LENGTH_SHORT).show();
+                        Intent intent5= new Intent(SearchActivity.this, SearchActivity.class);
+                        startActivity(intent5);
+                    }
                     // if name is found then sending all the values to BattleActivity via intent1 object
                     else
                     {
@@ -231,6 +244,10 @@ public class SearchActivity extends AppCompatActivity  {
                     intent1.putExtra("Image_right", Image_right);
                     intent1.putExtra("Flag_left", Flag_left);
                     intent1.putExtra("Flag_right", Flag_right);
+                    intent1.putExtra("Club_left", Club_left);
+                    intent1.putExtra("Club_right", Club_right);
+                    intent1.putExtra("Club_name_left", Club_name_left);
+                    intent1.putExtra("Club_name_right", Club_name_right);
 
 
                     startActivity(intent1); 
