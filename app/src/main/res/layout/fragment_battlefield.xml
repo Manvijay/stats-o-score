@@ -61,7 +61,7 @@
             android:id="@+id/LinearLayout_PlayersImage"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:layout_weight="2"
+            android:layout_weight="3"
 
             android:weightSum="2">
 
@@ -70,27 +70,48 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                android:weightSum="2">
+                android:weightSum="10">
 
                 <ImageView
                     android:id="@+id/imageViewLeft"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_height="0dp"
+                    android:layout_weight="7"
+                    android:paddingBottom="5dp"
                     app:srcCompat="@drawable/dhoni" />
 
-                <ImageView
-                    android:id="@+id/imageViewFlagLeft"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="true"
-                    android:maxWidth="30dp"
-                    android:maxHeight="30dp"
-                    android:scaleType="fitCenter"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"
-                    android:background="@android:color/white"
-                    android:src="@mipmap/ic_launcher" />
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:id="@+id/imageViewFlagLeft"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:layout_weight="5"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/white"
+                        android:maxHeight="30dp"
+                        android:maxWidth="30dp"
+                        android:paddingEnd="5dp"
+                        android:paddingStart="20dp"
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/ic_launcher" />
+
+                    <ImageView
+                        android:id="@+id/club_left"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5"
+                        android:paddingStart="5dp"
+                        android:scaleType="fitStart"
+                        app:srcCompat="@mipmap/ic_launcher" />
+                </LinearLayout>
+
             </LinearLayout>
 
             <LinearLayout
@@ -98,27 +119,48 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                android:weightSum="2">
+                android:weightSum="10">
 
                 <ImageView
                     android:id="@+id/imageViewRight"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_height="0dp"
+                    android:layout_weight="7"
+                    android:paddingBottom="5dp"
                     app:srcCompat="@drawable/dhoni" />
 
-                <ImageView
-                    android:id="@+id/imageViewFlagRight"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="true"
-                    android:maxWidth="30dp"
-                    android:maxHeight="30dp"
-                    android:scaleType="fitCenter"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"
-                    android:background="@android:color/white"
-                    android:src="@mipmap/ic_launcher" />
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:id="@+id/imageViewFlagRight"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:layout_weight="5"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/white"
+                        android:maxHeight="30dp"
+                        android:maxWidth="30dp"
+                        android:paddingEnd="5dp"
+                        android:paddingStart="20dp"
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/ic_launcher" />
+
+                    <ImageView
+                        android:id="@+id/club_right"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5"
+                        android:paddingStart="5dp"
+                        android:scaleType="fitStart"
+                        app:srcCompat="@mipmap/ic_launcher" />
+                </LinearLayout>
+
             </LinearLayout>
 
         </LinearLayout>
@@ -129,19 +171,58 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/LinearLayout_PlayersImage"
             android:layout_marginTop="5dp"
-            android:layout_weight="5"
+            android:layout_weight="4"
             android:background="@color/colorPrimaryDark"
             android:orientation="vertical"
-            android:weightSum="8">
+            android:weightSum="9">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/club_name_left"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="37.5"
+                    android:fontFamily="@font/comfortaa"
+                    android:gravity="center"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/club_name"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="25"
+                    android:gravity="center"
+                    android:text="Club Name"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/club_name_right"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="37.5"
+                    android:fontFamily="@font/comfortaa"
+                    android:gravity="center"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+            </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/LinearLayout_MatchesStats"
                 android:layout_width="match_parent"
-                android:layout_height="3dp"
+                android:layout_height="0dp"
                 android:layout_weight="1"
                 android:background="#ffffff"
                 android:orientation="horizontal"
-                android:paddingTop="7dp"
                 android:weightSum="100">
 
                 <TextView
@@ -149,6 +230,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="0"
                     android:textAlignment="center" />
 
@@ -157,6 +239,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="Win/Lose"
                     android:textAlignment="center"
                     android:textSize="13sp" />
@@ -166,6 +249,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="32"
+                    android:gravity="center"
                     android:text="Acceleration"
                     android:textAlignment="center" />
                 android:textSize="13dp"
@@ -175,6 +259,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="Win/Lose"
                     android:textAlignment="center"
                     android:textSize="13sp" />
@@ -184,6 +269,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="0"
                     android:textAlignment="center" />
             </LinearLayout>
@@ -191,7 +277,7 @@
             <LinearLayout
                 android:id="@+id/LinearLayout_InningsStats"
                 android:layout_width="match_parent"
-                android:layout_height="3dp"
+                android:layout_height="0dp"
                 android:layout_weight="1"
                 android:background="#ffffff"
                 android:orientation="horizontal"
@@ -202,6 +288,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="0"
                     android:textAlignment="center" />
 
@@ -210,6 +297,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="Win/Lose"
                     android:textAlignment="center"
                     android:textSize="13sp" />
@@ -219,6 +307,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="32"
+                    android:gravity="center"
                     android:text="Finishing"
                     android:textAlignment="center"
                     android:textSize="13sp" />
@@ -228,6 +317,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="Win/Lose"
                     android:textAlignment="center"
                     android:textSize="13sp" />
@@ -237,6 +327,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="0"
                     android:textAlignment="center" />
 
@@ -245,7 +336,7 @@
             <LinearLayout
                 android:id="@+id/LinearLayout_RunsStats"
                 android:layout_width="match_parent"
-                android:layout_height="3dp"
+                android:layout_height="0dp"
                 android:layout_weight="1"
                 android:background="#ffffff"
                 android:orientation="horizontal"
@@ -256,6 +347,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="0"
                     android:textAlignment="center" />
 
@@ -264,6 +356,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="Win/Lose"
                     android:textAlignment="center"
                     android:textSize="13sp" />
@@ -273,6 +366,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="32"
+                    android:gravity="center"
                     android:text="Free Kick"
                     android:textAlignment="center"
                     android:textSize="13sp" />
@@ -282,6 +376,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="Win/Lose"
                     android:textAlignment="center"
                     android:textSize="13sp" />
@@ -291,6 +386,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="0"
                     android:textAlignment="center" />
 
@@ -299,7 +395,7 @@
             <LinearLayout
                 android:id="@+id/LinearLayout_AverageStats"
                 android:layout_width="match_parent"
-                android:layout_height="3dp"
+                android:layout_height="0dp"
                 android:layout_weight="1"
                 android:background="#ffffff"
                 android:orientation="horizontal"
@@ -310,6 +406,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="0"
                     android:textAlignment="center" />
 
@@ -318,6 +415,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="Win/Lose"
                     android:textAlignment="center"
                     android:textSize="13sp" />
@@ -327,6 +425,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="32"
+                    android:gravity="center"
                     android:text="Penalties"
                     android:textAlignment="center"
                     android:textSize="13sp" />
@@ -336,6 +435,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="Win/Lose"
                     android:textAlignment="center"
                     android:textSize="13sp" />
@@ -345,6 +445,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="0"
                     android:textAlignment="center" />
 
@@ -353,7 +454,7 @@
             <LinearLayout
                 android:id="@+id/LinearLayout_StrikeRateStats"
                 android:layout_width="match_parent"
-                android:layout_height="3dp"
+                android:layout_height="0dp"
                 android:layout_weight="1"
                 android:background="#ffffff"
                 android:orientation="horizontal"
@@ -364,6 +465,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="0"
                     android:textAlignment="center" />
 
@@ -372,6 +474,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="Win/Lose"
                     android:textAlignment="center"
                     android:textSize="13sp" />
@@ -381,6 +484,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="32"
+                    android:gravity="center"
                     android:text="Shot Power"
                     android:textAlignment="center"
                     android:textSize="13sp" />
@@ -390,6 +494,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="Win/Lose"
                     android:textAlignment="center"
                     android:textSize="13sp" />
@@ -399,6 +504,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="0"
                     android:textAlignment="center" />
 
@@ -407,7 +513,7 @@
             <LinearLayout
                 android:id="@+id/LinearLayout_HighestStats"
                 android:layout_width="match_parent"
-                android:layout_height="3dp"
+                android:layout_height="0dp"
                 android:layout_weight="1"
                 android:background="#ffffff"
                 android:orientation="horizontal"
@@ -418,6 +524,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="0"
                     android:textAlignment="center" />
 
@@ -426,6 +533,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="Win/Lose"
                     android:textAlignment="center"
                     android:textSize="13sp" />
@@ -435,6 +543,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="32"
+                    android:gravity="center"
                     android:text="Sprint Speed"
                     android:textAlignment="center"
                     android:textSize="13sp" />
@@ -444,6 +553,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="Win/Lose"
                     android:textAlignment="center"
                     android:textSize="13sp" />
@@ -453,6 +563,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="0"
                     android:textAlignment="center" />
 
@@ -461,7 +572,7 @@
             <LinearLayout
                 android:id="@+id/LinearLayout_100sStats"
                 android:layout_width="match_parent"
-                android:layout_height="3dp"
+                android:layout_height="0dp"
                 android:layout_weight="1"
                 android:background="#ffffff"
                 android:orientation="horizontal"
@@ -472,6 +583,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="0"
                     android:textAlignment="center" />
 
@@ -480,6 +592,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="Win/Lose"
                     android:textAlignment="center"
                     android:textSize="13sp" />
@@ -489,6 +602,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="32"
+                    android:gravity="center"
                     android:text="Stamina"
                     android:textAlignment="center"
                     android:textSize="13sp" />
@@ -498,6 +612,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="Win/Lose"
                     android:textAlignment="center"
                     android:textSize="13sp" />
@@ -507,6 +622,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="0"
                     android:textAlignment="center" />
 
@@ -515,7 +631,7 @@
             <LinearLayout
                 android:id="@+id/LinearLayout_50sStats"
                 android:layout_width="match_parent"
-                android:layout_height="3dp"
+                android:layout_height="0dp"
                 android:layout_weight="1"
                 android:background="#ffffff"
                 android:orientation="horizontal"
@@ -526,6 +642,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="0"
                     android:textAlignment="center" />
 
@@ -534,6 +651,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="Win/Lose"
                     android:textAlignment="center"
                     android:textSize="13sp" />
@@ -543,6 +661,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="32"
+                    android:gravity="center"
                     android:text="Strength"
                     android:textAlignment="center"
                     android:textSize="13sp" />
@@ -552,6 +671,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="Win/Lose"
                     android:textAlignment="center"
                     android:textSize="13sp" />
@@ -561,6 +681,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="17"
+                    android:gravity="center"
                     android:text="0"
                     android:textAlignment="center" />
 

@@ -3,13 +3,10 @@
 
 package com.example.manvijay.sports_app;
 
-/**
- * Created by Deepak on 25-03-2018.
- */
-
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
+import android.media.Image;
 import android.os.Parcelable;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -42,6 +39,8 @@ public class BattleActivity extends AppCompatActivity {
     String Strength_left, Strength_right;
     String Image_left, Image_right;
     String Flag_left,Flag_right;
+    String Club_left,Club_right;
+    String Club_name_left,Club_name_right;
     Typeface tf;
 
     int leftCount = 0, rightCount = 0;  // Counters to determine the Winner
@@ -65,10 +64,14 @@ public class BattleActivity extends AppCompatActivity {
     private TextView body_right;
     private TextView naam_left;
     private TextView naam_right;
+    private TextView club_name_left;
+    private TextView club_name_right;
     private ImageView profile_Image_left;
     private ImageView profile_Image_right;
     private ImageView profile_Image_Flag_left;
     private ImageView profile_Image_Flag_right;
+    private ImageView profile_Image_Club_left;
+    private ImageView profile_Image_Club_right;
 
     private TextView accel;
     private TextView finish;
@@ -79,6 +82,7 @@ public class BattleActivity extends AppCompatActivity {
     private TextView sta;
     private TextView stren;
     private TextView res;
+    private TextView club;
 
 
 
@@ -111,6 +115,10 @@ public class BattleActivity extends AppCompatActivity {
         Image_right = getIntent().getExtras().getString("Image_right");
         Flag_left = getIntent().getExtras().getString("Flag_left");
         Flag_right = getIntent().getExtras().getString("Flag_right");
+        Club_left = getIntent().getExtras().getString("Club_left");
+        Club_right = getIntent().getExtras().getString("Club_right");
+        Club_name_left = getIntent().getExtras().getString("Club_name_left");
+        Club_name_right = getIntent().getExtras().getString("Club_name_right");
 
 
         accel = (TextView) findViewById(R.id.acc1);
@@ -122,6 +130,7 @@ public class BattleActivity extends AppCompatActivity {
         sta = (TextView) findViewById(R.id.sta1);
         stren = (TextView) findViewById(R.id.stren1);
         res = (TextView) findViewById(R.id.result2);
+        club = (TextView) findViewById(R.id.club_name);
 
         accel.setTypeface(tf);
         finish.setTypeface(tf);
@@ -132,6 +141,7 @@ public class BattleActivity extends AppCompatActivity {
         sta.setTypeface(tf);
         stren.setTypeface(tf);
         res.setTypeface(tf);
+        club.setTypeface(tf);
 
         //Determining the Winner by comparing all attributes of the players
         if(Integer.parseInt(Accel_left)>Integer.parseInt(Accel_right)){
@@ -139,7 +149,7 @@ public class BattleActivity extends AppCompatActivity {
             TextView acc_r_l = (TextView) findViewById(R.id.accel_result_left);
             acc_r_l.setTypeface(tf);
             acc_r_l.setText("Win");
-            acc_r_l.setTextColor(Color.parseColor("#7cfc00"));
+            acc_r_l.setTextColor(Color.parseColor("#009C09"));
             TextView acc_r_r = (TextView) findViewById(R.id.accel_result_right);
             acc_r_r.setTypeface(tf);
             acc_r_r.setText("Lose");
@@ -154,7 +164,7 @@ public class BattleActivity extends AppCompatActivity {
             TextView acc_r_r = (TextView) findViewById(R.id.accel_result_right);
             acc_r_l.setTypeface(tf);
             acc_r_r.setText("Win");
-            acc_r_r.setTextColor(Color.parseColor("#7cfc00"));
+            acc_r_r.setTextColor(Color.parseColor("#009C09"));
         }
         else
         {
@@ -172,7 +182,7 @@ public class BattleActivity extends AppCompatActivity {
             TextView fin_r_l = (TextView) findViewById(R.id.finish_result_left);
             fin_r_l.setTypeface(tf);
             fin_r_l.setText("Win");
-            fin_r_l.setTextColor(Color.parseColor("#7cfc00"));
+            fin_r_l.setTextColor(Color.parseColor("#009C09"));
             TextView fin_r_r = (TextView) findViewById(R.id.finish_result_right);
             fin_r_r.setTypeface(tf);
             fin_r_r.setText("Lose");
@@ -186,7 +196,7 @@ public class BattleActivity extends AppCompatActivity {
             TextView fin_r_r = (TextView) findViewById(R.id.finish_result_right);
             fin_r_r.setTypeface(tf);
             fin_r_r.setText("Win");
-            fin_r_r.setTextColor(Color.parseColor("#7cfc00"));
+            fin_r_r.setTextColor(Color.parseColor("#009C09"));
             rightCount++;
         }
         else
@@ -205,7 +215,7 @@ public class BattleActivity extends AppCompatActivity {
             TextView kick_r_l = (TextView) findViewById(R.id.kick_result_left);
             kick_r_l.setTypeface(tf);
             kick_r_l.setText("Win");
-            kick_r_l.setTextColor(Color.parseColor("#7cfc00"));
+            kick_r_l.setTextColor(Color.parseColor("#009C09"));
             TextView kick_r_r = (TextView) findViewById(R.id.kick_result_right);
             kick_r_r.setTypeface(tf);
             kick_r_r.setText("Lose");
@@ -219,7 +229,7 @@ public class BattleActivity extends AppCompatActivity {
             TextView kick_r_r = (TextView) findViewById(R.id.kick_result_right);
             kick_r_r.setTypeface(tf);
             kick_r_r.setText("Win");
-            kick_r_r.setTextColor(Color.parseColor("#7cfc00"));
+            kick_r_r.setTextColor(Color.parseColor("#009C09"));
 
             rightCount++;
         }
@@ -239,7 +249,7 @@ public class BattleActivity extends AppCompatActivity {
             TextView pen_r_l = (TextView) findViewById(R.id.pen_result_left);
             pen_r_l.setTypeface(tf);
             pen_r_l.setText("Win");
-            pen_r_l.setTextColor(Color.parseColor("#7cfc00"));
+            pen_r_l.setTextColor(Color.parseColor("#009C09"));
             TextView pen_r_r = (TextView) findViewById(R.id.pen_result_right);
             pen_r_r.setTypeface(tf);
             pen_r_r.setText("Lose");
@@ -253,7 +263,7 @@ public class BattleActivity extends AppCompatActivity {
             TextView pen_r_r = (TextView) findViewById(R.id.pen_result_right);
             pen_r_r.setTypeface(tf);
             pen_r_r.setText("Win");
-            pen_r_r.setTextColor(Color.parseColor("#7cfc00"));
+            pen_r_r.setTextColor(Color.parseColor("#009C09"));
             rightCount++;
         }
         else
@@ -272,7 +282,7 @@ public class BattleActivity extends AppCompatActivity {
             TextView pow_r_l = (TextView) findViewById(R.id.pow_result_left);
             pow_r_l.setTypeface(tf);
             pow_r_l.setText("Win");
-            pow_r_l.setTextColor(Color.parseColor("#7cfc00"));
+            pow_r_l.setTextColor(Color.parseColor("#009C09"));
             TextView pow_r_r = (TextView) findViewById(R.id.pow_result_right);
             pow_r_r.setTypeface(tf);
             pow_r_r.setText("Lose");
@@ -286,7 +296,7 @@ public class BattleActivity extends AppCompatActivity {
             TextView pow_r_r = (TextView) findViewById(R.id.pow_result_right);
             pow_r_r.setTypeface(tf);
             pow_r_r.setText("Win");
-            pow_r_r.setTextColor(Color.parseColor("#7cfc00"));
+            pow_r_r.setTextColor(Color.parseColor("#009C09"));
             rightCount++;
         }
         else
@@ -305,7 +315,7 @@ public class BattleActivity extends AppCompatActivity {
             TextView speed_r_l = (TextView) findViewById(R.id.speed_result_left);
             speed_r_l.setTypeface(tf);
             speed_r_l.setText("Win");
-            speed_r_l.setTextColor(Color.parseColor("#7cfc00"));
+            speed_r_l.setTextColor(Color.parseColor("#009C09"));
             TextView speed_r_r = (TextView) findViewById(R.id.speed_result_right);
             speed_r_r.setTypeface(tf);
             speed_r_r.setText("Lose");
@@ -319,7 +329,7 @@ public class BattleActivity extends AppCompatActivity {
             TextView speed_r_r = (TextView) findViewById(R.id.speed_result_right);
             speed_r_r.setTypeface(tf);
             speed_r_r.setText("Win");
-            speed_r_r.setTextColor(Color.parseColor("#7cfc00"));
+            speed_r_r.setTextColor(Color.parseColor("#009C09"));
             rightCount++;
         }
         else
@@ -338,7 +348,7 @@ public class BattleActivity extends AppCompatActivity {
             TextView strength_r_l = (TextView) findViewById(R.id.strength_result_left);
             strength_r_l.setTypeface(tf);
             strength_r_l.setText("Win");
-            strength_r_l.setTextColor(Color.parseColor("#7cfc00"));
+            strength_r_l.setTextColor(Color.parseColor("#009C09"));
             TextView strength_r_r = (TextView) findViewById(R.id.strength_result_right);
             strength_r_r.setTypeface(tf);
             strength_r_r.setText("Lose");
@@ -352,7 +362,7 @@ public class BattleActivity extends AppCompatActivity {
             TextView strength_r_r = (TextView) findViewById(R.id.strength_result_right);
             strength_r_r.setTypeface(tf);
             strength_r_r.setText("Win");
-            strength_r_r.setTextColor(Color.parseColor("#7cfc00"));
+            strength_r_r.setTextColor(Color.parseColor("#009C09"));
             rightCount++;
         }
         else
@@ -371,7 +381,7 @@ public class BattleActivity extends AppCompatActivity {
             TextView stamina_r_l = (TextView) findViewById(R.id.stamina_result_left);
             stamina_r_l.setTypeface(tf);
             stamina_r_l.setText("Win");
-            stamina_r_l.setTextColor(Color.parseColor("#7cfc00"));
+            stamina_r_l.setTextColor(Color.parseColor("#009C09"));
             TextView stamina_r_r = (TextView) findViewById(R.id.stamina_result_right);
             stamina_r_r.setTypeface(tf);
             stamina_r_r.setText("Lose");
@@ -385,7 +395,7 @@ public class BattleActivity extends AppCompatActivity {
             TextView stamina_r_r = (TextView) findViewById(R.id.stamina_result_right);
             stamina_r_r.setTypeface(tf);
             stamina_r_r.setText("Win");
-            stamina_r_r.setTextColor(Color.parseColor("#7cfc00"));
+            stamina_r_r.setTextColor(Color.parseColor("#009C09"));
             rightCount++;
         }
         else
@@ -418,6 +428,8 @@ public class BattleActivity extends AppCompatActivity {
         //Give Id to each View so that it can link to the Layout
         naam_left = (TextView) findViewById(R.id.name_left);
         naam_right = (TextView) findViewById(R.id.name_right);
+        club_name_left = (TextView) findViewById(R.id.club_name_left);
+        club_name_right = (TextView) findViewById(R.id.club_name_right);
         acc_left = (TextView) findViewById(R.id.acceleration_left);
         acc_right = (TextView) findViewById(R.id.acceleration_right);
         fin_left = (TextView) findViewById(R.id.finishing_left);
@@ -438,10 +450,13 @@ public class BattleActivity extends AppCompatActivity {
         profile_Image_right = (ImageView) findViewById(R.id.imageViewRight);
         profile_Image_Flag_left = (ImageView) findViewById(R.id.imageViewFlagLeft);
         profile_Image_Flag_right = (ImageView) findViewById(R.id.imageViewFlagRight);
-
+        profile_Image_Club_left = (ImageView) findViewById(R.id.club_left);
+        profile_Image_Club_right = (ImageView) findViewById(R.id.club_right);
 
         naam_left.setTypeface(tf);
         naam_right.setTypeface(tf);
+//        club_name_left.setTypeface(tf);
+//        club_name_right.setTypeface(tf);
         acc_left.setTypeface(tf);
         acc_right.setTypeface(tf);
         pent_left.setTypeface(tf);
@@ -459,10 +474,14 @@ public class BattleActivity extends AppCompatActivity {
         //Set Values to each Attribute 
         naam_left.setText(Name_left);
         naam_right.setText(Name_right);
+        club_name_left.setText(Club_name_left);
+        club_name_right.setText(Club_name_right);
         Glide.with(this).load(Image_left).into(profile_Image_left);
         Glide.with(this).load(Image_right).into(profile_Image_right);
         Glide.with(this).load(Flag_left).into(profile_Image_Flag_left);
         Glide.with(this).load(Flag_right).into(profile_Image_Flag_right);
+        Glide.with(this).load(Club_left).into(profile_Image_Club_left);
+        Glide.with(this).load(Club_right).into(profile_Image_Club_right);
         acc_left.setText(Accel_left);
         acc_right.setText(Accel_right);
         fin_left.setText(Finish_left);
