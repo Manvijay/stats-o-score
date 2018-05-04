@@ -23,7 +23,7 @@
             android:autoSizeTextType="uniform"
             android:autoSizeMaxTextSize="15sp"
             android:autoSizeMinTextSize="10sp"
-            android:textColor="@color/colorGreen"
+            android:textColor="@color/colorDarkGreen"
             android:layout_marginTop="10dp"
             android:fontFamily="serif"
             />
@@ -37,7 +37,7 @@
             android:autoSizeTextType="uniform"
             android:autoSizeMaxTextSize="15sp"
             android:autoSizeMinTextSize="10sp"
-            android:textColor="@color/colorGreen"
+            android:textColor="@color/colorDarkGreen"
             android:layout_marginTop="10dp"
             android:fontFamily="serif"
             />
@@ -53,7 +53,7 @@
             android:autoSizeMinTextSize="10sp"
             android:text="PG"
             android:textAlignment="center"
-            android:textColor="@color/colorGreen"
+            android:textColor="@color/colorDarkGreen"
             android:fontFamily="serif"
             />
 
@@ -68,7 +68,7 @@
             android:autoSizeMinTextSize="10sp"
             android:text="W"
             android:textAlignment="center"
-            android:textColor="@color/colorGreen"
+            android:textColor="@color/colorDarkGreen"
             android:fontFamily="serif"
             />
 
@@ -83,7 +83,7 @@
             android:autoSizeMinTextSize="10sp"
             android:text="D"
             android:textAlignment="center"
-            android:textColor="@color/colorGreen"
+            android:textColor="@color/colorDarkGreen"
             android:fontFamily="serif"
             />
 
@@ -98,7 +98,7 @@
             android:autoSizeMinTextSize="10sp"
             android:text="L"
             android:textAlignment="center"
-            android:textColor="@color/colorGreen" />
+            android:textColor="@color/colorDarkGreen" />
 
         <TextView
             android:id="@+id/pts"
@@ -111,7 +111,7 @@
             android:autoSizeMinTextSize="10sp"
             android:text="Pts"
             android:textAlignment="center"
-            android:textColor="@color/colorGreen"
+            android:textColor="@color/colorDarkGreen"
             android:fontFamily="serif"
             />
 

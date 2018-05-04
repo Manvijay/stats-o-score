@@ -23,7 +23,7 @@
             android:autoSizeMinTextSize="10sp"
             android:text="Pos"
             android:textAlignment="center"
-            android:textColor="@color/colorGreen"
+            android:textColor="@color/colorDarkGreen"
             android:fontFamily="serif" />
 
         <TextView
@@ -37,7 +37,7 @@
             android:autoSizeMinTextSize="10sp"
             android:text="Team Name"
             android:textAlignment="center"
-            android:textColor="@color/colorGreen"
+            android:textColor="@color/colorDarkGreen"
             android:fontFamily="serif" />
 
         <TextView
@@ -51,7 +51,7 @@
             android:autoSizeMinTextSize="10sp"
             android:text="PG"
             android:textAlignment="center"
-            android:textColor="@color/colorGreen"
+            android:textColor="@color/colorDarkGreen"
             android:fontFamily="serif" />
 
         <TextView
@@ -65,7 +65,7 @@
             android:autoSizeMinTextSize="10sp"
             android:text="W"
             android:textAlignment="center"
-            android:textColor="@color/colorGreen"
+            android:textColor="@color/colorDarkGreen"
             android:fontFamily="serif" />
 
         <TextView
@@ -79,7 +79,7 @@
             android:autoSizeMinTextSize="10sp"
             android:text="D"
             android:textAlignment="center"
-            android:textColor="@color/colorGreen"
+            android:textColor="@color/colorDarkGreen"
             android:fontFamily="serif" />
 
         <TextView
@@ -93,7 +93,7 @@
             android:autoSizeMinTextSize="10sp"
             android:text="L"
             android:textAlignment="center"
-            android:textColor="@color/colorGreen"
+            android:textColor="@color/colorDarkGreen"
             android:fontFamily="serif" />
 
         <TextView
@@ -107,7 +107,7 @@
             android:autoSizeMinTextSize="10sp"
             android:text="Pts"
             android:textAlignment="center"
-            android:textColor="@color/colorGreen"
+            android:textColor="@color/colorDarkGreen"
             android:fontFamily="serif"/>
 
     </LinearLayout>

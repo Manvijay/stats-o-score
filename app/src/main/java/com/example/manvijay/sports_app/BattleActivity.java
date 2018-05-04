@@ -148,22 +148,22 @@ public class BattleActivity extends AppCompatActivity {
             leftCount++;
             TextView acc_r_l = (TextView) findViewById(R.id.accel_result_left);
             acc_r_l.setTypeface(tf);
-            acc_r_l.setText("Win");
+            acc_r_l.setText("Won");
             acc_r_l.setTextColor(Color.parseColor("#009C09"));
             TextView acc_r_r = (TextView) findViewById(R.id.accel_result_right);
             acc_r_r.setTypeface(tf);
-            acc_r_r.setText("Lose");
+            acc_r_r.setText("Lost");
             acc_r_r.setTextColor(Color.parseColor("#ff0000"));
         }
         else if(Integer.parseInt(Accel_left)<Integer.parseInt(Accel_right)) {
             rightCount++;
             TextView acc_r_l = (TextView) findViewById(R.id.accel_result_left);
             acc_r_l.setTypeface(tf);
-            acc_r_l.setText("Lose");
+            acc_r_l.setText("Lost");
             acc_r_l.setTextColor(Color.parseColor("#ff0000"));
             TextView acc_r_r = (TextView) findViewById(R.id.accel_result_right);
             acc_r_l.setTypeface(tf);
-            acc_r_r.setText("Win");
+            acc_r_r.setText("Won");
             acc_r_r.setTextColor(Color.parseColor("#009C09"));
         }
         else
@@ -181,21 +181,21 @@ public class BattleActivity extends AppCompatActivity {
             leftCount++;
             TextView fin_r_l = (TextView) findViewById(R.id.finish_result_left);
             fin_r_l.setTypeface(tf);
-            fin_r_l.setText("Win");
+            fin_r_l.setText("Won");
             fin_r_l.setTextColor(Color.parseColor("#009C09"));
             TextView fin_r_r = (TextView) findViewById(R.id.finish_result_right);
             fin_r_r.setTypeface(tf);
-            fin_r_r.setText("Lose");
+            fin_r_r.setText("Lost");
             fin_r_r.setTextColor(Color.parseColor("#ff0000"));
         }
         else if(Integer.parseInt(Finish_left)<Integer.parseInt(Finish_right)) {
             TextView fin_r_l = (TextView) findViewById(R.id.finish_result_left);
             fin_r_l.setTypeface(tf);
-            fin_r_l.setText("Lose");
+            fin_r_l.setText("Lost");
             fin_r_l.setTextColor(Color.parseColor("#ff0000"));
             TextView fin_r_r = (TextView) findViewById(R.id.finish_result_right);
             fin_r_r.setTypeface(tf);
-            fin_r_r.setText("Win");
+            fin_r_r.setText("Won");
             fin_r_r.setTextColor(Color.parseColor("#009C09"));
             rightCount++;
         }
@@ -214,21 +214,21 @@ public class BattleActivity extends AppCompatActivity {
             leftCount++;
             TextView kick_r_l = (TextView) findViewById(R.id.kick_result_left);
             kick_r_l.setTypeface(tf);
-            kick_r_l.setText("Win");
+            kick_r_l.setText("Won");
             kick_r_l.setTextColor(Color.parseColor("#009C09"));
             TextView kick_r_r = (TextView) findViewById(R.id.kick_result_right);
             kick_r_r.setTypeface(tf);
-            kick_r_r.setText("Lose");
+            kick_r_r.setText("Lost");
             kick_r_r.setTextColor(Color.parseColor("#ff0000"));
         }
         else if(Integer.parseInt(Free_left)<Integer.parseInt(Free_right)) {
             TextView kick_r_l = (TextView) findViewById(R.id.kick_result_left);
             kick_r_l.setTypeface(tf);
-            kick_r_l.setText("Lose");
+            kick_r_l.setText("Lost");
             kick_r_l.setTextColor(Color.parseColor("#ff0000"));
             TextView kick_r_r = (TextView) findViewById(R.id.kick_result_right);
             kick_r_r.setTypeface(tf);
-            kick_r_r.setText("Win");
+            kick_r_r.setText("Won");
             kick_r_r.setTextColor(Color.parseColor("#009C09"));
 
             rightCount++;
@@ -248,21 +248,21 @@ public class BattleActivity extends AppCompatActivity {
             leftCount++;
             TextView pen_r_l = (TextView) findViewById(R.id.pen_result_left);
             pen_r_l.setTypeface(tf);
-            pen_r_l.setText("Win");
+            pen_r_l.setText("Won");
             pen_r_l.setTextColor(Color.parseColor("#009C09"));
             TextView pen_r_r = (TextView) findViewById(R.id.pen_result_right);
             pen_r_r.setTypeface(tf);
-            pen_r_r.setText("Lose");
+            pen_r_r.setText("Lost");
             pen_r_r.setTextColor(Color.parseColor("#ff0000"));
         }
         else if(Integer.parseInt(Pen_left)<Integer.parseInt(Pen_right)){
             TextView pen_r_l = (TextView) findViewById(R.id.pen_result_left);
             pen_r_l.setTypeface(tf);
-            pen_r_l.setText("Lose");
+            pen_r_l.setText("Lost");
             pen_r_l.setTextColor(Color.parseColor("#ff0000"));
             TextView pen_r_r = (TextView) findViewById(R.id.pen_result_right);
             pen_r_r.setTypeface(tf);
-            pen_r_r.setText("Win");
+            pen_r_r.setText("Won");
             pen_r_r.setTextColor(Color.parseColor("#009C09"));
             rightCount++;
         }
@@ -281,21 +281,21 @@ public class BattleActivity extends AppCompatActivity {
             leftCount++;
             TextView pow_r_l = (TextView) findViewById(R.id.pow_result_left);
             pow_r_l.setTypeface(tf);
-            pow_r_l.setText("Win");
+            pow_r_l.setText("Won");
             pow_r_l.setTextColor(Color.parseColor("#009C09"));
             TextView pow_r_r = (TextView) findViewById(R.id.pow_result_right);
             pow_r_r.setTypeface(tf);
-            pow_r_r.setText("Lose");
+            pow_r_r.setText("Lost");
             pow_r_r.setTextColor(Color.parseColor("#ff0000"));
         }
         else if(Integer.parseInt(Pow_left)<Integer.parseInt(Pow_right)) {
             TextView pow_r_l = (TextView) findViewById(R.id.pow_result_left);
             pow_r_l.setTypeface(tf);
-            pow_r_l.setText("Lose");
+            pow_r_l.setText("Lost");
             pow_r_l.setTextColor(Color.parseColor("#ff0000"));
             TextView pow_r_r = (TextView) findViewById(R.id.pow_result_right);
             pow_r_r.setTypeface(tf);
-            pow_r_r.setText("Win");
+            pow_r_r.setText("Won");
             pow_r_r.setTextColor(Color.parseColor("#009C09"));
             rightCount++;
         }
@@ -314,21 +314,21 @@ public class BattleActivity extends AppCompatActivity {
             leftCount++;
             TextView speed_r_l = (TextView) findViewById(R.id.speed_result_left);
             speed_r_l.setTypeface(tf);
-            speed_r_l.setText("Win");
+            speed_r_l.setText("Won");
             speed_r_l.setTextColor(Color.parseColor("#009C09"));
             TextView speed_r_r = (TextView) findViewById(R.id.speed_result_right);
             speed_r_r.setTypeface(tf);
-            speed_r_r.setText("Lose");
+            speed_r_r.setText("Lost");
             speed_r_r.setTextColor(Color.parseColor("#ff0000"));
         }
         else if(Integer.parseInt(Sprint_left)<Integer.parseInt(Sprint_right)){
             TextView speed_r_l = (TextView) findViewById(R.id.speed_result_left);
             speed_r_l.setTypeface(tf);
-            speed_r_l.setText("Lose");
+            speed_r_l.setText("Lost");
             speed_r_l.setTextColor(Color.parseColor("#ff0000"));
             TextView speed_r_r = (TextView) findViewById(R.id.speed_result_right);
             speed_r_r.setTypeface(tf);
-            speed_r_r.setText("Win");
+            speed_r_r.setText("Won");
             speed_r_r.setTextColor(Color.parseColor("#009C09"));
             rightCount++;
         }
@@ -347,21 +347,21 @@ public class BattleActivity extends AppCompatActivity {
             leftCount++;
             TextView strength_r_l = (TextView) findViewById(R.id.strength_result_left);
             strength_r_l.setTypeface(tf);
-            strength_r_l.setText("Win");
+            strength_r_l.setText("Won");
             strength_r_l.setTextColor(Color.parseColor("#009C09"));
             TextView strength_r_r = (TextView) findViewById(R.id.strength_result_right);
             strength_r_r.setTypeface(tf);
-            strength_r_r.setText("Lose");
+            strength_r_r.setText("Lost");
             strength_r_r.setTextColor(Color.parseColor("#ff0000"));
         }
         else if(Integer.parseInt(Strength_left)<Integer.parseInt(Strength_right)){
             TextView strength_r_l = (TextView) findViewById(R.id.strength_result_left);
             strength_r_l.setTypeface(tf);
-            strength_r_l.setText("Lose");
+            strength_r_l.setText("Lost");
             strength_r_l.setTextColor(Color.parseColor("#ff0000"));
             TextView strength_r_r = (TextView) findViewById(R.id.strength_result_right);
             strength_r_r.setTypeface(tf);
-            strength_r_r.setText("Win");
+            strength_r_r.setText("Won");
             strength_r_r.setTextColor(Color.parseColor("#009C09"));
             rightCount++;
         }
@@ -380,21 +380,21 @@ public class BattleActivity extends AppCompatActivity {
             leftCount++;
             TextView stamina_r_l = (TextView) findViewById(R.id.stamina_result_left);
             stamina_r_l.setTypeface(tf);
-            stamina_r_l.setText("Win");
+            stamina_r_l.setText("Won");
             stamina_r_l.setTextColor(Color.parseColor("#009C09"));
             TextView stamina_r_r = (TextView) findViewById(R.id.stamina_result_right);
             stamina_r_r.setTypeface(tf);
-            stamina_r_r.setText("Lose");
+            stamina_r_r.setText("Lost");
             stamina_r_r.setTextColor(Color.parseColor("#ff0000"));
         }
         else if(Integer.parseInt(Sta_left)<Integer.parseInt(Sta_right)) {
             TextView stamina_r_l = (TextView) findViewById(R.id.stamina_result_left);
             stamina_r_l.setTypeface(tf);
-            stamina_r_l.setText("Lose");
+            stamina_r_l.setText("Lost");
             stamina_r_l.setTextColor(Color.parseColor("#ff0000"));
             TextView stamina_r_r = (TextView) findViewById(R.id.stamina_result_right);
             stamina_r_r.setTypeface(tf);
-            stamina_r_r.setText("Win");
+            stamina_r_r.setText("Won");
             stamina_r_r.setTextColor(Color.parseColor("#009C09"));
             rightCount++;
         }

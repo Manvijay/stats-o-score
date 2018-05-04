@@ -240,7 +240,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="17"
                     android:gravity="center"
-                    android:text="Win/Lose"
+                    android:text="Won/Lost"
                     android:textAlignment="center"
                     android:textSize="13sp" />
 
@@ -260,7 +260,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="17"
                     android:gravity="center"
-                    android:text="Win/Lose"
+                    android:text="Won/Lost"
                     android:textAlignment="center"
                     android:textSize="13sp" />
 
@@ -298,7 +298,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="17"
                     android:gravity="center"
-                    android:text="Win/Lose"
+                    android:text="Won/Lost"
                     android:textAlignment="center"
                     android:textSize="13sp" />
 
@@ -318,7 +318,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="17"
                     android:gravity="center"
-                    android:text="Win/Lose"
+                    android:text="Won/Lost"
                     android:textAlignment="center"
                     android:textSize="13sp" />
 
@@ -357,7 +357,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="17"
                     android:gravity="center"
-                    android:text="Win/Lose"
+                    android:text="Won/Lost"
                     android:textAlignment="center"
                     android:textSize="13sp" />
 
@@ -377,7 +377,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="17"
                     android:gravity="center"
-                    android:text="Win/Lose"
+                    android:text="Won/Lost"
                     android:textAlignment="center"
                     android:textSize="13sp" />
 
@@ -416,7 +416,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="17"
                     android:gravity="center"
-                    android:text="Win/Lose"
+                    android:text="Won/Lost"
                     android:textAlignment="center"
                     android:textSize="13sp" />
 
@@ -436,7 +436,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="17"
                     android:gravity="center"
-                    android:text="Win/Lose"
+                    android:text="Won/Lost"
                     android:textAlignment="center"
                     android:textSize="13sp" />
 
@@ -475,7 +475,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="17"
                     android:gravity="center"
-                    android:text="Win/Lose"
+                    android:text="Won/Lost"
                     android:textAlignment="center"
                     android:textSize="13sp" />
 
@@ -495,7 +495,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="17"
                     android:gravity="center"
-                    android:text="Win/Lose"
+                    android:text="Won/Lost"
                     android:textAlignment="center"
                     android:textSize="13sp" />
 
@@ -534,7 +534,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="17"
                     android:gravity="center"
-                    android:text="Win/Lose"
+                    android:text="Won/Lost"
                     android:textAlignment="center"
                     android:textSize="13sp" />
 
@@ -554,7 +554,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="17"
                     android:gravity="center"
-                    android:text="Win/Lose"
+                    android:text="Won/Lost"
                     android:textAlignment="center"
                     android:textSize="13sp" />
 
@@ -593,7 +593,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="17"
                     android:gravity="center"
-                    android:text="Win/Lose"
+                    android:text="Won/Lost"
                     android:textAlignment="center"
                     android:textSize="13sp" />
 
@@ -613,7 +613,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="17"
                     android:gravity="center"
-                    android:text="Win/Lose"
+                    android:text="Won/Lost"
                     android:textAlignment="center"
                     android:textSize="13sp" />
 
@@ -652,7 +652,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="17"
                     android:gravity="center"
-                    android:text="Win/Lose"
+                    android:text="Won/Lost"
                     android:textAlignment="center"
                     android:textSize="13sp" />
 
@@ -672,7 +672,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="17"
                     android:gravity="center"
-                    android:text="Win/Lose"
+                    android:text="Won/Lost"
                     android:textAlignment="center"
                     android:textSize="13sp" />
 
@@ -706,7 +706,7 @@
                 android:gravity="bottom"
                 android:text="Result"
                 android:textAlignment="center"
-                android:textSize="22sp"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:layout_weight="1"/>
               
@@ -717,7 +717,8 @@
                 android:fontFamily="monospace"
                 android:text="is the Winner"
                 android:textAlignment="center"
-                android:textSize="22sp"
+                android:gravity="bottom"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:layout_weight="1"/>
 
