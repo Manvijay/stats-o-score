@@ -1,55 +1,56 @@
-@media screen and (max-width:798px){
+@media screen and (max-width:1109px){
   nav{
-    display: none;
-  }
-
-  #topSection{
-    padding: 0;
-    margin: 0;
-    background:linear-gradient(#85C1E9, #1F618D);
-  }
+  display: none;
 }
 
-@media screen and (max-width:800px){
+#topSection{
+  padding: 0;
+  margin: 0;
+  background:linear-gradient(#85C1E9, #1F618D);
+}
 
-  nav{
-    display: none;
-  }
+#myCarousel{
+  padding-top:10vh;
+  height:100vh;
+  width: 100%;
+  background:#F4F6F7;
+  position: relative;
+}
 
-  #appFeaturesDescription p{
-    font-size: 1.5vw;
-  }
+#appFeaturesDescription p{
+  font-size: 1.5vw;
+}
 
-  #appFeaturesDescription span{
-    font-size: 3vw;
-  }
+#appFeaturesDescription span{
+  font-size: 3vw;
+}
 
-  #topSection{
-    padding: 0;
-    margin: 0;
-    background:linear-gradient(#85C1E9, #1F618D);
-  }
+#topSection{
+  padding: 0;
+  margin: 0;
+  background:linear-gradient(#85C1E9, #1F618D);
+}
 
-  #AboutApp p{
-    font-weight:normal;
-    font-size:1.4vw;
-    text-align:justify;
-  }
-  #AboutUs p{
-    font-weight:normal;
-    font-size:1.4vw;
-    text-align:justify;
-  }
+#AboutApp p{
+  font-weight:normal;
+  font-size:1.4vw;
+  text-align:justify;
+}
+#AboutUs p{
+  font-weight:normal;
+  font-size:1.4vw;
+  text-align:justify;
+}
 
-  .grid5 #imageContainer{
-    position: relative;
-    max-width: 80%;
-    height: 100px;
-  }
+.grid5 #imageContainer{
+  position: relative;
+  max-width: 80%;
+  height: 100px;
+}
 
-  #AboutUs .grid-container .grid-item img{
-    border-radius: 50%;
-    width: 10vw;
-    height: 15vh;
-  }
+#AboutUs .grid-container .grid-item img{
+  border-radius: 50%;
+  width: 10vw;
+  height: 20vh;
+}
 }
