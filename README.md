@@ -10,10 +10,8 @@ We know that when you run app in Android Studio you might see a lot of errors in
 This has to do with some android studio update error because on older versions it didn't show us any. We are currently looking into a workaround to temporarily stop showing those errors.
 Regardless the app will run fine on your phone as well as android studio
 
-**The Club logos of La Liga and Bundesliga are still under development.**
-
-**Youtube Link Beta Release : -**
-https://www.youtube.com/watch?v=CtqGfHxLzNs
+**Youtube Link Official Release : -**
+https://youtu.be/HeI9AAAu62s
 
 
 ## **(Easy) How to install and run the app:**
