@@ -10,10 +10,18 @@
   }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
 
   nav{
     display: none;
+  }
+
+  #appFeaturesDescription p{
+    font-size: 1.5vw;
+  }
+
+  #appFeaturesDescription span{
+    font-size: 3vw;
   }
 
   #topSection{
@@ -22,9 +30,26 @@
     background:linear-gradient(#85C1E9, #1F618D);
   }
 
+  #AboutApp p{
+    font-weight:normal;
+    font-size:1.4vw;
+    text-align:justify;
+  }
+  #AboutUs p{
+    font-weight:normal;
+    font-size:1.4vw;
+    text-align:justify;
+  }
+
   .grid5 #imageContainer{
     position: relative;
     max-width: 80%;
     height: 100px;
+  }
+
+  #AboutUs .grid-container .grid-item img{
+    border-radius: 50%;
+    width: 10vw;
+    height: 15vh;
   }
 }

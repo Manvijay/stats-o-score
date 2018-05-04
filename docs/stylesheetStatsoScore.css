@@ -146,6 +146,10 @@ nav img{
   color:#3498DB
 }
 
+#appFeaturesDescription p{
+  font-size: 1.2vw;
+}
+
 
 #Instructions{
   position: relative;
