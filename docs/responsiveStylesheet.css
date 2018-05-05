@@ -1,6 +1,5 @@
 @media screen and (max-width:800px){
-
-nav{
+  nav{
   display: none;
 }
 
@@ -16,6 +15,12 @@ nav{
   width: 100%;
   background:#F4F6F7;
   position: relative;
+}
+
+#myCarousel h1{
+  text-align: center;
+  font-size: 4vw;
+  margin-bottom: 6vh;
 }
 
 #appFeaturesDescription p{
@@ -44,15 +49,24 @@ nav{
   padding-top: 3vh;
 }
 
+#subInstructions p{
+  font-weight:normal;
+  font-size:1.4vw;
+  text-align:justify;
+  padding: 10px;
+}
+
 #AboutApp p{
   font-weight:normal;
   font-size:1.4vw;
   text-align:justify;
+  padding: 10px;
 }
 #AboutUs p{
   font-weight:normal;
   font-size:1.4vw;
   text-align:justify;
+  padding: 10px;
 }
 
 .grid5 #imageContainer{
@@ -66,5 +80,4 @@ nav{
   width: 10vw;
   height: 20vh;
 }
-
 }
