@@ -1,5 +1,6 @@
 @media screen and (max-width:800px){
-  nav{
+
+nav{
   display: none;
 }
 
@@ -65,4 +66,5 @@
   width: 10vw;
   height: 20vh;
 }
+
 }
