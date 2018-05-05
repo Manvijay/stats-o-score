@@ -161,6 +161,13 @@ nav img{
   padding-top:10vh;
 }
 
+#Instructions>p{
+  font-weight:normal;
+  font-size:1.4vw;
+  text-align:center;
+  padding: 10px;
+}
+
 .subInstructions #title{
   font-weight: normal;
   color:grey;
@@ -259,7 +266,7 @@ nav img{
 }
 
 #linkSection a p{
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 
 #linkSection a{
