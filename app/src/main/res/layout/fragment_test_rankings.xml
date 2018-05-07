@@ -9,7 +9,7 @@
         android:id="@+id/scroll2"
         android:layout_height="30dp"
         android:orientation="horizontal"
-        android:weightSum="11"
+        android:weightSum="14"
         >
 
         <!-- TODO: Update blank fragment layout -->
@@ -30,7 +30,7 @@
         <TextView
             android:id="@+id/Team"
             android:text="Team Name"
-            android:layout_weight="5"
+            android:layout_weight="8"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:textAlignment="center"
@@ -130,7 +130,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:weightSum="11">
+            android:weightSum="14">
 
             <!-- TODO: Update blank fragment layout -->
             <TextView
@@ -151,7 +151,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_marginTop="10dp"
-                android:layout_weight="5"
+                android:layout_weight="8"
                 android:autoSizeTextType="uniform"
                 android:autoSizeMaxTextSize="15sp"
                 android:autoSizeMinTextSize="10sp"
