@@ -43,7 +43,7 @@ public class T20Rankings extends Fragment {
     TextView text1,text2,text3,text4,text5,text6,text7;
     TextView pos1, team1, pg1, w1, l1, d1, pts1;
     RequestQueue req1;
-    String baseUrl = "http://api.football-data.org/v1/competitions/452/leagueTable";  //api url for getting bundesliga teams standings
+    String baseUrl = " http://api.football-data.org/v1/competitions/452/leagueTable?matchday=34";  //api url for getting bundesliga teams standings
     String disp = "",disp2 = "",disp3 = "",disp4 = "",disp5 = "",disp6 = "",disp7 = "";
 
 
